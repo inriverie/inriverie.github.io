@@ -1,0 +1,131 @@
+/*------------------------------------*\
+    $PROJECT-VARS
+\*------------------------------------*/
+/**
+ * Set up project-specific variables here
+ *
+ * SWITCHES.....toggle usage of elements
+ * TYPOGRAPHY...typesetting
+ * BRANDING.....colors and identity
+ * LAYOUT.......grids and placement
+ * TEXTURE......fleshing out design and presentation
+ * MISC.........where the wild things are
+ */
+
+
+/*------------------------------------*\
+    SWITCHES
+\*------------------------------------*/
+/**
+ * Debug mode will visually highlight any potential markup/accessibility quirks
+ * in the browser. Set to `true` or `false`.
+ */
+$debug-mode:  true;
+
+/**
+ * Surface classes/elements
+ */
+// $basic-blockquotes: true;
+// $legacy-support:    true;
+// $massive-headings:  true;
+// $any-heading:       true;
+// $media-elements:    true;
+
+/**
+ * Allow import files
+ */
+// $paragraphs:  true;
+// $quotes:      true;
+// $code:        true;
+// $tables:      true;
+// $forms:       true;
+
+
+/*------------------------------------*\
+    TYPOGRAPHY
+\*------------------------------------*/
+/**
+ * Ligature and kerning enhancement
+ * Set trigger in optimal line length (ems)
+ */
+// $font-enhancement:  true;
+// $font-trigger-width:;
+
+
+/**
+ * Modular scale values
+ * Set values per modular scale output.
+ */
+// $ms7:  ;
+// $ms6:  ;
+// $ms5:  ;
+
+// $ms4:  ;
+// $ms3:  ;
+// $ms2:  ;
+// $ms1:  ;
+// $ms0:  ;
+
+// $ms-1: ;
+// $ms-2: ;
+// $ms-3: ;
+
+
+/**
+ * Base type settings
+ */
+// $base-font-family:;
+// $base-font-size:  ;
+// $base-line-height:;
+
+// $base-color:;
+
+$print-serif:false!default;
+
+/**
+ * Headings and min/max type sizing
+ * Values should be selected from the `$ms[x]` variables
+ */
+// $giga-size: ;
+// $mega-size: ;
+// $kilo-size: ;
+
+// $h1-size:   ;
+// $h2-size:   ;
+// $h3-size:   ;
+// $h4-size:   ;
+// $h5-size:   ;
+// $h6-size:   ;
+
+// $milli-size:;
+// $micro-size:;
+
+
+/*------------------------------------*\
+    Branding
+\*------------------------------------*/
+
+// $brand-color:       ;
+// $brand-face:        ;
+
+/*------------------------------------*\
+    LAYOUT
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+    TEXTURE
+\*------------------------------------*/
+/**
+ * How big would you like round corners to be by default?
+ */
+// $brand-round: ;
+
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+/**
+ * Text selection color
+*/
+// $selection-color:;

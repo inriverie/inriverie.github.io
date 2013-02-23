@@ -1,0 +1,12 @@
+/*------------------------------------*\
+    $PROJECT
+\*------------------------------------*/
+/**
+ * Pull in inuit and project vars,
+ * include `_inuit.scss`,
+ */
+
+@import "_vars.scss";
+@import "_project-vars.scss";
+
+@import "inuit";
