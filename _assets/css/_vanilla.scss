@@ -1,0 +1,11 @@
+/*------------------------------------*\
+    $VANILLA
+\*------------------------------------*/
+/**
+ * _vanilla.scss acts as a base stylesheet which should be included
+ * in page level project stylesheets.
+ */
+@import "_vars.scss";
+@import "_vanilla-vars.scss";
+@import "mixins"
+@import "morula";
