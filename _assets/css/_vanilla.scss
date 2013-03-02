@@ -5,7 +5,12 @@
  * _vanilla.scss acts as a base stylesheet which should be included
  * in page level project stylesheets.
  */
-@import "_vars.scss";
-@import "_vanilla-vars.scss";
-@import "mixins"
+@import "vars";
+@import "vanilla-vars";
+
+@import "mixins";
+@import "base/headings";
+@import "base/global-sectioning";
+@import "base/links";
+
 @import "morula";
