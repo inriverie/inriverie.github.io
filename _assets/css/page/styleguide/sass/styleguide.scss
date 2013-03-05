@@ -2,11 +2,36 @@
     STYLEGUIDE
 \*------------------------------------*/
 /**
+ * Variable over-write
+ */
+$blockquotes:true;
+$code:true;
+$font-enhancement:true;
+$forms:true;
+// $legacy-support:true;
+$media:true;
+$pre:true;
+$rules:true;
+$rules-ornament:true;
+$selection-highlight:true;
+$tables:true;
+
+
+/**
  * Import all of the things...
  */
 @import "../../../vanilla.scss";
+@import "breadcrumb";
+@import "nav";
 
 
 /**
  * Custom page styles
  */
+main,
+[role="banner"],
+[role="contentinfo"]{
+  margin:   0 auto;
+  max-width:40em;
+  padding: $base-spacing-unit;
+}

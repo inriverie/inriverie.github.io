@@ -9,7 +9,7 @@
  * styling only to anchors which have `href` attributes.
  */
 a{
-    border-bottom:  1px solid fade-out($link-color, 0.7);
+    border-bottom:  1px solid lighten($link-color, 40%);
     color:          $link-color;
     text-decoration:none;
     @include transition(all .25s);
@@ -19,8 +19,8 @@ a{
 
 
     &:hover{
-        border-bottom:fade-in($link-color, 0.5);
-        color:        darken($link-color, 15%);
+        border-bottom-color:lighten($link-color, 30%);
+        color:              darken($link-color, 20%);
     }
 
 
