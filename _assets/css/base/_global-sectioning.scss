@@ -1,13 +1,12 @@
-@mixin global-sectioning(){
 /*------------------------------------*\
-    $GLOBAL-SECTIONING
+    SECTIONING > GLOBAL
 \*------------------------------------*/
 /**
  * Set page section styles
  *
  * BANNER........masthead/site header
- * NAVIGATION....global nav
  * MAIN..........document content
+ * NAVIGATION....global nav
  * CONTENTINFO...site meta
  */
 
@@ -28,6 +27,18 @@
 
 
 /*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+/**
+ * Main content
+ */
+[role="main"]{}
+
+
+
+
+
+/*------------------------------------*\
     NAVIGATION
 \*------------------------------------*/
 /**
@@ -41,22 +52,9 @@
 
 
 /*------------------------------------*\
-    MAIN
-\*------------------------------------*/
-/**
- * Main content
- */
-[role="main"]{}
-
-
-
-
-
-/*------------------------------------*\
     CONTENTINFO
 \*------------------------------------*/
 /**
  * Footer
  */
 [role="contentinfo"]{}
-}

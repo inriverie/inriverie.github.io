@@ -1,0 +1,189 @@
+/*------------------------------------*\
+    $VARS
+\*------------------------------------*/
+@import 'morula';
+
+
+/**
+ * Over-write framework variables and set project variables.
+ * There should never be a need to modify any framework code.
+ *
+ * TYPOGRAPHY...base level typesetting
+ * LAYOUT.......structure and spacing
+ * TEXTURE......branding, color, presentation, etc
+ * SWITCHES.....style and element switches
+ */
+
+$test-mode:true!default;
+
+
+
+
+
+/*------------------------------------*\
+    TYPOGRAPHY
+\*------------------------------------*/
+/**
+ * Default type settings
+ */
+$base-color:        hsl(0, 0%, 27%)!default;
+$base-font-family:  $helvetica-neue;
+$base-font-size:    16px;
+$base-line-height:  24px;
+
+$print-serif:       false!default;
+
+
+/**
+ * Ligature and kerning enhancement
+ */
+$font-enhancement:  false!default;
+
+
+/**
+ * Modular Scale
+ * 16px / 20px / 2:3 ratio rounded before browsers can
+ */
+$ms7: round(67.5px)!default;
+$ms6: round(54px)!default;
+$ms5: round(45px)!default;
+
+$ms4: round(36px)!default;
+$ms3: round(30px)!default;
+$ms2: round(24px)!default;
+$ms1: round(20px)!default;
+$ms0: round(16px)!default;
+
+$ms-1:round(13.333px)!default;
+$ms-2:round(10.667px)!default;
+$ms-3:round(8.889px)!default;
+
+
+/**
+ * Font-sizes (in pixels). Refer to relevant sections for their implementations.
+ */
+$giga-size:   $ms7;
+$mega-size:   $ms6;
+$kilo-size:   $ms5;
+
+$h1-size:     $ms4; // .alpha
+$h2-size:     $ms3; // .beta
+$h3-size:     $ms2; // .gamma
+$h4-size:     $ms1; // .delta
+$h5-size:     $ms0; // .epsilon
+$h6-size:     $ms-1;// .zeta
+
+$milli-size:  $ms-2;
+$micro-size:  $ms-3;
+
+
+
+
+
+/*------------------------------------*\
+    LAYOUT
+\*------------------------------------*/
+/**
+ * These variables are re-defined here so they don't inherit inuit.css values.
+ */
+$base-spacing-unit: $base-line-height;
+$half-spacing-unit: $base-spacing-unit / 2;
+$line-height-ratio: $base-line-height / $base-font-size;
+
+
+
+
+
+/*------------------------------------*\
+    TEXTURE
+\*------------------------------------*/
+/**
+ * Brand stuff
+ */
+$brand-color: hsl(344, 100%, 37%);
+$brand-face:  $helvetica-neue;
+$brand-round: round(3.161);
+
+$base-ui-color: hsl(0, 0%, 81%);
+
+
+/**
+ * Breadcrumbs
+ */
+$breadcrumb-type: normal!default;
+
+
+/**
+ * Code
+ */
+$code-color:hsl(344, 100%, 37%)!default;
+
+
+/**
+ * Horizontal rules
+ */
+$rules-border-color:$base-ui-color;
+$rules-border-style:solid;
+$rules-border-width:1px;
+
+
+/**
+ * Text color
+*/
+$caption-color:hsl(0, 0%, 35%)!default;
+$link-color:hsl(224, 73%, 50%)!default;
+
+$selection-color:hsl(0, 0%, 100%)!default;
+
+/**
+ * Table stripes
+ */
+$table-stripes:lighten($base-ui-color, 15%);
+
+
+
+
+/*------------------------------------*\
+    SWITCHES
+\*------------------------------------*/
+/**
+ * Toggle at the element level
+ */
+$use-blockquotes:false!default;
+$use-code:false!default;
+$use-figure:false!default;
+$use-forms:false!default;
+$use-media:false!default;
+$use-pre:false!default;
+$use-rules:false!default;
+$use-tables:false!default;
+
+
+/**
+ * Primarily IE8 and IE9 support
+ */
+$legacy-support:false!default;
+
+
+/**
+ * Massive text sizing
+ */
+$massive-headings:false!default;
+
+
+/**
+ * Decorative horizontal rules
+ */
+$rules-ornament:false!default;
+
+
+/**
+ * Custom colors when selecting text.
+ */
+$selection-highlight:true!default;
+
+/**
+ * Form extensions
+ */
+$input-captions:false!default;
+$spoken-word:false!default;

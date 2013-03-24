@@ -1,0 +1,17 @@
+@if $use-forms == true{
+/*------------------------------------*\
+    FORMS > FORM VALIDITY
+\*------------------------------------*/
+/**
+ * Check Validity
+ */
+:valid{}
+:invalid{}
+
+
+/**
+ * Error styles starting from `.form-field`
+ */
+.invalid{ color:hsl(0, 50%, 50%); }
+}
+/* endif */

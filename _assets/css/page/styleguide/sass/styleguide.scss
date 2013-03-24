@@ -2,36 +2,34 @@
     STYLEGUIDE
 \*------------------------------------*/
 /**
- * Variable over-write
+ * Re-define framework variables
  */
-$blockquotes:true;
-$code:true;
-$font-enhancement:true;
-$forms:true;
+$use-blockquotes:true;
+$use-code:true;
+// $font-enhancement:true;
+$use-figure:true;
+$use-forms:true;
 // $legacy-support:true;
-$media:true;
-$pre:true;
-$rules:true;
-$rules-ornament:true;
-$selection-highlight:true;
-$tables:true;
+$use-media:true;
+$use-pre:true;
+$use-rules:true;
+  $rules-ornament:true;
+$use-tables:true;
 
 
 /**
  * Import all of the things...
  */
 @import "../../../vanilla.scss";
-@import "breadcrumb";
-@import "nav";
 
 
 /**
  * Custom page styles
  */
-main,
-[role="banner"],
-[role="contentinfo"]{
-  margin:   0 auto;
-  max-width:40em;
-  padding:  $base-spacing-unit;
-}
+// main,
+// [role="banner"],
+// [role="contentinfo"]{
+//   margin:   0 auto;
+//   max-width:40em;
+//   padding:  $base-spacing-unit;
+// }

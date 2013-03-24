@@ -1,11 +1,10 @@
-@mixin headings(){
 /*------------------------------------*\
-    $HEADINGS
+    SECTIONING > HEADINGS
 \*------------------------------------*/
 /**
  * Clear margins
  */
-h1,h2,h3,h4,h5,h6{ margin:0; }
+@include headings(1,6){ margin:0; }
 
 
 /**
@@ -28,10 +27,11 @@ h6,.zeta    { @include font-size($h6-size); }
  * A series of classes for setting massive type; for use in heroes, mastheads,
  * promos, etc.
  */
-.giga{ @include font-size($giga-size); }
-.mega{ @include font-size($mega-size); }
-.kilo{ @include font-size($kilo-size); }
-} /* endif */
+    .giga{ @include font-size($giga-size); }
+    .mega{ @include font-size($mega-size); }
+    .kilo{ @include font-size($kilo-size); }
+}
+/* endif */
 
 
 /**
@@ -39,4 +39,3 @@ h6,.zeta    { @include font-size($h6-size); }
  * To target any heading of any level simply apply a class of `.hN`.
  */
 .hN{}
-}

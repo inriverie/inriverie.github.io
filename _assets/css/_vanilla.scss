@@ -6,11 +6,63 @@
  * in page level project stylesheets.
  */
 @import "vars";
-@import "vanilla-vars";
-
 @import "mixins";
-@import "base/headings";
-@import "base/global-sectioning";
-@import "base/links";
 
-@import "morula";
+
+/**
+ * A more considered reset; more of a restart...
+ * As per: csswizardry.com/2011/10/reset-restarted
+ *
+ * VIEWPORT...........settings for viewport window
+ * DOCUMENT...........document level elements
+ * HTML5 DISPLAY......common missing display settings
+ * BOX SIZING.........better box model
+ * SECTIONING.........sectioning elements
+ * __headings
+ * __global
+ * GROUPING...........block level groups
+ * __blockquotes
+ * __rules
+ * __figures
+ * __lists
+ * TEXT...............text level groups
+ * __edits
+ * __links
+ * __code
+ * EMBEDDED CONTENT...media, etc
+ * __images
+ * TABULAR DATA.......tables
+ * FORMS..............input fields, etc
+ * __forms reset
+ * __forms
+ * __forms validity
+ * HELPERS............helper classes
+ * PRINT..............print optimizations
+ */
+
+@import "viewport";
+@import "document";
+@import "html5";
+@import "box-sizing";
+// sectioning
+  @import "base/headings";
+  @import "base/global-sectioning";
+@import "grouping";
+  @import "blockquotes";
+  @import "rules";
+  @import "figures";
+  @import "lists";
+@import "text";
+  @import "base/links";
+  @import "code";
+// embedded-content
+  @import "images";
+@import "tables";
+@import "form-reset";
+@import "base/forms";
+// forms
+  @import "form-reset";
+  @import "base/forms";
+  @import "generic/form-validity";
+@import "helpers";
+@import "print";
