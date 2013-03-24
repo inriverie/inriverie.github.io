@@ -106,7 +106,7 @@ All pages should include the following:
 
 The following Kit language variables **must** be edited prior to creating new pages:
 
-* $site-name should reflect the name of project.
+* `$site-name` should reflect the name of project.
 * More to come…
 
 ### Google Analytics ID
