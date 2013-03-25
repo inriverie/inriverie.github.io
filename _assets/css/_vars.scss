@@ -100,9 +100,10 @@ $line-height-ratio: $base-line-height / $base-font-size;
 /**
  * Brand stuff
  */
-$brand-color: hsl(344, 100%, 37%);
-$brand-face:  $helvetica-neue;
-$brand-round: round(3.161);
+$brand-bg-color:hsl(0, 0%, 100%);
+$brand-color:   hsl(344, 100%, 37%);
+$brand-face:    $helvetica-neue;
+$brand-round:   round(3.161);
 
 $base-ui-color: hsl(0, 0%, 81%);
 
@@ -175,6 +176,7 @@ $massive-headings:false!default;
  * Decorative horizontal rules
  */
 $rules-ornament:false!default;
+$rules-ornament-border:false!default;
 
 
 /**

@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-
-
 <meta charset="utf-8" />
 <meta name="description" content="Form styles." />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,7 +32,7 @@
 </div><div class="form-field">
 	<label for="email">Email Address</label>
 	<input id="email" type="email" required />
-</div><div class="form-fields">
+</div><div class="form-field">
 	<label for="url">Web Address</label>
 	<input id="url" type="url" placeholder="http://www.example.com" required />
 </div><div class="form-field">
@@ -86,7 +84,10 @@
 </div><div class="form-field">
   <input id="checkbox" type="checkbox" required />
   <label for="checkbox">Single checkbox</label>
-<div><div class="btn-group">
+</div><!-- TO-DO: add general button class to <button> elements -->
+<!-- TO-DO: add primary button class to `submit` button -->
+<!-- TO-DO: add secondary button class to `button` element -->
+<div class="btn-group">
   <button type="submit">Post comment</button>
   <button>Preview</button>
 </div></form>

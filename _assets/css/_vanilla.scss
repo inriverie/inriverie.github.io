@@ -25,6 +25,7 @@
  * __rules
  * __figures
  * __lists
+ * __pre
  * TEXT...............text level groups
  * __edits
  * __links
@@ -41,28 +42,35 @@
  */
 
 @import "viewport";
+
 @import "document";
+
 @import "html5";
+
 @import "box-sizing";
-// sectioning
-  @import "base/headings";
-  @import "base/global-sectioning";
+
+@import "base/headings";
+@import "base/global-sectioning";
+
 @import "grouping";
-  @import "blockquotes";
-  @import "rules";
-  @import "figures";
-  @import "lists";
+@import "blockquotes";
+@import "rules";
+@import "figures";
+@import "lists";
+@import "pre";
+
 @import "text";
-  @import "base/links";
-  @import "code";
-// embedded-content
-  @import "images";
+@import "base/links";
+@import "code";
+
+@import "images";
+
 @import "tables";
+
 @import "form-reset";
 @import "base/forms";
-// forms
-  @import "form-reset";
-  @import "base/forms";
-  @import "generic/form-validity";
+@import "generic/form-validity";
+
 @import "helpers";
+
 @import "print";
