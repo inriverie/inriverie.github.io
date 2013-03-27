@@ -2,7 +2,7 @@
     STYLEGUIDE
 \*------------------------------------*/
 /**
- * Re-define framework variables
+ * Re-define variables
  */
 $use-blockquotes:true;
 $use-code:true;
@@ -22,6 +22,12 @@ $use-tables:true;
  * Import all of the things...
  */
 @import "../../../vanilla.scss";
+
+
+/**
+ * Import objects
+ */
+
 
 
 /**
