@@ -1,13 +1,13 @@
 /*------------------------------------*\
-    $VANILLA
+    $Vanilla
 \*------------------------------------*/
 /**
  * _vanilla.scss acts as a base stylesheet which should be included
  * in page level project stylesheets.
  */
 @import "vars";
+@import "config";
 @import "mixins";
-
 
 /**
  * A more considered reset; more of a restart...
@@ -49,8 +49,8 @@
 
 @import "box-sizing";
 
-@import "base/headings";
-@import "base/global-sectioning";
+@import "includes/headings";
+@import "includes/global-sectioning";
 
 @import "grouping";
 @import "blockquotes";
@@ -61,7 +61,7 @@
 
 @import "text";
 @import "edits";
-@import "base/links";
+@import "includes/links";
 @import "code";
 
 @import "images";
@@ -69,8 +69,8 @@
 @import "tables";
 
 @import "form-reset";
-@import "base/forms";
-@import "generic/form-validity";
+@import "includes/forms";
+@import "includes/form-validity";
 
 @import "helpers";
 

@@ -1,78 +1,43 @@
 # vanilla
 
-Personal starting point for new web projects.
+Starting point for new web projects.
 
 ## Structure
 
-General directory structure:
+High level directory structure:
 
     README.md
-    _assets/
-      css/
-      html/
-    _vanilla-template.kit
-    styleguide/
-
-## HTML
-
-### _vanilla-template.kit
-
-Template file for new page `.kit` files.
-
-HTML 5 elements found in the document are optimally structured for a “one-web” approach. They contain ARIA Landmark Roles which provide accessibility to those that rely on assistive technology. `role=complimentary` is the only one that will likely be moved, removed, or attached to a different element.
-
-Any extra `<head>` content should be imported below the `html-head.kit` import.
-
-### _assets/html
-
-The `html` directory contains reusable HTML snippets used globally. These files should also be unique to each project. All page specific HTML should be grouped together in respectively titled directories in the root folder.
-
-Directory example:
-
-    html/
-      partials/
-        _ga-id.kit
-      landing page/
-        kits/
-
-### Kit directories
-
-All `.kit` directores should contain HTML convertable `*.kit` files for the respective pages. For example:
-
-    styleguide/
-      basic-styles.html
-      form-styles.html
-      kits/
-        basic-styles.kit
-        form-styles.kit
-        styleguide.kit
-        ui-styles.kit
-      styleguide.html
-      ui-styles.html
+    /assets                     == css, javascript, etc…
+      /css
+    /models                     == JSON data models.
+    /views                      == includes, layouts, etc…
+      /includes
+      /layouts
+    index.html
+    /styleguide                 == example of a sub-site
 
 ## CSS
 
-### _assets/css
+`_config.scss` controls the project style settings. Each `[page].scss` file has a dedicated section where these settings can be over-written on a page-by-page basis.
 
-The `page` directory contains page named directories and their respective stylesheets to be imported. A `sass` directory to contain all page `.scss` files.
+Directory structure:
 
-Directory example:
-
-    css/
+    /css
+      _config.scss
       _vanilla.scss
-      page/
-        landing page/
-          sass/
-            landing-page.scss
-          landing-page.css
+      /includes                 == global *.scss partials
+      /page                     == contains all page stylesheets
+        index.css
+        /sass
+          index.scss
+        /[sub-site]             == styleguide and other sub-pages
+          /sass
+            [sub-site page].scss
+          [sub-site page].css
 
-#### SASS Variables
+### Page specific stylesheets
 
-`_vars.scss` over-writes framework variables and sets project variables. There should never be a need to modify any framework code. This file also imports `_morula.scss` from [morula](https://github.com/inriverie/morula) which is a cross project variable library.
-
-#### Page specific stylesheets
-
-At the top of each `[page].scss` file shoud be the name of the CSS file followed by a section to re-define framework variables:
+At the top of each `[page].scss` file there's a section to re-define variables:
 
     /*------------------------------------*\
         NAME OF PAGE
@@ -81,34 +46,46 @@ At the top of each `[page].scss` file shoud be the name of the CSS file followed
      * Re-define framework and Vanilla variables
      */
 
-The only required import should be the `_vanilla.scss` file. This contains all the base default variables, styles, etc… If the page uses any framework objects, import them after `_vanilla.scss`.
+The only required import should be `_vanilla.scss`. This imports all default variables, styles, etc… If the page uses any framework objects, import them after `_vanilla.scss`.
 
     /**
      * Import all of the things...
      */
     @import "../../../vanilla.scss";
 
-Lastly, there's a section dedicated to styles specific to the page the CSS file will be linked to.
+Lastly, there's a section dedicated to styles specific to the page.
 
     /**
      * Custom page styles
      */
 
-## Global imports
+## Data Models
 
-All pages should include the following:
+The `_models` directory stores all referenceable data. `*.jade` files contain Jade template variables/objects and `*.json` for Javascript data.
 
-* `_global-vars.kit`
-* `<head>` import from the [morula project](https://github.com/inriverie/morula/blob/master/_assets/html/partials/html-head.kit)
-* [Google Analytics](https://github.com/inriverie/morula/blob/master/_assets/html/partials/google-analytics.kit) snippet from [morula](https://github.com/inriverie/morula).
+    /models
+      _site.jade
+      /page
+        /[sub-site]
+          [sub-site page].json
 
-### Global Kit language variables
+## Templates and Layouts
 
-The following Kit language variables **must** be edited prior to creating new pages:
+Global partials are stored in the `include` directory. `Layouts` contains site templates. It should not require a `[sub-site]` directory as templates should be globally referenced.
 
-* `$site-name` should reflect the name of project.
-* More to come…
+    /views
+      /includes
+        _footer.jade
+        _head.jade
+        _header.jade
+        _nav.jade
+      index.jade
+      /layouts
+        default.jade
 
-### Google Analytics ID
+## Utilities
 
-Since each project will have a unique GA UA ID, `_ga-id.kit` should be edited on a per project basis. This file also contains the import for GA mentioned above.
+* [Codekit](http://incident57.com/codekit/) for all the heavy lifting.
+* My Codekit framework [Morula](https://github.com/inriverie/morula).
+* Stylesheets written in [SASS](http://sass-lang.com/).
+* HTML and templating leverages [Jade](http://jade-lang.com/).

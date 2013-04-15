@@ -1,0 +1,28 @@
+extends ../../_views/layouts/default
+
+block append vars
+  - var title = 'Styleguide Directory'
+  - var description = 'Styleguide directory.'
+
+block append head
+  link(rel='stylesheet', href='../_assets/css/page/styleguide/styleguide.css')
+
+block header
+
+block content
+  main(role='main')
+    h1 #{title}
+    p.lead An initial directory setup, style guide and pattern primer
+
+    nav(role='navigation')
+      h2 Contents
+      dl
+        dt: a(href='basic-styles.html') Base Styles
+        dd Basic markup and typographic styles.
+        dt: a(href='ui-styles.html') UI Modules
+        dd: <abbr title="User Interface">UI</abbr> design patterns.
+        dt: a(href='form-styles.html') Forms
+        dd Form control styles and layout.
+
+block nav
+block footer
