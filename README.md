@@ -26,11 +26,11 @@ Directory structure:
       _config.scss
       _vanilla.scss
       /includes                 == global *.scss partials
-      /page                     == contains all page stylesheets
+      /index
         index.css
         /sass
           index.scss
-        /[sub-site]             == styleguide and other sub-pages
+      /[sub-site]               == styleguide and other sub-pages
           /sass
             [sub-site page].scss
           [sub-site page].css
@@ -65,9 +65,8 @@ The `_models` directory stores all referenceable data. `*.jade` files contain Ja
 
     /models
       _site.jade
-      /page
-        /[sub-site]
-          [sub-site page].json
+      /[sub-site]
+        [sub-site page].json
 
 ## Templates and Layouts
 
