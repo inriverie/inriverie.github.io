@@ -1,1 +1,5 @@
 header(role='banner')
+  - if ((typeof(page) === 'undefined') || (page !== 'index'))
+    a(href='/') #{site}
+  - else
+    h1 #{site}
