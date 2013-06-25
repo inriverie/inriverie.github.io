@@ -17,9 +17,9 @@ Starting point for static web projects
 
 
     /**
-     * Import all of the things...
+     * Import all of the things…
      */
-    @import "../../../vanilla.scss";
+    @import '../../vanilla.scss'
 
 
     /**
