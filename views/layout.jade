@@ -1,0 +1,36 @@
+!!! 5
+block vars
+  - var site  = 'Vanilla'
+  - var year  = '2013'
+  - var title = undefined
+  - var page  = undefined
+  - var gaid  = undefined
+
+html(lang='en')
+  head
+    block head
+      meta(charset='utf-8')
+      meta(name='description', content='#{description}')
+      meta(name='viewport', content='width=device-width, initial-scale=1.0')
+      if title === undefined
+        title #{site}
+      else
+        title #{title} • #{site}
+
+  body
+    block header
+      header(role='banner')
+        if page === undefined
+          h1 #{site}
+        else
+          a(href='/') #{site}
+
+    block content
+    block nav
+    block footer
+      footer(role='contentinfo')
+        small © #{year} #{site}. All rights reserved.
+
+    if gaid !== undefined
+      script
+        var _gaq=[['_setAccount','#{gaid}'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0]; g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js'; s.parentNode.insertBefore(g,s)}(document,'script'));
