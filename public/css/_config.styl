@@ -1,0 +1,143 @@
+test_mode  = true
+
+
+
+
+
+/*------------------------------------*\
+  TYPOGRAPHY
+\*------------------------------------*/
+
+font_size         = 16
+
+text_color        = hsl(0, 0%, 27%)
+text_family       = verdana
+text_size         = font_size / 16
+leading           = 1.5
+
+print_serif       = false
+
+
+/**
+
+  Ligature and kerning enhancement
+  Options:
+    'all', 'headings', 'none'
+
+**/
+font_enhancement  = 'none'
+
+
+// >> http://modularscale.com/
+ms7   = round(67.5)
+ms6   = round(54)
+ms5   = round(45)
+ms4   = round(36)
+ms3   = round(30)
+ms2   = round(24)
+ms1   = round(20)
+ms0   = round(16)
+ms_1  = round(13.333)
+ms_2  = round(10.667)
+ms_3  = round(8.889)
+
+
+giga_size = ms7
+mega_size = ms6
+kilo_size = ms5
+
+h1_size = ms4
+h2_size = ms3
+h3_size = ms2
+h4_size = ms1
+h5_size = ms0
+h6_size = ms_1
+
+milli_size  = ms_2
+micro_size  = ms_3
+
+
+
+
+
+/*------------------------------------*\
+    LAYOUT
+\*------------------------------------*/
+
+rhythm            = (leading * text_size / 16)rem
+half-rhythm       = rhythm / 2
+quarter-rhythm    = rhythm / 4
+
+
+
+
+
+/*------------------------------------*\
+    TEXTURE
+\*------------------------------------*/
+
+bg_color    = hsl(0, 0%, 100%)
+code_color  = hsl(344, 100%, 37%)
+ui_color    = hsl(0, 0%, 81%)
+
+brand_color   = hsl(344, 100%, 37%)
+brand_family  = helvetica
+
+
+// Breadcrumbs
+breadcrumb_type = normal
+
+
+// Horizonal rule
+rules_border_color  = ui_color
+rules_border_style  = solid
+rules_border_width  = 1px
+
+
+// Text color
+caption_color   = hsl(0, 0%, 35%)
+link_color      = hsl(224, 73%, 50%)
+selection_color = hsl(0, 0%, 100%)
+
+
+// Table stripes
+table_stripes   = lighten(ui_color, 15%)
+
+
+
+
+
+/*------------------------------------*\
+    TOGGLES
+\*------------------------------------*/
+
+use_blockquotes = false
+use_code        = false
+use_edits       = false
+use_figure      = false
+use_forms       = false
+use_media       = false
+use_pre         = false
+use_rules       = false
+use_tables      = false
+
+
+// Primarily IE8 and IE9 support
+legacy_support  = false
+
+
+// Massive text sizing
+massive_headings  = false
+
+
+// Decorative horizontal rules
+rules_ornament        = false
+rules_ornament_border = false
+
+
+// Text selection color
+selection_highlight = true
+
+// Form extensions
+input_captions  = false
+spoken_word     = false
