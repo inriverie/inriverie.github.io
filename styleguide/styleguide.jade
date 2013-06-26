@@ -1,17 +1,16 @@
-extends ../../_views/layouts/default
+extends ../views/layout
 
 block append vars
-  - var title = 'Styleguide Directory'
   - var description = 'Styleguide directory.'
 
 block append head
-  link(rel='stylesheet', href='../_assets/css/styleguide/styleguide.css')
+  link(rel='stylesheet', href='../public/css/styleguide/styleguide.css')
 
 block header
 
 block content
   main(role='main')
-    h1 #{title}
+    h1 Styleguide Directory
     p.lead An initial directory setup, style guide and pattern primer
 
     nav(role='navigation')

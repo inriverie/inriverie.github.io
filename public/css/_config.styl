@@ -1,28 +1,20 @@
-test_mode  = true
-
-
-
-
-
 /*------------------------------------*\
   TYPOGRAPHY
 \*------------------------------------*/
 
 font_size         = 16
+line_height       = 24
 
 text_color        = hsl(0, 0%, 27%)
-text_family       = verdana
-text_size         = font_size / 16
-leading           = 1.5
-
-print_serif       = false
+text_family       = helvetica
+text_size         = (font_size / 16) * 1rem
+leading           = line_height / font_size
 
 
 /**
 
   Ligature and kerning enhancement
-  Options:
-    'all', 'headings', 'none'
+  Options: 'all', 'headings', 'none'
 
 **/
 font_enhancement  = 'none'
@@ -64,9 +56,10 @@ micro_size  = ms_3
     LAYOUT
 \*------------------------------------*/
 
-rhythm            = (leading * text_size / 16)rem
-half-rhythm       = rhythm / 2
-quarter-rhythm    = rhythm / 4
+rhythm            = leading * 1rem
+double_rhythm     = (rhythm * 2) * 1rem
+half_rhythm       = (rhythm / 2) * 1rem
+quarter-rhythm    = (rhythm / 4) * 1rem
 
 
 
@@ -81,7 +74,7 @@ code_color  = hsl(344, 100%, 37%)
 ui_color    = hsl(0, 0%, 81%)
 
 brand_color   = hsl(344, 100%, 37%)
-brand_family  = helvetica
+brand_family  = text_family
 
 
 // Breadcrumbs
@@ -111,6 +104,9 @@ table_stripes   = lighten(ui_color, 15%)
     TOGGLES
 \*------------------------------------*/
 
+test_mode  = true
+
+
 use_blockquotes = false
 use_code        = false
 use_edits       = false
@@ -122,12 +118,13 @@ use_rules       = false
 use_tables      = false
 
 
-// Primarily IE8 and IE9 support
 legacy_support  = false
 
 
-// Massive text sizing
 massive_headings  = false
+
+
+print_serif       = false
 
 
 // Decorative horizontal rules
@@ -135,8 +132,8 @@ rules_ornament        = false
 rules_ornament_border = false
 
 
-// Text selection color
 selection_highlight = true
+
 
 // Form extensions
 input_captions  = false

@@ -1,11 +1,10 @@
-extends ../../_views/layouts/default
+extends ../views/layout
 
 block append vars
-  - var title = 'Form Styles'
   - var description = 'Form styles.'
 
 block append head
-  link(rel='stylesheet', href='../_assets/css/styleguide/styleguide.css')
+  link(rel='stylesheet', href='../public/css/styleguide/styleguide.css')
 
 block header
 
@@ -78,3 +77,5 @@ block nav
       li: a(href='basic-styles.html') Basic styles
       li: a(href='ui-styles.html') <abbr title="User Interface">UI</abbr> pattern library
       li Form elements
+
+block footer

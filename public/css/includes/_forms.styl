@@ -23,24 +23,24 @@ if use_forms
     padding 0 // [2]
 
 
+  .label
+    display     block
+    line-height leading
+
+
+    /**
+
+      Extra help text in `label`s, e.g.:
+      label Card number <small class='additional'>No spaces</small>
+
+    **/
+    .additional
+      font-weight normal
+
+
   label
     cursor  pointer
-
-
-    &,
-    .label
-      display     block
-      line-height leading
-
-
-      /**
-
-        Extra help text in `label`s, e.g.:
-        label Card number <small class='additional'>No spaces</small>
-
-      **/
-      .additional
-        font-weight normal
+    @extends .label
 
 
   /**
@@ -49,6 +49,7 @@ if use_forms
 
   **/
   .input--txt
+    // foo bar
 
 
   /**
