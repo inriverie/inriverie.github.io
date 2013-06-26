@@ -1,6 +1,6 @@
 # vanilla
 
-Starting point for static web projects
+Static web project
 
 ## CSS
 
@@ -8,23 +8,19 @@ Starting point for static web projects
 
 ### Page specific stylesheets
 
-    /*------------------------------------*\
-        NAME OF PAGE
-    \*------------------------------------*/
-    /**
-     * Re-define framework and Vanilla variables
-     */
+    // Import settings
+    @import '_vars'
+    @import '../_config'
 
 
-    /**
-     * Import all of the things…
-     */
-    @import '../../vanilla.scss'
+    // Redefine variables here (see _config)
 
 
-    /**
-     * Custom page styles
-     */
+    // Import all of the things…
+    @import '../_vanilla'
+
+
+    // Custom page styles
 
 ## Utilities
 
