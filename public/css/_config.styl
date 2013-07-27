@@ -1,23 +1,25 @@
 /*------------------------------------*\
-  TYPOGRAPHY
+    TYPOGRAPHY
 \*------------------------------------*/
+font_size         = 14
+line_height       = 21
 
-font_size         = 16
-line_height       = 24
+leading           = line_height / font_size
+
+display_family    = georgia
 
 text_color        = hsl(0, 0%, 27%)
-text_family       = helvetica
-text_size         = (font_size / 16) * 1rem
-leading           = line_height / font_size
+text_family       = verdana
+text_size         = (font_size / 16) rem
 
 
 /**
 
   Ligature and kerning enhancement
-  Options: 'all', 'headings', 'none'
+  Options: 'global', 'headings', null
 
 **/
-font_enhancement  = 'none'
+font_enhancement  = null
 
 
 // >> http://modularscale.com/

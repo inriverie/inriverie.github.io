@@ -1,53 +1,49 @@
 /*------------------------------------*\
     HEADINGS
 \*------------------------------------*/
-
-// Clear margins
-.hN
+$hN
+  unless display_family == text_family
+    font-family display_family
   margin  0
+
+
+h1,.alpha
+  font-size(h1_size)
+  @extends $hN
+
+h2,.beta
+  font-size(h2_size)
+  @extends $hN
+
+h3,.gamma
+  font-size(h3_size)
+  @extends $hN
+
+h4,.delta
+  font-size(h4_size)
+  @extends $hN
+
+h5,.epsilon
+  font-size(h5_size)
+  @extends $hN
+
+h6,.zeta
+  font-size(h6_size)
+  @extends $hN
 
 
 if massive_headings
   .giga
-    fs(giga_size)
+    font-size(giga_size)
+    @extends $hN
+
   .mega
-    fs(mega_size)
+    font-size(mega_size)
+    @extends $hN
+
   .kilo
-    fs(kilo_size)
-
-
-.alpha
-  fs(h1_size)
-.beta
-  fs(h2_size)
-.gamma
-  fs(h3_size)
-.delta
-  fs(h4_size)
-.epsilon
-  fs(h5_size)
-.zeta
-  fs(h6_size)
-
-
-h1
-  @extends .alpha
-  @extends .hN
-h2
-  @extends .beta
-  @extends .hN
-h3
-  @extends .gamma
-  @extends .hN
-h4
-  @extends .delta
-  @extends .hN
-h5
-  @extends .epsilon
-  @extends .hN
-h6
-  @extends .zeta
-  @extends .hN
+    font-size(kilo_size)
+    @extends $hN
 
 
 
