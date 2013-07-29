@@ -1,62 +1,77 @@
 if use_forms
 
-  // Rest margin
+  /*------------------------------------*\
+      FORM
+      Address margins set differently among browsers.
+  \*------------------------------------*/
   form
-    margin 0
+    margin 0 // [1]
 
 
-  // Define consistent border, margin, and padding.
+
+
+
+  /*------------------------------------*\
+      FIELDSET
+      Define consistent border, margin, and padding.
+  \*------------------------------------*/
   fieldset
     border  0
     margin  0
     padding half_rhythm
 
 
-  /**
 
-    1. Correct `color` not being inherited in IE 8/9.
-    2. Remove padding so people aren't caught out if they zero out fieldsets.
 
-  **/
+
+  /*------------------------------------*\
+      LEGEND
+
+      1. Correct `color` not being inherited in IE 8/9.
+      2. Remove padding so people aren't caught out if they zero out fieldsets.
+  \*------------------------------------*/
   legend
-    border  0 // [1]
+    if legacy_support
+      border  0 // [1]
     padding 0 // [2]
 
 
+
+
+
+  /*------------------------------------*\
+      LABEL
+      `.additional` e.g. Phone (why ask?)
+  \*------------------------------------*/
+  label,
   .label
+    cursor  pointer
     display     block
-    line-height leading
+    line-height line-height
 
 
-    /**
-
-      Extra help text in `label`s, e.g.:
-      label Card number <small class='additional'>No spaces</small>
-
-    **/
     .additional
       font-weight normal
 
 
-  label
-    cursor  pointer
-    @extends .label
 
 
-  /**
 
-    Instead of a `[type]` selector for each kind of form input, we just use a class to target any/every one, e.g.:
-
-  **/
+  /*------------------------------------*\
+      INPUT TEXT
+  \*------------------------------------*/
   .input--txt
     // foo bar
 
 
-  /**
 
-    1. Remove excess padding in IE 8/9.
 
-  **/
+
+  /*------------------------------------*\
+      INPUT CHECKBOX and RADIO
+
+      1. Remove excess padding in IE 8/9.
+  \*------------------------------------*/
   input[type="checkbox"],
   input[type="radio"]
     margin-right  0.25em
@@ -65,23 +80,29 @@ if use_forms
       padding     0 // [1]
 
 
-  /**
 
-    1. Prevents Webkit from locking `font-size`.
-    Put `select` icon back with dropdown.svg
 
-  **/
+
+  /*------------------------------------*\
+      SELECT
+      Put `select` icon back with dropdown.svg
+
+      1. Prevents Webkit from locking `font-size`.
+  \*------------------------------------*/
   select
     -webkit-appearance  button // [1]
 
 
-  /**
 
-    1. Chrome, Safari
-    2. Firefox 19
-    3. IE 10
 
-  **/
+
+  /*------------------------------------*\
+      PLACEHOLDER
+
+      1. Chrome, Safari
+      2. Firefox 19
+      3. IE 10
+  \*------------------------------------*/
   ::-webkit-input-placeholder
     // [1]
   ::-moz-placeholder
@@ -97,20 +118,20 @@ if use_forms
     // [3]
 
 
-  /**
 
-    fieldset
+
+
+  /*------------------------------------*\
+      FORMFIELD
+
+      fieldset
       .form-field
         label
         input.input--txt
       .form-field
         label
         select
-      .form-field
-        label
-        input.input--txt
-
-  **/
+  \*------------------------------------*/
   .form-field
     @extends .rhythm-bottom
 
@@ -119,31 +140,36 @@ if use_forms
       margin-bottom 0
 
 
-  /**
 
-     ul.check-list
+
+
+  /*------------------------------------*\
+      CHECKLIST
+
+      ul.check-list
        li
          input
          label
        li
          input
          label
-
-  **/
+  \*------------------------------------*/
   .check-list
     list-style  none
     margin      0
 
 
-  // Labels in check-lists
   .check-label,
   .check-list label,
   .check-list .label
     display inline-block
 
 
-  if spoken_word
-    /**
+
+
+
+  /*------------------------------------*\
+      SPOKEN FORM INPUTS
 
       p.spoken-form
         Hello, my 
@@ -157,15 +183,19 @@ if use_forms
           option UK
           option US
           option Other
-
-    **/
+  \*------------------------------------*/
+  if spoken_word
     .spoken-form label
       display inline-block
       font    inherit
 
 
-  if input_captions
-    /**
+
+
+
+  /*------------------------------------*\
+      INPUT HELP
+
       Extra help text displayed after a field when that field is in focus, e.g.:
 
       label(for='email') Email
@@ -173,8 +203,8 @@ if use_forms
       small.extra-help .edu emails only
 
       We leave the help text in the document flow and merely set it to `visibility:hidden;`. This means that it won’t interfere with anything once it reappears.
-
-    **/
+  \*------------------------------------*/
+  if input_captions
     .extra-help
       display     inline-block
       visibility  hidden

@@ -8,19 +8,35 @@ Static web project
 
 ### Page specific stylesheets
 
-    // Import settings
+    /*------------------------------------*\
+        VARIABLES and CONFIG
+    \*------------------------------------*/
     @import '_vars'
-    @import '../_config'
 
 
-    // Redefine variables here (see _config)
 
 
-    // Import all of the things…
+
+    /*------------------------------------*\
+        REDEFINE VARIABLES
+    \*------------------------------------*/
+
+
+
+
+
+    /*------------------------------------*\
+        OBJECTS
+    \*------------------------------------*/
     @import '../_vanilla'
 
 
-    // Custom page styles
+
+
+
+    /*------------------------------------*\
+        PAGE SPECIFIC STYLES
+    \*------------------------------------*/
 
 ## Utilities
 

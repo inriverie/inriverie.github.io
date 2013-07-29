@@ -1,8 +1,11 @@
 /*------------------------------------*\
     TYPEFACE
 \*------------------------------------*/
-display_family  = georgia
+brand_family    = georgia
+display_family  = brand_family
 text_family     = verdana
+
+print_serif     = false
 
 
 
@@ -25,6 +28,8 @@ font_enhancement  = null
 text_size   = 14
 leading     = 21
 
+massive_headings= false
+
 
 
 
@@ -32,7 +37,18 @@ leading     = 21
 /*------------------------------------*\
     TYPE TEXTURE
 \*------------------------------------*/
-text_color  = hsl(0, 0%, 27%)
+text_color      = hsl(0, 0%, 27%)
+
+
+caption_color   = hsl(0, 0%, 35%)
+code_color      = hsl(344, 100%, 37%)
+
+
+link_color      = hsl(224, 73%, 50%)
+
+
+selection_color     = hsl(0, 0%, 100%)
+selection_highlight = false
 
 
 
@@ -64,45 +80,44 @@ ms_3  = 8
 
 
 /*------------------------------------*\
-    TEXTURE
+    UI TEXTURE
 \*------------------------------------*/
+brand_color = hsl(344, 100%, 37%)
+
 
 bg_color    = hsl(0, 0%, 100%)
-code_color  = hsl(344, 100%, 37%)
-ui_color    = hsl(0, 0%, 81%)
-
-brand_color   = hsl(344, 100%, 37%)
-brand_family  = text_family
-
-
-// Breadcrumbs
-breadcrumb_type = normal
-
-
-// Horizonal rule
-rules_border_color  = ui_color
-rules_border_style  = solid
-rules_border_width  = 1px
-
-
-// Text color
-caption_color   = hsl(0, 0%, 35%)
-link_color      = hsl(224, 73%, 50%)
-selection_color = hsl(0, 0%, 100%)
-
-
-// Table stripes
-table_stripes   = lighten(ui_color, 15%)
 
 
 
 
 
 /*------------------------------------*\
-    TOGGLES
+    BORDERS
 \*------------------------------------*/
+border_color= hsl(0, 0%, 81%)
 
-test_mode  = true
+
+rules_ornament        = false
+rules_ornament_border = false
+
+
+
+
+
+/*------------------------------------*\
+    FORMS
+\*------------------------------------*/
+input_captions  = false
+spoken_word     = false
+
+
+
+
+
+/*------------------------------------*\
+    TOGGLE ELEMENTS
+\*------------------------------------*/
+legacy_support  = true
 
 
 use_blockquotes = false
@@ -114,25 +129,3 @@ use_media       = false
 use_pre         = false
 use_rules       = false
 use_tables      = false
-
-
-legacy_support  = false
-
-
-massive_headings  = false
-
-
-print_serif       = false
-
-
-// Decorative horizontal rules
-rules_ornament        = false
-rules_ornament_border = false
-
-
-selection_highlight = false
-
-
-// Form extensions
-input_captions  = false
-spoken_word     = false
