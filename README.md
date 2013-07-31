@@ -1,6 +1,6 @@
 # vanilla
 
-Static web project
+Static web project starter.
 
 ## CSS
 
