@@ -28,7 +28,7 @@ Static web project starter.
     /*------------------------------------*\
         OBJECTS
     \*------------------------------------*/
-    @import '../_vanilla'
+    @import 'morula'
 
 
 
