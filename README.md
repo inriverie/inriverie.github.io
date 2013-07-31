@@ -11,7 +11,7 @@ Static web project starter.
     /*------------------------------------*\
         VARIABLES and CONFIG
     \*------------------------------------*/
-    @import '_vars'
+    @import 'vars'
 
 
 
