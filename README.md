@@ -9,9 +9,9 @@ Static web project starter.
 ### Page specific stylesheets
 
     /*------------------------------------*\
-        VARIABLES and CONFIG
+        SETTINGS
     \*------------------------------------*/
-    @import 'vars'
+    @import '../_config'
 
 
 
@@ -28,7 +28,7 @@ Static web project starter.
     /*------------------------------------*\
         OBJECTS
     \*------------------------------------*/
-    @import 'morula'
+    @import '../_vanilla'
 
 
 
