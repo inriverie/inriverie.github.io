@@ -1,7 +1,3 @@
-# vanilla
-
-Static web project starter.
-
 ## CSS
 
 `_config.scss` controls the project style settings. Each `[page].styl` file has a dedicated section where these settings can be over-written on a page-by-page basis.
