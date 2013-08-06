@@ -8,36 +8,34 @@
 
 
 /*------------------------------------*\
-    TYPEFACE
+    BRANDING
 \*------------------------------------*/
-brand_family    = georgia
-display_family  = brand_family
+brand_typeface  = georgia
+brand_color     = hsl(224, 73%, 50%)
+
+
+
+
+
+/*------------------------------------*\
+    TYPE TREATMENT
+
+    1. Ligatures, kerning, etc…
+      values: 'global', 'headings', null
+\*------------------------------------*/
+display_family  = brand_typeface
 text_family     = verdana
 
-print_serif     = false
 
-
-
-
-
-/*------------------------------------*\
-    ENHANCE TYPEFACE
-    Ligatures, kerning, etc…
-    values: 'global', 'headings', null
-\*------------------------------------*/
-font_enhancement  = null
-
-
-
-
-
-/*------------------------------------*\
-    TYPE SIZING
-\*------------------------------------*/
 text_size   = 14
 leading     = 21
 
+
+font_enhancement  = null // [1]
+
+
 massive_headings= false
+print_serif     = false
 
 
 
@@ -53,7 +51,7 @@ caption_color   = hsl(0, 0%, 35%)
 code_color      = hsl(344, 100%, 37%)
 
 
-link_color      = hsl(224, 73%, 50%)
+link_color      = brand_color
 
 
 selection_color     = hsl(0, 0%, 100%)
@@ -91,10 +89,7 @@ ms_3  = 8
 /*------------------------------------*\
     UI TEXTURE
 \*------------------------------------*/
-brand_color = hsl(344, 100%, 37%)
-
-
-bg_color    = hsl(0, 0%, 100%)
+bg_color    = hsl(0, 0%, 97%)
 
 
 
@@ -126,7 +121,7 @@ spoken_word     = false
 /*------------------------------------*\
     TOGGLE ELEMENTS
 \*------------------------------------*/
-legacy_support  = true
+legacy_support  = false
 
 
 use_blockquotes = false
