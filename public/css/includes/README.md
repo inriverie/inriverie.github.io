@@ -78,14 +78,12 @@
         csswizardry.com/2011/05/on-negative-hovers
     \*------------------------------------*/
     a
-      border-bottom   1px solid lighten(link_color, 40%)
       color           link_color
       text-decoration none
       transition      all .25s
 
 
       &:hover
-        border-bottom-color lighten(link_color, 30%)
         color               darken(link_color, 20%)
 
 
