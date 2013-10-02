@@ -1,8 +1,26 @@
-## CSS
+# Vanilla
 
-`_config.scss` controls the project style settings. Each `[page].styl` file has a dedicated section where these settings can be over-written on a page-by-page basis.
+Barebones starter files and directory structure for new web projects.
 
-### Page specific stylesheets
+## Build
+
+    mkdir [PROJECT] && cd [PROJECT]
+    git init
+    git add remote inriverie https://github.com/inriverie/[PROJECT].git
+    git add remote vanilla https://github.com/inriverie/vanilla.git
+    git pull vanilla master
+    git add .
+    git commit -m "Vanilla init."
+    git push inriverie HEAD
+
+* [Codekit](http://incident57.com/codekit/) for all the heavy lifting.
+* My Codekit framework [Morula](https://github.com/inriverie/morula).
+* CSS preprocessed with [Stylus](http://learnboost.github.io/stylus/).
+* Templating with [Jade](http://jade-lang.com/).
+
+## Page Specific Stylesheets
+
+`_config.styl` controls the project style settings. Each `[page].styl` file has a dedicated section where these settings can be over-written on a page-by-page basis.
 
     /*------------------------------------*\
         SETTINGS
@@ -34,9 +52,3 @@
         PAGE SPECIFIC STYLES
     \*------------------------------------*/
 
-## Utilities
-
-* [Codekit](http://incident57.com/codekit/) for all the heavy lifting.
-* My Codekit framework [Morula](https://github.com/inriverie/morula).
-* CSS preprocessed with [Stylus](http://learnboost.github.io/stylus/).
-* Templating with [Jade](http://jade-lang.com/).

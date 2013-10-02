@@ -1,9 +1,7 @@
 !!! 5
 block vars
-  - var site        = 'Vanilla'
+  - var siteName    = 'Vanilla'
   - var year        = '2013'
-  - var description = undefined
-  - var title       = undefined
   - var index       = false
   - var gaid        = undefined
 
@@ -12,29 +10,25 @@ html(lang='en')
   head
     block head
       meta(charset='utf-8')
-      if description
-        meta(name='description', content='#{description}')
+      meta(name='description', content='#{description}')
       meta(name='viewport', content='width=device-width, initial-scale=1.0')
-      if title
-        title #{title} • #{site}
-      else
-        title #{site}
+      title #{pageTitle}
 
 
   body
     block header
       header(role='banner')
-        if index
-          h1 #{site}
-        else
-          a(href='/') #{site}
+        a.site-logo(href='/') #{siteName}
+
 
     block content
     block nav
+
+
     block footer
       footer(role='contentinfo')
         p
-          small © #{year} #{site}. All rights reserved.
+          small © #{year} #{siteName}
 
 
     if gaid
