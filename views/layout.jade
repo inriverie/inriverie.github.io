@@ -1,9 +1,6 @@
 !!! 5
 block vars
-  - var siteName    = 'Vanilla'
-  - var year        = '2013'
-  - var index       = false
-  - var gaid        = undefined
+  include ../models/global-vars
 
 
 html(lang='en')
@@ -17,18 +14,11 @@ html(lang='en')
 
   body
     block header
-      header(role='banner')
-        a.site-logo(href='/') #{siteName}
-
-
+      //- include header
     block content
     block nav
-
-
     block footer
-      footer(role='contentinfo')
-        p
-          small © #{year} #{siteName}
+      //- include footer
 
 
     if gaid
