@@ -13,14 +13,11 @@ Barebones starter files and directory structure for new web projects.
     git commit -m "Vanilla init."
     git push inriverie HEAD
 
-* [Codekit](http://incident57.com/codekit/) for all the heavy lifting.
-* My Codekit framework [Morula](https://github.com/inriverie/morula).
-* CSS preprocessed with [Stylus](http://learnboost.github.io/stylus/).
-* Templating with [Jade](http://jade-lang.com/).
+## Stylesheets
 
-## Page Specific Stylesheets
+`config.styl` controls the project style settings. Each page specific stylesheet (`[PAGE].styl`) should have a section dedicated to over-writing these settings on a page-by-page basis (shown below).
 
-`_config.styl` controls the project style settings. Each `[page].styl` file has a dedicated section where these settings can be over-written on a page-by-page basis.
+`[PAGE].styl` files can be started by copying the following template or pulling in from [this Gist](https://gist.github.com/inriverie/5021968).
 
     /*------------------------------------*\
         SETTINGS
@@ -52,3 +49,9 @@ Barebones starter files and directory structure for new web projects.
         PAGE SPECIFIC STYLES
     \*------------------------------------*/
 
+## Dependencies
+
+* [Codekit](http://incident57.com/codekit/) for all the heavy lifting,
+* My CSS utility, [Morula](https://github.com/inriverie/morula),
+* CSS is preprocessed with [Stylus](http://learnboost.github.io/stylus/),
+* [Jade](http://jade-lang.com/) templating.

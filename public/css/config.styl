@@ -8,54 +8,37 @@
 
 
 /*------------------------------------*\
-    BRANDING
-\*------------------------------------*/
-brand_typeface  = georgia
-brand_color     = hsl(224, 73%, 50%)
-
-
-
-
-
-/*------------------------------------*\
-    TYPE TREATMENT
-
+    TYPOGRAPHY
     1. Ligatures, kerning, etc…
       values: 'global', 'headings', null
 \*------------------------------------*/
-display_family  = brand_typeface
-text_family     = verdana
+display_typeface  = georgia
+text_typeface     = verdana
 
-
-text_size   = 14
-leading     = 21
-
+font_size   = 14px
+line_height = 21px
 
 font_enhancement  = null // [1]
 
-
-massive_headings= false
-print_serif     = false
+massive_headings  = false
+print_serif       = false
 
 
 
 
 
 /*------------------------------------*\
-    TYPE TEXTURE
+    COLOR
 \*------------------------------------*/
-text_color      = hsl(0, 0%, 27%)
+brand_color = hsl(224, 73%, 50%)
+text_color    = hsl(0, 0%, 27%)
 
-
-caption_color   = hsl(0, 0%, 35%)
-code_color      = hsl(344, 100%, 37%)
-
-
-link_color      = brand_color
-
+caption_color = lighten(text_color, 12%)
+code_color    = hsl(344, 100%, 37%)
+link_color  = brand_color
 
 selection_color     = hsl(0, 0%, 100%)
-selection_highlight = false
+selection_highlight = true
 
 
 
@@ -65,22 +48,8 @@ selection_highlight = false
     MODULAR SCALE
     http://modularscale.com/
 \*------------------------------------*/
-scale = perfect_fifth
-
-
-ms9   = 91
-ms8   = 71
-ms7   = 61
-ms6   = 47
-ms5   = 41
-ms4   = 32
-ms3   = 27
-ms2   = 21
-ms1   = 18
-
-ms_1  = 12
-ms_2  = 9
-ms_3  = 8
+ratio             = perfect_fifth
+important_number  = 12
 
 
 
@@ -89,7 +58,7 @@ ms_3  = 8
 /*------------------------------------*\
     UI TEXTURE
 \*------------------------------------*/
-bg_color    = hsl(0, 0%, 97%)
+bg_color    = hsl(0, 0%, 96%)
 
 
 
@@ -98,7 +67,7 @@ bg_color    = hsl(0, 0%, 97%)
 /*------------------------------------*\
     BORDERS
 \*------------------------------------*/
-border_color= hsl(0, 0%, 81%)
+border_color= hsl(0, 0%, 84%)
 
 
 rules_ornament        = false
