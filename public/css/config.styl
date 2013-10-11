@@ -1,22 +1,17 @@
-/*------------------------------------*\
-    IMPORT STATIC VARIABLES
-\*------------------------------------*/
-@import 'vars'
-
-
-
+@import 'typography'
 
 
 /*------------------------------------*\
-    TYPOGRAPHY
-    1. Ligatures, kerning, etc…
-      values: 'global', 'headings', null
+  TYPOGRAPHY
+  1. Ligatures, kerning, etc…
+    values: 'global', 'headings', null
 \*------------------------------------*/
 display_typeface  = georgia
 text_typeface     = verdana
 
-font_size   = 14px
-line_height = 21px
+text_size   = 16px
+leading     = 24px
+line_height = remove-unit(leading / text_size)
 
 font_enhancement  = null // [1]
 
@@ -28,14 +23,14 @@ print_serif       = false
 
 
 /*------------------------------------*\
-    COLOR
+  COLOR
 \*------------------------------------*/
 brand_color = hsl(224, 73%, 50%)
-text_color    = hsl(0, 0%, 27%)
+text_color  = hsl(0, 0%, 27%)
 
 caption_color = lighten(text_color, 12%)
 code_color    = hsl(344, 100%, 37%)
-link_color  = brand_color
+link_color    = brand_color
 
 selection_color     = hsl(0, 0%, 100%)
 selection_highlight = true
@@ -45,50 +40,28 @@ selection_highlight = true
 
 
 /*------------------------------------*\
-    MODULAR SCALE
-    http://modularscale.com/
+  MODULAR SCALE
+  http://modularscale.com/
 \*------------------------------------*/
 ratio             = perfect_fifth
-important_number  = 12
+important_number  = undefined
 
 
 
 
 
 /*------------------------------------*\
-    UI TEXTURE
+  UI TEXTURE
 \*------------------------------------*/
 bg_color    = hsl(0, 0%, 96%)
-
-
-
-
-
-/*------------------------------------*\
-    BORDERS
-\*------------------------------------*/
 border_color= hsl(0, 0%, 84%)
 
 
-rules_ornament        = false
-rules_ornament_border = false
-
-
 
 
 
 /*------------------------------------*\
-    FORMS
-\*------------------------------------*/
-input_captions  = false
-spoken_word     = false
-
-
-
-
-
-/*------------------------------------*\
-    TOGGLE ELEMENTS
+  ELEMENT SUPPORT
 \*------------------------------------*/
 legacy_support  = false
 
@@ -102,12 +75,3 @@ use_media       = false
 use_pre         = false
 use_rules       = false
 use_tables      = false
-
-
-
-
-
-/*------------------------------------*\
-    IMPORT DYNAMIC VARIABLES
-\*------------------------------------*/
-@import 'vars2'
