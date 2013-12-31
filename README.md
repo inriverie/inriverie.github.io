@@ -4,13 +4,13 @@ Barebones starter files and directory structure for new web projects.
 
 ## Build
 
-    mkdir [PROJECT] && cd [PROJECT]
+    mkdir [PROJECT-NAME] && cd [PROJECT-NAME]
     git init
-    git add remote inriverie https://github.com/inriverie/[PROJECT].git
+    git add remote inriverie https://github.com/inriverie/[PROJECT-NAME].git
     git add remote vanilla https://github.com/inriverie/vanilla.git
     git pull vanilla master
     git add .
-    git commit -m "Init."
+    git commit -m "init"
     git push inriverie HEAD
 
 ## Stylesheets
