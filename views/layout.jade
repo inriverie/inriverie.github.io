@@ -1,27 +1,18 @@
-!!! 5
-include ../models/global-vars
-
+doctype html
 block vars
+  include ../models/global-variables
 
 
 html(lang='en')
   head
     block head
       meta(charset='utf-8')
-      meta(name='description', content='#{description}')
+      meta(name='description', content='#{page_description}')
       meta(name='viewport', content='width=device-width, initial-scale=1.0')
-      title #{pageTitle}
+      title #{page_title}
+      link(rel='stylesheet', href='#{css_path}#{page_css}')
 
 
   body
-    block header
-      //- include header
     block content
-    block nav
-    block footer
-      //- include footer
-
-
-    if gaid
-      script
-        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create','#{gaid}');ga('send','pageview');
+    block scripts
