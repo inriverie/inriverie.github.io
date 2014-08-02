@@ -6,8 +6,8 @@ Barebones starter files and directory structure for new web projects.
 
     mkdir [PROJECT-NAME] && cd [PROJECT-NAME]
     git init
-    git add remote inriverie https://github.com/inriverie/[PROJECT-NAME].git
-    git add remote vanilla https://github.com/inriverie/vanilla.git
+    git remote add inriverie https://github.com/inriverie/[PROJECT-NAME].git
+    git remote add vanilla https://github.com/inriverie/vanilla.git
     git pull vanilla master
     git add .
     git commit -m "init"
