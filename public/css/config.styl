@@ -3,21 +3,25 @@
 
 /*------------------------------------*\
   TYPOGRAPHY
-
-  Ligatures, kerning, etc… controlled by font_enhancement
-    values: 'global', 'headings', null
 \*------------------------------------*/
-display_typeface  = georgia
-text_typeface     = verdana
+display_typeface= georgia
+text_typeface   = verdana
 
-text_size   = 16px
-leading     = 24px
-line_height = remove-unit(leading / text_size)
 
-font_enhancement  = null
+text_size = 16px
+leading   = 24px
 
-massive_headings  = false
-print_serif       = false
+
+line_height_ratio   = remove-unit(leading / text_size)
+modular_scale_ratio = minor_third
+important_number    = undefined
+
+
+// @value String: global | headings | null
+font_enhancement= null
+
+
+print_serif     = false
 
 
 
@@ -35,17 +39,6 @@ link_color    = brand_color
 
 selection_color     = hsl(0, 0%, 100%)
 selection_highlight = true
-
-
-
-
-
-/*------------------------------------*\
-  MODULAR SCALE
-  http://modularscale.com/
-\*------------------------------------*/
-ratio             = perfect_fifth
-important_number  = undefined
 
 
 
