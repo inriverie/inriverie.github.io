@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17670",
+"creatorBuild": "16895",
 "files": {
 	"\/index.jade": {
 		"compileDebug": 1,
@@ -11,7 +11,7 @@
 		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
+		"outputStyle": 1
 		},
 	"\/models\/global-variables.jade": {
 		"compileDebug": 1,
@@ -22,7 +22,7 @@
 		"outputAbbreviatedPath": "\/models\/global-variables.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
+		"outputStyle": 1
 		},
 	"\/public\/css\/config.styl": {
 		"debugStyle": 0,
@@ -34,7 +34,7 @@
 		"outputAbbreviatedPath": "\/public\/css\/config.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"resolveRelativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
@@ -49,7 +49,7 @@
 		"outputAbbreviatedPath": "\/public\/css\/imports.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"resolveRelativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
@@ -87,7 +87,7 @@
 		"outputAbbreviatedPath": "\/views\/layout.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
+		"outputStyle": 1
 		}
 	},
 "hooks": [
@@ -108,8 +108,6 @@
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoSyncProjectSettingsFile": 1,
 	"browserRefreshDelay": 0,
-	"coffeeAutoOutputPathEnabled": 1,
-	"coffeeAutoOutputPathFilenamePattern": "*.js",
 	"coffeeAutoOutputPathRelativePath": "",
 	"coffeeAutoOutputPathReplace1": "",
 	"coffeeAutoOutputPathReplace2": "",
@@ -160,16 +158,12 @@
 			"active": 0,
 			"flagValue": 3
 			},
+		"no-unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_backticks": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"no_debugger": {
-			"active": 1,
-			"flagValue": -1
-			},
-		"no_empty_functions": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"no_empty_param_list": {
@@ -181,10 +175,6 @@
 			"flagValue": -1
 			},
 		"no_implicit_parens": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"no_interpolation_in_single_quotes": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -212,14 +202,6 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"no_unnecessary_double_quotes": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"no_unnecessary_fat_arrows": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"non_empty_constructor_needs_parens": {
 			"active": 0,
 			"flagValue": -1
@@ -235,8 +217,6 @@
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
-	"hamlAutoOutputPathEnabled": 1,
-	"hamlAutoOutputPathFilenamePattern": "*.html",
 	"hamlAutoOutputPathRelativePath": "",
 	"hamlAutoOutputPathReplace1": "",
 	"hamlAutoOutputPathReplace2": "",
@@ -248,22 +228,19 @@
 	"hamlUseCDATA": 0,
 	"hamlUseDoubleQuotes": 0,
 	"hamlUseUnixNewlines": 0,
-	"jadeAutoOutputPathEnabled": 1,
-	"jadeAutoOutputPathFilenamePattern": "*.html",
 	"jadeAutoOutputPathRelativePath": "",
 	"jadeAutoOutputPathReplace1": "",
 	"jadeAutoOutputPathReplace2": "",
 	"jadeAutoOutputPathStyle": 0,
 	"jadeCompileDebug": 1,
-	"jadeOutputStyle": 0,
-	"javascriptAutoOutputPathEnabled": 1,
-	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
+	"jadeOutputStyle": 1,
 	"javascriptAutoOutputPathRelativePath": "\/min",
 	"javascriptAutoOutputPathReplace1": "",
 	"javascriptAutoOutputPathReplace2": "",
-	"javascriptAutoOutputPathStyle": 2,
+	"javascriptAutoOutputPathStyle": 0,
 	"javascriptCreateSourceMap": 1,
 	"javascriptOutputStyle": 1,
+	"javascriptOutputSuffix": "-ck",
 	"javascriptSyntaxCheckerStyle": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
@@ -340,6 +317,10 @@
 			"flagValue": -1
 			},
 		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"gcl": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -455,6 +436,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"onevar": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"phantom": {
 			"active": 0,
 			"flagValue": -1
@@ -491,6 +476,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"smarttabs": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"strict": {
 			"active": 0,
 			"flagValue": -1
@@ -503,6 +492,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"trailing": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"typed": {
 			"active": 0,
 			"flagValue": -1
@@ -513,6 +506,10 @@
 			},
 		"unused": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"withstmt": {
@@ -638,15 +635,11 @@
 			"flagValue": -1
 			}
 		},
-	"kitAutoOutputPathEnabled": 1,
-	"kitAutoOutputPathFilenamePattern": "*.html",
 	"kitAutoOutputPathRelativePath": "",
 	"kitAutoOutputPathReplace1": "",
 	"kitAutoOutputPathReplace2": "",
 	"kitAutoOutputPathStyle": 0,
 	"lessAllowInsecureImports": 0,
-	"lessAutoOutputPathEnabled": 1,
-	"lessAutoOutputPathFilenamePattern": "*.css",
 	"lessAutoOutputPathRelativePath": "..\/css",
 	"lessAutoOutputPathReplace1": "less",
 	"lessAutoOutputPathReplace2": "css",
@@ -659,8 +652,6 @@
 	"lessStrictImports": 0,
 	"lessStrictMath": 0,
 	"lessStrictUnits": 0,
-	"markdownAutoOutputPathEnabled": 1,
-	"markdownAutoOutputPathFilenamePattern": "*.html",
 	"markdownAutoOutputPathRelativePath": "",
 	"markdownAutoOutputPathReplace1": "",
 	"markdownAutoOutputPathReplace2": "",
@@ -669,8 +660,6 @@
 	"markdownEnableSmartyPants": 1,
 	"markdownExpandTabs": 1,
 	"reloadFileURLs": 0,
-	"sassAutoOutputPathEnabled": 1,
-	"sassAutoOutputPathFilenamePattern": "*.css",
 	"sassAutoOutputPathRelativePath": "..\/css",
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
@@ -683,8 +672,6 @@
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
 	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",
-	"slimAutoOutputPathEnabled": 1,
-	"slimAutoOutputPathFilenamePattern": "*.html",
 	"slimAutoOutputPathRelativePath": "",
 	"slimAutoOutputPathReplace1": "",
 	"slimAutoOutputPathReplace2": "",
@@ -693,18 +680,14 @@
 	"slimLogicless": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
-	"stylusAutoOutputPathEnabled": 1,
-	"stylusAutoOutputPathFilenamePattern": "*.css",
 	"stylusAutoOutputPathRelativePath": "..\/css",
 	"stylusAutoOutputPathReplace1": "stylus",
 	"stylusAutoOutputPathReplace2": "css",
-	"stylusAutoOutputPathStyle": 2,
+	"stylusAutoOutputPathStyle": 0,
 	"stylusDebugStyle": 0,
 	"stylusImportCSS": 0,
-	"stylusOutputStyle": 0,
+	"stylusOutputStyle": 1,
 	"stylusResolveRelativeURLS": 0,
-	"typescriptAutoOutputPathEnabled": 1,
-	"typescriptAutoOutputPathFilenamePattern": "*.js",
 	"typescriptAutoOutputPathRelativePath": "\/js",
 	"typescriptAutoOutputPathReplace1": "",
 	"typescriptAutoOutputPathReplace2": "",
@@ -816,7 +799,7 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
