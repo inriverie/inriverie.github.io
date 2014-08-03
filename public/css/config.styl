@@ -1,27 +1,23 @@
-@import 'typography'
-
-
 /*------------------------------------*\
   TYPOGRAPHY
 \*------------------------------------*/
+@import 'typography'
+
+
 display_typeface= georgia
 text_typeface   = verdana
 
 
-text_size = 16px
-leading   = 24px
+text_size   = 16px
+leading     = 24px
+line_height = remove-unit(leading / text_size)
 
 
-line_height_ratio   = remove-unit(leading / text_size)
 modular_scale_ratio = minor_third
 important_number    = undefined
 
 
-// @value String: global | headings | null
-font_enhancement= null
-
-
-print_serif     = false
+print_type  = 'sans'
 
 
 
@@ -31,38 +27,22 @@ print_serif     = false
   COLOR
 \*------------------------------------*/
 brand_color = hsl(224, 73%, 50%)
-text_color  = hsl(0, 0%, 27%)
-
-caption_color = lighten(text_color, 12%)
-code_color    = hsl(344, 100%, 37%)
-link_color    = brand_color
-
-selection_color     = hsl(0, 0%, 100%)
-selection_highlight = true
 
 
+text_color      = hsl(0, 0%, 27%)
+link_color      = brand_color
+selection_color = hsla(0, 0%, 0%, .2)
 
 
-
-/*------------------------------------*\
-  UI TEXTURE
-\*------------------------------------*/
-bg_color    = hsl(0, 0%, 96%)
-border_color= hsl(0, 0%, 84%)
+background_color= hsl(0, 0%, 96%)
+border_color    = hsl(0, 0%, 84%)
 
 
 
 
 
 /*------------------------------------*\
-  ELEMENT SUPPORT
+  IMPORTS
 \*------------------------------------*/
-use_blockquotes = false
-use_code        = false
-use_edits       = false
-use_figure      = false
-use_forms       = false
-use_media       = false
-use_pre         = false
-use_rules       = false
-use_tables      = false
+@import 'mixins'
+@import 'document'

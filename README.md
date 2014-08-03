@@ -15,18 +15,7 @@ Barebones starter files and directory structure for new web projects.
 
 ## Stylesheets
 
-`config.styl` controls the project style settings. Each page specific stylesheet (`[PAGE].styl`) should have a section dedicated to over-writing these settings on a page-by-page basis (shown below).
-
-`[PAGE].styl` files can be started by copying the following template.
+`config.styl` controls the project style settings. New stylesheets should only need to import `config.styl` to inherit framework.
 
     @import '../config'
-    // Redefine variables here
-    @import '../imports'
-
-
-## Dependencies
-
-* [Codekit](http://incident57.com/codekit/) for all the heavy lifting,
-* My CSS utility, [Morula](https://github.com/inriverie/morula),
-* CSS is preprocessed with [Stylus](http://learnboost.github.io/stylus/),
-* [Jade](http://jade-lang.com/) templating.
+    // page or project specific css here
