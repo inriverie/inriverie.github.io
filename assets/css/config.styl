@@ -8,13 +8,12 @@ display_typeface= georgia
 text_typeface   = verdana
 
 
-text_size   = 16px
-leading     = 24px
-line_height = remove-unit(leading / text_size)
-
-
-modular_scale_ratio = minor_third
+modular_scale_ratio = golden_section
 important_number    = undefined
+
+text_size   = 16px
+leading     = round(text_size * modular_scale_ratio)
+line_height = remove-unit(leading / text_size)
 
 
 print_type  = 'sans'
@@ -26,12 +25,8 @@ print_type  = 'sans'
 /*------------------------------------*\
   COLOR
 \*------------------------------------*/
-brand_color = hsl(224, 73%, 50%)
-
-
-text_color      = hsl(0, 0%, 27%)
-link_color      = brand_color
-selection_color = hsla(0, 0%, 0%, .2)
+primary_color = hsl(224, 73%, 50%)
+text_color    = hsl(0, 0%, 27%)
 
 
 background_color= hsl(0, 0%, 96%)

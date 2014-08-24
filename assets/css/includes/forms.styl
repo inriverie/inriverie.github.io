@@ -3,17 +3,11 @@
 
 /*------------------------------------*\
   LABEL
-  `.additional` e.g. Phone (why ask?)
 \*------------------------------------*/
-label,
-.label
+label
   cursor      pointer
   display     block
   line-height line_height
-
-
-  .additional
-    font-weight normal
 
 
 
@@ -22,7 +16,7 @@ label,
 /*------------------------------------*\
   INPUTS
 \*------------------------------------*/
-.input--txt
+input[type='text']
   width 100%
 
 
@@ -36,7 +30,7 @@ input[type="radio"]
 
 /*------------------------------------*\
   SELECT
-  Put `select` icon back with dropdown.svg
+  TODO base64 encode dropdown.svg as background-image
 
   1. Prevents Webkit from locking `font-size`.
 \*------------------------------------*/
