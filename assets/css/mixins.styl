@@ -1,0 +1,150 @@
+/*------------------------------------*\
+  TYPOGRAPHY
+\*------------------------------------*/
+// @params value: px | rem | em
+font-size(value)
+  if unit(value) is 'px'
+    font-size unit((value / text_size), 'rem')
+  else if unit(value) is 'rem' or if unit(value) is 'em'
+    font-size value
+  else
+    error('The font-size mixin was not passed a px, rem, or em unit.')
+
+
+// @params value: <integer>
+scaleBy(value)
+  op = value >= 0 ? '*' : '/'
+  sf = (scale ** value)
+  result = text_size <= scale_aug ? operate(op,text_size,sf) : operate(op,scale_aug,sf)
+  return unit(round(result), 'px')
+
+
+// @params value: normal | 'liga' 1 | 'dlig' | 'lnum' | 'onum' 'smcp' | 'swsh' n
+// @params 'swsh' n: where [n] is the swash index number, e.g. 'swsh' 2
+font-feature-settings()
+  -webkit-font-feature-settings arguments // [1] Chrome, Opera
+  -moz-font-feature-settings    arguments // [2] Firefox
+  font-feature-settings         arguments // [3] IE
+
+
+
+
+
+/*------------------------------------*\
+  LAYOUT
+
+  flex box
+  2. IE 10
+  3. Safari 6.1, iOS 7
+  4. Chrome, Firefox, IE, Opera
+\*------------------------------------*/
+display(value)
+  if value == 'flex'
+    display -ms-flexbox // [2]
+    display -webkit-flex // [3]
+    display flex // [4]
+  else
+    display value
+
+
+// @params value: row | row-reverse | column | column-reverse
+flex-direction()
+  -ms-flex-direction arguments // [2]
+  -webkit-flex-direction arguments // [3]
+  flex-direction arguments // [4]
+
+
+// @params value: nowrap | wrap | wrap-reverse
+flex-wrap()
+  -ms-flex-wrap arguments // [2]
+  -webkit-flex-wrap arguments // [3]
+  flex-wrap arguments // [4]
+
+
+// @params direction: row | row-reverse | column | column-reverse
+// @params wrap: nowrap | wrap | wrap-reverse
+flex-flow(direction, wrap)
+  -ms-flex-flow direction wrap // [2]
+  -webkit-flex-flow direction wrap // [3]
+  flex-flow direction wrap // [4]
+
+
+// @params value: flex-start | flex-end | center | space-between | space-around
+justify-content(value)
+  if value == 'flex-start'
+    -ms-flex-pack start // [2]
+  else if value == 'flex-end'
+    -ms-flex-pack end // [2]
+  else if value == 'center'
+    -ms-flex-pack value // [2]
+  else if value == ('space-between' || 'space-around')
+    -ms-flex-pack justify // [2]
+  else
+    error('Incorrect value for justify-content')
+
+  -webkit-justify-content value // [3]
+  justify-content value // [4]
+
+
+// @params value: flex-start | flex-end | center | baseline | stretch
+align-items(value)
+  if value == ('flex-start' || 'baseline')
+    -ms-flex-align start // [2]
+  else if value == 'flex-end'
+    -ms-flex-align end // [2]
+  else if value == 'center'
+    -ms-flex-align value // [2]
+  else if value == 'stretch'
+    -ms-flex-align value // [2]
+  else
+    error('Incorrect value for align-items')
+
+  -webkit-align-items value // [3]
+  align-items value // [4]
+
+
+// @params value: flex-start | flex-end | center | space-between | space-around | stretch
+align-content()
+  -webkit-align-content arguments // [3]
+  -ms-flex-line-pack arguments // [2]
+  align-content arguments // [4]
+
+
+// @params value: <integer>
+order()
+  -ms-flex-order arguments // [2]
+  -webkit-order arguments // [3]
+  order arguments // [4]
+
+
+// @params value: none | <flex-grow> | <flex-grow <flex-shrink> <flex-basis>
+// @params <flex-grow>: <number>. Growth size in comparison to other flex items (siblings). Defaults to 0.
+// @params <flex-shrink>: (optional). <number>. Shrink size in comparison to other flex items (siblings). Defaults to 1.
+// @params <flex-basis>: (optional). <length>. Defines default size before before space distribution. Defaults to auto.
+flex()
+  -ms-flex arguments // [2]
+  -webkit-flex arguments // [3]
+  flex arguments // [4]
+
+
+// @params value: auto | flex-start | flex-end | center | baseline | stretch
+align-self()
+  -ms-flex-item-align arguments // [2]
+  -webkit-align-self arguments // [3]
+  align-self arguments // [4]
+
+
+
+
+
+/*------------------------------------*\
+  UI
+\*------------------------------------*/
+// @params value: none | translate | scale | rotate | skew | matrix | perspective
+// @params translate: translate(x, y) | translateX() | translateY() | translateZ() | translate3d(x, y, z)
+// @params scale: scale(x, y) | scaleX() | scaleY() | scaleZ() | scale3d(x, y, z)
+// @params rotate: rotate([deg]) | rotateX([deg]) | rotateY([deg]) | rotateZ([deg]) | rotate3d(x, y, z)
+// @params skew: skew([deg]) | skewX([deg]) | skewY([deg])
+transform()
+  -webkit-transform arguments // [1] Safari, Android
+  transform arguments

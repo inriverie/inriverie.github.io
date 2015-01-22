@@ -15,7 +15,8 @@ Barebones starter files and directory structure for new web projects.
 
 ## Stylesheets
 
-`config.styl` controls the project style settings. New stylesheets should only need to import `config.styl` to inherit framework.
+Stylesheets only need to import `document.styl`. Import others, i.e. forms.styl, after.
 
-    @import '../config'
-    // page or project specific css here
+    @import '../document'
+    @import '../forms'
+    // page or project specific css…

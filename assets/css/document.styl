@@ -1,0 +1,91 @@
+/*------------------------------------*\
+  CONFIG
+\*------------------------------------*/
+text_size = 17
+scale     = 1.618
+scale_aug = 60
+
+
+@import 'mixins'
+
+
+
+
+
+/*------------------------------------*\
+  DOCUMENT
+
+  1. Provides native iOS scrolling to scrollable containers
+  2. Prevents text resizing after orientation change
+    http://goo.gl/watr5
+\*------------------------------------*/
+*
+  box-sizing border-box
+
+
+html
+  background-color  white
+  color             hsl(0, 0%, 27%)
+  font              unit(text_size / 16 * 100, '%') / scale sans-serif
+
+  -webkit-overflow-scrolling  touch // [1]
+  -webkit-tap-highlight-color transparent
+
+  -webkit-text-size-adjust    100% // [2]
+  -ms-text-size-adjust        100% // [2]
+
+
+body
+  margin  0
+
+
+
+
+
+/*------------------------------------*\
+  STANDARDIZE ELEMENTS
+
+  1. Correct `block` display not defined in IE.
+\*------------------------------------*/
+main
+  display block // [1]
+
+
+
+
+
+/*------------------------------------*\
+  INLINE ELEMENTS
+
+  2. Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+  3. Address inconsistent browser sizing.
+  4. Prevent affecting `line-height`.
+\*------------------------------------*/
+b,
+strong
+  font-weight 700 // [2]
+
+
+:lang(en) q
+  quotes  '\2018' '\2019' '\201C' '\201D'
+  &::before
+    content  open-quote
+  &::after
+    content  close-quote
+  q::before
+    content  open-quote
+  q::after
+    content  close-quote
+
+
+
+
+
+/*------------------------------------*\
+  MEDIA
+
+  1. Fluid images.
+\*------------------------------------*/
+img
+  height    auto // [1]
+  max-width 100% // [1]
