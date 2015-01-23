@@ -1,3 +1,4 @@
 *.sublime-*
 index.html
 styleguide.*
+.DS_Store
