@@ -1,0 +1,40 @@
+extends views/layout
+append head
+  meta(name='description', content='A collection of UX case studies based on projects I worked on for the Zappos Checkout team.')
+  title Zappos Checkout Improvements UX Case Study
+  //- link(rel='stylesheet', href='../assets/css/example.css')
+
+block content
+  main
+    h1 Improving the Zappos Checkout Experience
+
+    h2 Project Overview
+    p After years of large, slow releases on a single web stack the Zappos tech organization decided to implement product teams in an attempt to reach business goals at a faster rate. A team was formed around the checkout experience and I was assigned as their lead UX designer. My objective was to aid the team in achieving metrics and goals while still ensuring that customer needs were being met. Since the first several weeks of the transition were dedicated to code migration, I decided to spearhead a project and have a draft of concepts prepared by the time the team was ready to establish a roadmap.
+    p Knowing Zappos’ stakeholders were concerned with increasing conversion for both new and returning customers, my first step was to understand where and why customers were falling off in the purchase flow. I chose to start with heuristics to get an idea of the holistic experience. Diagramming the high level flow helped me to identify potential roadblocks and cart abandonment locations. I then worked with the UX Research team on contextual inquiries and collected behavioral data from our analytics to verify my conclusions. Our results confirmed that we needed to focus on removing barriers and reducing the effort involved in placing an order, leading me to three areas in the checkout flow that could be improved upon in order to fulfill these requirements.
+    
+    h2 Cart
+    h3 The Problem
+    p Stakeholders see the cart as a final upsell opportunity, wanting it to increase the average order size and total while also performing its primary task of initiating checkout. Customers use the cart as a multi-purpose storage solution (save for later, favorites, comparisons, purchasing, etc.) irrespective of their intention to buy. This misalignment caused a hit in metric performance. 
+    h3 The Approach
+    p The challenge was to align these two viewpoints. To focus in on the cart’s primary purpose and see where the other pieces could fit, I listed all stakeholder objectives and customer behavior. When proceeding to the cart page the customer’s expectation is to see checkout progression or the items they’ve added. But even with cart items and recommendations placed in separate columns, product recommendation images were visible first, which pushed the actual cart further down the page.
+    p We had to retain the recommendations to comply with stakeholder goals, and certain promotional elements had to be prominent per contracts with third parties. Page elements were shifted to meet customer expectations, but regardless of an improved visual hierarchy I felt that conflicting metrics was negatively impacting page performance. The problem was that stakeholders saw a page with dedicated white space as an opportunity to fill it with more content, without thought as to how it would affect the page’s primary goal—progressing the purchase. The cart page needed to be replaced completely by a better solution.
+    h3 The Solution
+    p By focusing on the customer we can remove the checkout page and leverage a perpetual cart. This allows customers to add products to their cart without deviating from the shopping experience. It also promotes the stakeholders’ goals; order totals and order size are results of continuous shopping, which a perpetual cart facilitates by keeping the customer in the shopping experience.
+
+    h2 Login
+    h3 The Problem 
+    p Requiring an account creates a barrier that must be overcome before a purchase can be made. New customers’ trust has yet to be earned, so they may be hesitant to make such a commitment. For returning customers, forgotten passwords are common, and one of the most documented reasons for purchase abandonment as it requires time and effort to reset them.
+    h3 The Approach
+    p Guest checkout seemed like an obvious solution to both problems, but after consideration I wanted to challenge the ‘returning customer or guest’ paradigm altogether. Presenting a ‘sign in or check out as a guest’ dialogue adds an additional step to the checkout process, interrupts the flow from shopping to purchasing, and requires a decision to be made by the customer. All of these situations create the potential for purchase abandonment. Additionally, for existing customers, a failed log in attempt may cause them to just check out as a guest anyway, and that order then becomes separated from their normal account. 
+    h3 The Solution
+    p What if the login step was removed completely, and the customer was allowed to proceed straight to checkout as soon as they were ready to make their purchase? Then new customers wouldn’t have their shopping experience interrupted by account creation, and returning customers would be spared unnecessary effort, since orders would be synced to their account automatically by matching them up with the email address used for order confirmation. Additionally, with such a system already in place, if a customer without an account later decides to create one, their order history would be consolidated based on the email address used.
+
+    h2 Checkout    
+    h3 The Problem
+    p Single page checkouts are cluttered with form elements and policies. This adds to the visual weight of the page and causes the form to look longer and more complex than it actually is. [This adds to the visual weight of the page, causing the form to look longer and more complex than it actually is and therefore increasing the [risk / rate] of purchase abandonment.] 
+    h3 Approach
+    p A series of A/B tests was performed on the policies and other non-form distractions. By removing these items and monitoring changes that had statistical significance, we determined that removing the extra elements yielded positive results.
+    h3 Solution
+    p Once I knew the design could be focused on the form, I started simplifying the elements. Addresses make up most of the required fields. Utilizing an address lookup API for auto-suggest in a single field reduces interactions and errors. Figuring that gift givers would have the recipient foremost in mind when entering their name, the Gift Message box was placed next to Recipient’s Name.
+    p Credit Cards are the primary payment method, so to keep that area clean I opted to have the gift card entry be activated by the customer. To keep mobile shoppers from bouncing between form elements, and thus on the number keyboard, the credit card field acts as a mask for the expiration date. The billing address defaults to shipping to save additional typing. If the addresses differ, the same single-field address API simplifies input. 
+    p Email address, needed for receipt, is the only new field and doubles for the order sync. Phone number acts for both shipping and billing, but customers have the option to add another number if needed.
