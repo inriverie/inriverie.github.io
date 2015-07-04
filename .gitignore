@@ -2,3 +2,6 @@
 index.html
 styleguide.*
 .DS_Store
+
+*.jade
+*.styl
