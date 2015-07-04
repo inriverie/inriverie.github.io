@@ -1,6 +1,4 @@
-*.sublime-*
-index.html
-styleguide.*
+config.codekit
 .DS_Store
 
 *.jade
