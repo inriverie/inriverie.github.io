@@ -3,12 +3,14 @@
 \*------------------------------------*/
 // @params value: px | rem | em
 font-size(value)
-  if unit(value) is 'px'
-    font-size unit((value / text_size), 'rem')
-  else if unit(value) is 'rem' or if unit(value) is 'em'
-    font-size value
-  else
-    error('The font-size mixin was not passed a px, rem, or em unit.')
+  font-size unit((value / text_size), 'rem') if unit(value) is 'px'
+// font-size(value)
+//   if unit(value) is 'px'
+//     font-size unit((value / text_size), 'rem')
+//   else if unit(value) is 'rem' or if unit(value) is 'em'
+//     font-size value
+//   else
+//     error('The font-size mixin was not passed a px, rem, or em unit.')
 
 
 // @params value: <integer>

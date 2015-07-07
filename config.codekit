@@ -6,8 +6,8 @@
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"fileType": 8,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"importCSS": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/document.styl",
 		"outputAbbreviatedPath": "\/assets\/css\/document.css",
@@ -34,25 +34,129 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
+	"\/assets\/css\/zappos.css": {
+		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
+		"inputAbbreviatedPath": "\/assets\/css\/zappos.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/index.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
+	"\/assets\/css\/zappos.styl": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"fileType": 8,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.jade",
-		"outputAbbreviatedPath": "\/index.html",
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/zappos.styl",
+		"outputAbbreviatedPath": "\/assets\/css\/zappos.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputStyle": 1,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"\/assets\/img\/checkout-wireframe.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 185455,
+		"inputAbbreviatedPath": "\/assets\/img\/checkout-wireframe.png",
+		"outputAbbreviatedPath": "\/assets\/img\/checkout-wireframe.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/high-level.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62844,
+		"inputAbbreviatedPath": "\/assets\/img\/high-level.png",
+		"outputAbbreviatedPath": "\/assets\/img\/high-level.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/login-flow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52259,
+		"inputAbbreviatedPath": "\/assets\/img\/login-flow.png",
+		"outputAbbreviatedPath": "\/assets\/img\/login-flow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/new-checkout.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 150572,
+		"inputAbbreviatedPath": "\/assets\/img\/new-checkout.png",
+		"outputAbbreviatedPath": "\/assets\/img\/new-checkout.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/new-flow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27959,
+		"inputAbbreviatedPath": "\/assets\/img\/new-flow.png",
+		"outputAbbreviatedPath": "\/assets\/img\/new-flow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/no-login-flow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35910,
+		"inputAbbreviatedPath": "\/assets\/img\/no-login-flow.png",
+		"outputAbbreviatedPath": "\/assets\/img\/no-login-flow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/old-cart.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.17526e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/old-cart.png",
+		"outputAbbreviatedPath": "\/assets\/img\/old-cart.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/order-sync.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38945,
+		"inputAbbreviatedPath": "\/assets\/img\/order-sync.png",
+		"outputAbbreviatedPath": "\/assets\/img\/order-sync.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/perp-cart.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9536,
+		"inputAbbreviatedPath": "\/assets\/img\/perp-cart.png",
+		"outputAbbreviatedPath": "\/assets\/img\/perp-cart.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/README.md": {
 		"criticStyle": 0,
@@ -82,6 +186,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/views\/layout.jade",
 		"outputAbbreviatedPath": "\/views\/layout.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/zappos.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/zappos.jade",
+		"outputAbbreviatedPath": "\/zappos.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
