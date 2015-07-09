@@ -5,15 +5,24 @@ append head
   link(rel='stylesheet', href='assets/css/zappos.css')
 
 block content
-  main(role='main')
+  main
     article
-      h1 Improving the Zappos Checkout Experience
+      header
+        h1 Improving the Zappos Checkout Experience
 
-      section#intro
+      section#intro    
+        aside
+          figure
+            img(
+              alt='diagram of the checkout flow'
+              src='assets/img/diagram.png'
+              srcset='assets/img/diagram-2x.png 2x')
+
         h2 Project Overview
         p Zappos’ stakeholders wanted an increase in conversion for both new and returning customers. To accomplish this, a team was formed around the checkout experience. As its Lead UX Designer, I was to aid the team in achieving metrics and goals while still ensuring that customer needs were being met. [“I started the project.”]
 
         p My first step was to understand where and why customers were abandoning their purchases. I chose to start with heuristics to get an idea of the holistic experience. Diagramming the high level flow helped identify potential roadblocks and abandonment locations. I then worked with the UX Research team on contextual inquiries and collected behavioral data from our analytics to verify my conclusions. Our results confirmed that we needed to focus on removing barriers and reducing the effort involved in placing an order.
+      //- end #intro
 
 
       section#cart
@@ -21,20 +30,54 @@ block content
         div
           p Stakeholders see the cart as a final upsell opportunity, wanting it to increase the average order size and total while also performing its primary task of initiating checkout. Third party contracts require certain promotional elements to be displayed on the page. Customers use the cart as a multi-purpose storage solution (save for later, favorites, comparisons, purchasing, etc.) irrespective of their intention to buy. This misalignment caused a hit in metric performance
           p The challenge was finding a solution where business and customer goals could coexist. I wireframed various layout ideas, but there were too many elements with conflicting purposes: progress to checkout or continue shopping. The only way to reconcile these cross-purposes was to make the cart a part of the shopping experience.
+          aside
+            figure
+              img(
+                alt='wireframe for the cart page'
+                src='assets/img/cart.png'
+                srcset='assets/img/cart-2x.png 2x')
 
 
-        p Focusing on customer behavior, I removed the cart page in favor of a perpetual cart. This allows customers to continue to use the cart as they normally would, without taking them out of the shopping experience. It also keeps the required promotional elements displayed and promotes the stakeholders’ goals; order totals and order size are results of continuous shopping.
-
+        div
+          p Focusing on customer behavior, I removed the cart page in favor of a perpetual cart. This allows customers to continue to use the cart as they normally would, without taking them out of the shopping experience. It also keeps the required promotional elements displayed and promotes the stakeholders’ goals; order totals and order size are results of continuous shopping.
+          aside
+            figure
+              img(
+                alt='wireframe for the perpetual page'
+                src='assets/img/perp-cart.png'
+                srcset='assets/img/perp-cart-2x.png 2x')
+      //- end #cart
 
       section#login
         h2 Login
         div
           p Requiring an account creates a barrier that must be overcome before a purchase can be made. New customers’ trust has yet to be earned so they may be hesitant to make such a commitment.
           p Guest checkout seemed like an obvious solution, but after consideration I wanted to challenge the ‘returning customer or guest’ paradigm altogether. The ‘sign in or check out as a guest’ dialogue creates several potential purchase abandonment points: adding an additional step to the checkout process, interrupting the flow from shopping to purchasing, and requiring a decision to be made by the customer.
+          aside
+            figure
+              img(
+                alt='diagram of the login flow'
+                src='assets/img/login.png'
+                srcset='assets/img/login-2x.png 2x')
 
-        p If the login step is removed the customer can proceed straight to checkout as soon as they’re ready to make their purchase. New customers won’t have their shopping experience interrupted by account creation, but returning customers would benefit as well, since they would be spared the effort of logging in and remembering a password.
+        div
+          p If the login step is removed the customer can proceed straight to checkout as soon as they’re ready to make their purchase. New customers won’t have their shopping experience interrupted by account creation, but returning customers would benefit as well, since they would be spared the effort of logging in and remembering a password.
+          aside
+            figure
+              img(
+                alt='diagram without the login flow'
+                src='assets/img/no-login.png'
+                srcset='assets/img/no-login-2x.png 2x')
 
-        p [Removing the login step presented the question: Without the ability to log in how do returning customers access their order history?] Orders are now synced to a customer’s account automatically, using the email address entered at order confirmation. Additionally, with such a system in place if a customer without an account later decides to create one, their order history would be consolidated based on the email address used.
+        div
+          p [Removing the login step presented the question: Without the ability to log in how do returning customers access their order history?] Orders are now synced to a customer’s account automatically, using the email address entered at order confirmation. Additionally, with such a system in place if a customer without an account later decides to create one, their order history would be consolidated based on the email address used.
+          aside
+            figure
+              img(
+                alt='order sync diagram'
+                src='assets/img/order-sync.png'
+                srcset='assets/img/order-sync-2x.png 2x')
+      //- end #login
 
 
       section#checkout
@@ -42,8 +85,22 @@ block content
         div
           p Single page checkouts are cluttered with form elements and policies. This adds to the visual weight of the page and causes the form to look longer and more complex than it actually is.
           p A series of A/B tests was performed on the policies and other non-form distractions. By removing these items and monitoring changes that had statistical significance, we determined that removing the extra elements yielded positive results.
+          aside
+            figure
+              img(
+                alt='wireframe of the checkout page'
+                src='assets/img/checkout.png'
+                srcset='assets/img/checkout-2x.png 2x')
 
-        p Once I knew the design could be focused on the form, I started simplifying the elements. Addresses make up most of the required fields, so utilizing an address lookup API for auto-suggest in a single field reduces interactions and errors. Credit Card entry was reduced from three fields to one by having the credit card field act as a mask for the expiration date. The billing address defaults to shipping, but if the addresses differ the same single-field address API simplifies input. Email address, needed for receipt, is the only new field and doubles for the order sync.
+        div
+          p Once I knew the design could be focused on the form, I started simplifying the elements. Addresses make up most of the required fields, so utilizing an address lookup API for auto-suggest in a single field reduces interactions and errors. Credit Card entry was reduced from three fields to one by having the credit card field act as a mask for the expiration date. The billing address defaults to shipping, but if the addresses differ the same single-field address API simplifies input. Email address, needed for receipt, is the only new field and doubles for the order sync.
+          aside
+            figure
+              img(
+                alt='wireframe of the proposed checkout changes'
+                src='assets/img/new-checkout.png'
+                srcset='assets/img/new-checkout-2x.png 2x')
+      //- end #checkout
 
 
       section#conclusion
@@ -53,3 +110,8 @@ block content
 
       aside
         video(src='assets/video/checkout flow copy.m4v' controls)
+
+
+block scripts
+  //- Load playthrough video
+  //- Set 'overlow hidden' to document

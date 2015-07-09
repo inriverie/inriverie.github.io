@@ -59,79 +59,145 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
-	"\/assets\/img\/checkout-wireframe.png": {
+	"\/assets\/img\/cart-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 185455,
-		"inputAbbreviatedPath": "\/assets\/img\/checkout-wireframe.png",
-		"outputAbbreviatedPath": "\/assets\/img\/checkout-wireframe.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/high-level.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 62844,
-		"inputAbbreviatedPath": "\/assets\/img\/high-level.png",
-		"outputAbbreviatedPath": "\/assets\/img\/high-level.png",
+		"initialSize": 36639,
+		"inputAbbreviatedPath": "\/assets\/img\/cart-2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/cart-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/img\/login-flow.png": {
+	"\/assets\/img\/cart.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 52259,
-		"inputAbbreviatedPath": "\/assets\/img\/login-flow.png",
-		"outputAbbreviatedPath": "\/assets\/img\/login-flow.png",
+		"initialSize": 16466,
+		"inputAbbreviatedPath": "\/assets\/img\/cart.png",
+		"outputAbbreviatedPath": "\/assets\/img\/cart.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/assets\/img\/checkout-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28586,
+		"inputAbbreviatedPath": "\/assets\/img\/checkout-2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/checkout-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/checkout.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13590,
+		"inputAbbreviatedPath": "\/assets\/img\/checkout.png",
+		"outputAbbreviatedPath": "\/assets\/img\/checkout.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/diagram-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33552,
+		"inputAbbreviatedPath": "\/assets\/img\/diagram-2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/diagram-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/diagram.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25375,
+		"inputAbbreviatedPath": "\/assets\/img\/diagram.png",
+		"outputAbbreviatedPath": "\/assets\/img\/diagram.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/login-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52239,
+		"inputAbbreviatedPath": "\/assets\/img\/login-2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/login-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/login.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20712,
+		"inputAbbreviatedPath": "\/assets\/img\/login.png",
+		"outputAbbreviatedPath": "\/assets\/img\/login.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/new-checkout-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19128,
+		"inputAbbreviatedPath": "\/assets\/img\/new-checkout-2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/new-checkout-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/assets\/img\/new-checkout.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 150572,
+		"initialSize": 7309,
 		"inputAbbreviatedPath": "\/assets\/img\/new-checkout.png",
 		"outputAbbreviatedPath": "\/assets\/img\/new-checkout.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/assets\/img\/new-flow.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 27959,
-		"inputAbbreviatedPath": "\/assets\/img\/new-flow.png",
-		"outputAbbreviatedPath": "\/assets\/img\/new-flow.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/no-login-flow.png": {
+	"\/assets\/img\/no-login-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 35910,
-		"inputAbbreviatedPath": "\/assets\/img\/no-login-flow.png",
-		"outputAbbreviatedPath": "\/assets\/img\/no-login-flow.png",
+		"inputAbbreviatedPath": "\/assets\/img\/no-login-2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/no-login-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/assets\/img\/old-cart.png": {
+	"\/assets\/img\/no-login.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.17526e+06,
-		"inputAbbreviatedPath": "\/assets\/img\/old-cart.png",
-		"outputAbbreviatedPath": "\/assets\/img\/old-cart.png",
+		"initialSize": 13551,
+		"inputAbbreviatedPath": "\/assets\/img\/no-login.png",
+		"outputAbbreviatedPath": "\/assets\/img\/no-login.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/order-sync-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39033,
+		"inputAbbreviatedPath": "\/assets\/img\/order-sync-2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/order-sync-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -140,23 +206,34 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 38945,
+		"initialSize": 15301,
 		"inputAbbreviatedPath": "\/assets\/img\/order-sync.png",
 		"outputAbbreviatedPath": "\/assets\/img\/order-sync.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/assets\/img\/perp-cart-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48276,
+		"inputAbbreviatedPath": "\/assets\/img\/perp-cart-2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/perp-cart-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/assets\/img\/perp-cart.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 9536,
+		"initialSize": 18234,
 		"inputAbbreviatedPath": "\/assets\/img\/perp-cart.png",
 		"outputAbbreviatedPath": "\/assets\/img\/perp-cart.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/README.md": {
 		"criticStyle": 0,
@@ -189,6 +266,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
+		},
+	"\/zappos.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/zappos.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/zappos.jade": {
 		"compileDebug": 1,
