@@ -125,6 +125,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/final-mock-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57775,
+		"inputAbbreviatedPath": "\/assets\/img\/final-mock-2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/final-mock-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/final-mock-alt-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47491,
+		"inputAbbreviatedPath": "\/assets\/img\/final-mock-alt-2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/final-mock-alt-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/final-mock-alt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16989,
+		"inputAbbreviatedPath": "\/assets\/img\/final-mock-alt.png",
+		"outputAbbreviatedPath": "\/assets\/img\/final-mock-alt.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/final-mock.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20634,
+		"inputAbbreviatedPath": "\/assets\/img\/final-mock.png",
+		"outputAbbreviatedPath": "\/assets\/img\/final-mock.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/login-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
