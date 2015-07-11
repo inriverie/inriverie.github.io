@@ -5,6 +5,11 @@ text_size = 17
 scale     = 1.618
 scale_aug = 60
 
+diagram_bg_color = hsl(217, 14%, 25%)
+zappos_blue = hsl(210, 38%, 71%)
+zappos_light_grey = hsl(0, 0%, 94%)
+zappos_grey = hsl(0, 0%, 71%)
+
 
 @import 'mixins'
 
@@ -31,19 +36,6 @@ html
   -ms-text-size-adjust     100% // [2]
 
 
-body
-  margin  0
-
-
-main
-  display block // [1] IE
-
-
-b,
-strong
-  font-weight 700 // [2] Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
-
-
 :lang(en) q
   quotes  '\2018' '\2019' '\201C' '\201D'
   &::before
@@ -56,8 +48,26 @@ strong
     content  close-quote
 
 
+body
+  background-color zappos_light_grey
+  margin  0
+
+
+main
+  display block // [1] IE
+
+
+b,
+strong
+  font-weight 700 // [2] Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+
+
 img,
 video
   display block
   height    auto // [1] Fluid media.
   max-width 100% // [1]
+
+
+[hidden]
+  display none // [1] IE10

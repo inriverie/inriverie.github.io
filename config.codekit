@@ -279,6 +279,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/shipping-options-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42468,
+		"inputAbbreviatedPath": "\/assets\/img\/shipping-options-2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/shipping-options-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/shipping-options.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15425,
+		"inputAbbreviatedPath": "\/assets\/img\/shipping-options.png",
+		"outputAbbreviatedPath": "\/assets\/img\/shipping-options.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,

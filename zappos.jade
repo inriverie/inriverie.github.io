@@ -1,127 +1,126 @@
 extends views/layout
 append head
   meta(name='description', content='A collection of UX case studies based on projects I worked on for the Zappos Checkout team.')
-  title Zappos Checkout Improvements
+  title Improving the Zappos checkout experience
   link(rel='stylesheet', href='assets/css/zappos.css')
 
 block content
   main(role='main')
+    div.media-container
+      video(src='assets/video/process.m4v')
+
     article
       h1 Improving the Zappos Checkout Experience
 
-      div.media-container
-        video#process-video(
-          poster='assets/img/diagram-2x.png'
-          src='assets/video/processHD.m4v'
-          type='video/mpeg')
-      //- end .media-container
+      aside
+        img(
+          alt='shipping options'
+          src='assets/img/shipping-options.png'
+          srcset='assets/img/shipping-options-2x.png 2x'
+        )
 
-      div.content-container
-        section#intro(data-start='0' data-end='3')
-          h2 Project Overview
+      section
+        h2 Project Overview
+        div
           p Zappos’ stakeholders wanted an increase in conversion for both new and returning customers. As the Lead UX Designer for the Checkout team, I spearheaded an initiative to improve the checkout experience in order to increase conversion, retention, and acquisition.
-
           p My first step was to understand where and why customers were abandoning their purchases. I chose to start with heuristics to get an idea of the holistic experience. Diagramming the high level flow helped identify potential roadblocks and abandonment locations. I then worked with the UX Research team on contextual inquiries and collected behavioral data from our analytics to verify my conclusions. Our results confirmed that we needed to focus on removing barriers and reducing the effort involved in placing an order.
-        //- end #intro
+        aside
+          figure
+            img(
+              alt='checkout flow diagram'
+              src='assets/img/diagram.png'
+              srcset='assets/img/diagram-2x.png 2x'
+            )
 
+      section
+        h2 Cart
+        div
+          p The cart page was not performing to stakeholders’ satisfaction. They see the cart as a final upsell opportunity, wanting it to increase the average order size and total while also performing its primary task of initiating checkout. Customers use the cart as a multi-purpose storage solution (save for later, favorites, comparisons, purchasing, etc.) irrespective of their intention to buy. This misalignment caused a hit in metric performance.
+          p The challenge was finding a solution where business and customer goals could coexist. I wireframed various layout ideas, but there were too many elements with conflicting purposes: progress to checkout or continue shopping. The only way to reconcile these cross-purposes was to make the cart a part of the shopping experience.
+        aside
+          figure
+            img(
+              alt='Cart page wireframe'
+              src='assets/img/cart.png'
+              srcset='assets/img/cart-2x.png 2x'
+            )
+        div
+          p Focusing on customer behavior, I removed the cart page in favor of a perpetual cart. This allows customers to continue to use the cart as they normally would without taking them out of the shopping experience, and promotes the stakeholders’ goals since larger order totals and order size are the result of continuous shopping.
+        aside
+          figure
+            img(
+              alt='Perpetual cart wireframe'
+              src='assets/img/perp-cart.png'
+              srcset='assets/img/perp-cart-2x.png 2x'
+            )
 
-        section#cart
-          h2 Cart
-          div
-            p The cart page was not performing to stakeholders’ satisfaction. They see the cart as a final upsell opportunity, wanting it to increase the average order size and total while also performing its primary task of initiating checkout. Customers use the cart as a multi-purpose storage solution (save for later, favorites, comparisons, purchasing, etc.) irrespective of their intention to buy. This misalignment caused a hit in metric performance.
-            p The challenge was finding a solution where business and customer goals could coexist. I wireframed various layout ideas, but there were too many elements with conflicting purposes: progress to checkout or continue shopping. The only way to reconcile these cross-purposes was to make the cart a part of the shopping experience.
-            noscript
-              aside
-                figure
-                  img(
-                    alt='wireframe for the cart page'
-                    src='assets/img/cart.png'
-                    srcset='assets/img/cart-2x.png 2x')
+      section
+        h2 Login
+        div
+          p Customers are required to have an account to place an order, but a new customer’s trust has yet to be earned so they may be hesitant to make such a commitment. This creates a barrier that must be overcome before the purchase can be made.
+          p Guest checkout seemed like an obvious solution, but after consideration I wanted to challenge the ‘returning customer or guest’ paradigm altogether. Directing the customer to a login page creates several potential purchase abandonment points: interrupting the flow from shopping to purchasing, requiring the customer to make a decision, and adding an additional step to the checkout process.
+        aside
+          figure
+            img(
+              alt='Login flow diagram'
+              src='assets/img/login.png'
+              srcset='assets/img/login-2x.png 2x'
+            )
+        div
+          p If the login step is removed the customer can proceed straight to checkout as soon as they’re ready to make their purchase and new customers won’t have their shopping interrupted by account creation. It also benefits returning customers, since they would be spared the effort of remembering a password and logging in.
+        aside
+          figure
+            img(
+              alt='Purchase flow diagram without login'
+              src='assets/img/no-login.png'
+              srcset='assets/img/no-login-2x.png 2x'
+            )
+        div
+          p Removing the login requirement presented the question: if customers can now make purchases without being logged in, how are those purchases added to their order history? Using the email address entered at order confirmation, orders are now synced to a customer’s account automatically. Additionally, with such a system in place if a customer without an account later decides to create one, their order history would already be consolidated.
+        aside
+          figure
+            img(
+              alt='Order sync diagram'
+              src='assets/img/order-sync.png'
+              srcset='assets/img/order-sync-2x.png 2x'
+            )
 
+      section
+        h2 Checkout
+        div
+          p Single page checkouts are cluttered with form elements and policies. This adds to the visual weight of the page and causes the form to look longer and more complex than it actually is.
+          p A series of A/B tests was performed on the policies and other non-form elements. By removing these items and monitoring changes that had statistical significance, we determined that removing the extra elements yielded positive results.
+        aside
+          figure
+            img(
+              alt='Checkout page wireframe'
+              src='assets/img/checkout.png'
+              srcset='assets/img/checkout-2x.png 2x'
+            )
+        div
+          p Once I knew the design could be focused on the form, I started simplifying it. Addresses make up most of the required fields, so utilizing an address lookup API for auto-suggest in a single field reduces interactions and errors. Credit Card entry was reduced from three fields to one by having the card number field act as a mask for the expiration date. The billing address defaults to shipping, but if the addresses differ the same single-field address API simplifies input. Email address, needed for receipt, is the only new field and doubles for the order sync. 
+          p Ultimately, the form was reduced from 18 required input fields down to 6, and optional fields were placed behind interaction elements in order to maintain the form’s ease of use and streamlined appearance.
+        aside
+          figure
+            img(
+              alt='Proposed checkout page wireframe'
+              src='assets/img/new-checkout.png'
+              srcset='assets/img/new-checkout-2x.png 2x'
+            )
 
-          div
-            p Focusing on customer behavior, I removed the cart page in favor of a perpetual cart. This allows customers to continue to use the cart as they normally would without taking them out of the shopping experience, and promotes the stakeholders’ goals since larger order totals and order size are the result of continuous shopping.
-            noscript
-              aside
-                figure
-                  img(
-                    alt='wireframe for the perpetual page'
-                    src='assets/img/perp-cart.png'
-                    srcset='assets/img/perp-cart-2x.png 2x')
-        //- end #cart
-
-
-        section#login
-          h2 Login
-          div
-            p Customers are required to have an account to place an order, but a new customer’s trust has yet to be earned so they may be hesitant to make such a commitment. This creates a barrier that must be overcome before the purchase can be made.
-            p Guest checkout seemed like an obvious solution, but after consideration I wanted to challenge the ‘returning customer or guest’ paradigm altogether. Directing the customer to a login page creates several potential purchase abandonment points: interrupting the flow from shopping to purchasing, requiring the customer to make a decision, and adding an additional step to the checkout process.
-            noscript
-              aside
-                figure
-                  img(
-                    alt='diagram of the login flow'
-                    src='assets/img/login.png'
-                    srcset='assets/img/login-2x.png 2x')
-
-          div
-            p If the login step is removed the customer can proceed straight to checkout as soon as they’re ready to make their purchase and new customers won’t have their shopping interrupted by account creation. It also benefits returning customers, since they would be spared the effort of remembering a password and logging in.
-            noscript
-              aside
-                figure
-                  img(
-                    alt='diagram without the login flow'
-                    src='assets/img/no-login.png'
-                    srcset='assets/img/no-login-2x.png 2x')
-
-          div
-            p Removing the login requirement presented the question: if customers can now make purchases without being logged in, how are those purchases added to their order history? Using the email address entered at order confirmation, orders are now synced to a customer’s account automatically. Additionally, with such a system in place if a customer without an account later decides to create one, their order history would already be consolidated.
-            noscript
-              aside
-                figure
-                  img(
-                    alt='order sync diagram'
-                    src='assets/img/order-sync.png'
-                    srcset='assets/img/order-sync-2x.png 2x')
-        //- end #login
-
-
-        section#checkout
-          h2 Checkout
-          div
-            p Single page checkouts are cluttered with form elements and policies. This adds to the visual weight of the page and causes the form to look longer and more complex than it actually is.
-            p A series of A/B tests was performed on the policies and other non-form elements. By removing these items and monitoring changes that had statistical significance, we determined that removing the extra elements yielded positive results.
-            noscript
-              aside
-                figure
-                  img(
-                    alt='wireframe of the checkout page'
-                    src='assets/img/checkout.png'
-                    srcset='assets/img/checkout-2x.png 2x')
-
-          div
-            p Once I knew the design could be focused on the form, I started simplifying it. Addresses make up most of the required fields, so utilizing an address lookup API for auto-suggest in a single field reduces interactions and errors. Credit Card entry was reduced from three fields to one by having the card number field act as a mask for the expiration date. The billing address defaults to shipping, but if the addresses differ the same single-field address API simplifies input. Email address, needed for receipt, is the only new field and doubles for the order sync. 
-            p Ultimately, the form was reduced from 18 required input fields down to 6, and optional fields were placed behind interaction elements in order to maintain the form’s ease of use and streamlined appearance.
-            noscript
-              aside
-                figure
-                  img(
-                    alt='wireframe of the proposed checkout changes'
-                    src='assets/img/new-checkout.png'
-                    srcset='assets/img/new-checkout-2x.png 2x')
-        //- end #checkout
-
-
-        section#conclusion
-          h2 Conclusion??
+      section
+        h2 Conclusion
+        div
           p With an updated cart, no login requirement, and smoother checkout process making a purchase would be easier and more intuitive, providing a more pleasing experience for the customer and increasing revenue for the company.
-          //- aside
-            video(src='assets/video/checkout-demo.m4v' controls)
-        //- end #conclusion
+        figure
+          video(
+            controls
+            src='assets/video/demo.m4v'
+          )
     //- end article
 
 
-block scripts
+//- block scripts
   script.
     window.addEventListener('DOMContentLoaded', function (){
       var process_video = document.getElementById('process-video');

@@ -1,55 +1,59 @@
-@import 'document'
 // load other dependencies here
+@import 'document'
+
+
+
+
 
 // page or project specific css
-article
-  display flex
-  flex-direction column
-  margin 0 auto
-  max-width unit(550px/text_size, 'rem')
-
-
-.lock-viewport
-  height 100vh
-  overflow hidden
-
 h1
-  font-size 17px
+  background-color white
+  font-family 'Avenir Next Condensed', 'Avenir Next', sans-serif
+  font-size 21px
   font-weight 500
+  margin 0
+  padding unit(scale, 'rem') 0
+  text-align center
+  width 100%
+
+
+h2
+  background-color white
+  font-size 21px
+  font-weight 400
+  margin 0
+  padding unit(scale, 'rem') unit(scale/2, 'rem') 0
   text-align center
 
 
 .media-container
-  margin 0 auto
-  // max-width unit(480px/text_size, 'rem')
+  position fixed
 
 
-.content-container
-  flex 1
-  overflow-y scroll
+article
+  position relative
 
 
-section
-  padding 0 unit(27px / text_size, 'rem')
+section div
+  background-color white
 
 
-h2
-  font-size 21px
-  font-weight 400
-
-
-// noscript
-aside
-  background-color hsl(217, 14%, 25%)
-
-
-figure
+section p
+  margin 0
   padding unit(scale, 'em')
 
 
-// video
-//   max-height unit(282px/text_size, 'rem')
+aside
+  background-color zappos_light_grey
 
 
-[hidden]
-  display none // [1] IE10
+figure
+  margin 0 auto
+  max-width unit(612px/text_size, 'rem')
+
+
+// figcaption
+//   color zappos_grey
+//   font-size 14px
+//   padding unit(scale/2, 'rem') 0
+//   text-align center
