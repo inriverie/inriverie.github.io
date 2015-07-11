@@ -39,21 +39,26 @@ section div
 
 
 section p
-  margin 0
+  margin 0 auto
+  max-width unit(612px/text_size, 'rem')
   padding unit(scale, 'em')
 
 
 aside
   background-color zappos_light_grey
 
-
 figure
   margin 0 auto
   max-width unit(612px/text_size, 'rem')
 
 
-// figcaption
-//   color zappos_grey
-//   font-size 14px
-//   padding unit(scale/2, 'rem') 0
-//   text-align center
+figcaption
+  color zappos_grey
+  font-size 14px
+  padding unit(scale/2, 'rem') 0
+  text-align center
+
+
+.transparent
+  opacity 0
+  visibility hidden

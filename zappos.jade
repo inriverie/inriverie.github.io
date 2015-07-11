@@ -7,17 +7,18 @@ append head
 block content
   main(role='main')
     div.media-container
-      video(src='assets/video/process.m4v')
+      video#process(src='assets/video/process.m4v')
 
     article
       h1 Improving the Zappos Checkout Experience
 
       aside
-        img(
-          alt='shipping options'
-          src='assets/img/shipping-options.png'
-          srcset='assets/img/shipping-options-2x.png 2x'
-        )
+        figure
+          img(
+            alt='shipping options'
+            src='assets/img/shipping-options.png'
+            srcset='assets/img/shipping-options-2x.png 2x'
+          )
 
       section
         h2 Project Overview
@@ -120,25 +121,37 @@ block content
     //- end article
 
 
-//- block scripts
+block scripts
   script.
     window.addEventListener('DOMContentLoaded', function (){
-      var process_video = document.getElementById('process-video');
+      var process_video = document.getElementById('process')
+      ,   current_time = 0
+      ,   end_time = 3;
 
-
-      //- if cannot play video, inject images
+      //- if incompatible, eject
       if (!process_video.canPlayType) return;
 
+      //- once video frame loads, play intro
+      process_video.addEventListener(
+        'loadeddata',
+        function(){
+          this.play();
+          if (!this.paused){
+            document
+              .getElementsByTagName('aside')[0]
+              .classList.add('transparent');
+          }
+        }
+      );
+      //- end loadeddata event
 
-      //- lock viewport
-      document
-        .getElementsByTagName('article')[0]
-        .classList.add('lock-viewport');
-
-
-      //- process_video.addEventListener('loadeddata', process_video.play);
-
-      //- start intro
-      //- on scroll catch the element in view and play its range
-      //- need to find long scrolls to fade in/out video at new spot
+      process_video.addEventListener(
+        'timeupdate',
+        function(){
+          current_time = parseInt(this.currentTime);
+          if (current_time === end_time) this.pause();
+        }
+      );
+      //- end timeupdate event
     });
+    //- end DOMContentLoaded event
