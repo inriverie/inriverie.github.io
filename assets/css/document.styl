@@ -5,10 +5,16 @@ text_size = 17
 scale     = 1.618
 scale_aug = 60
 
-diagram_bg_color = hsl(217, 14%, 25%)
 zappos_blue = hsl(210, 38%, 71%)
-zappos_light_grey = hsl(0, 0%, 94%)
+zappos_light_grey = hsl(0, 0%, 95%)
 zappos_grey = hsl(0, 0%, 71%)
+
+diagram_bg_color = #383F4A
+diagram_dark_grey = #79808E
+diagram_light_grey = #CCD1D9
+diagram_off_white = #E9ECF1
+diagram_light_blue = #AFD0F7
+diagram_yellow = #FDBE41
 
 
 @import 'mixins'
@@ -27,9 +33,9 @@ zappos_grey = hsl(0, 0%, 71%)
 html
   background-color  white
   color             hsl(0, 0%, 27%)
-  font              unit(text_size / 16 * 100, '%') / scale 'Avenir Next', sans-serif
+  font              unit(text_size / 16 * 100, '%') / scale 'Avenir Next', 'Avenir', sans-serif
 
-  -webkit-overflow-scrolling  touch // [1] Provides native iOS scrolling to scrollable containers.
+  -webkit-overflow-scrolling  touch // [1] Native iOS scrolling to scrollable containers.
   -webkit-tap-highlight-color transparent
 
   -webkit-text-size-adjust 100% // [2] Prevents text resizing after orientation change.
@@ -49,7 +55,6 @@ html
 
 
 body
-  background-color zappos_light_grey
   margin  0
 
 
@@ -64,8 +69,7 @@ strong
 
 img,
 video
-  display block
-  height    auto // [1] Fluid media.
+  height auto // [1] Fluid media.
   max-width 100% // [1]
 
 

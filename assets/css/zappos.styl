@@ -6,59 +6,55 @@
 
 
 // page or project specific css
-h1
-  background-color white
-  font-family 'Avenir Next Condensed', 'Avenir Next', sans-serif
-  font-size 21px
-  font-weight 500
-  margin 0
-  padding unit(scale, 'rem') 0
-  text-align center
-  width 100%
+html
+  background-color diagram_bg_color
+  color diagram_light_grey
 
+.intro
+  margin unit(2 * scale, 'rem') auto
+  max-width 36rem
+  min-width unit(266px/text_size, 'rem')
+  padding 0 unit(scale, 'em')
 
-h2
-  background-color white
+section
+  margin 0 auto unit(2 * scale, 'rem')
+
+  @media screen and (min-width: unit(700px/text_size, 'rem'))
+    align-items center
+    display flex
+
+  & > div,
+  & > p
+    margin 0 auto
+    max-width 36rem
+    min-width unit(266px/text_size, 'rem')
+    padding 0 unit(scale, 'em')
+
+h1, h2
+  color diagram_off_white
   font-size 21px
   font-weight 400
-  margin 0
-  padding unit(scale, 'rem') unit(scale/2, 'rem') 0
   text-align center
 
-
-.media-container
-  position fixed
-
-
-article
-  position relative
-
-
-section div
-  background-color white
+  span
+    color diagram_light_blue
+    display block
+    font-family 'Avenir Next Condensed', 'Avenir Next', 'Avenir', sans-serif
+    font-size 14px
+    text-transform uppercase
 
 
-section p
-  margin 0 auto
-  max-width unit(612px/text_size, 'rem')
-  padding unit(scale, 'em')
-
-
-aside
-  background-color zappos_light_grey
-
-figure
-  margin 0 auto
-  max-width unit(612px/text_size, 'rem')
-
+figure, aside
+  max-width unit(960px/text_size, 'rem')
 
 figcaption
   color zappos_grey
   font-size 14px
-  padding unit(scale/2, 'rem') 0
+  padding unit(scale/3, 'rem')
   text-align center
 
+aside
+  margin unit(2 * scale, 'rem') auto
 
-.transparent
-  opacity 0
-  visibility hidden
+.last
+  margin-top unit(4 * scale, 'rem')

@@ -6,152 +6,198 @@ append head
 
 block content
   main(role='main')
-    div.media-container
-      video#process(src='assets/video/process.m4v')
-
     article
-      h1 Improving the Zappos Checkout Experience
+
+      div.intro
+        h1 Improving the Zappos Checkout Experience
+          span Role & Approach
+        p As Lead UX Designer for the Zappos Checkout team, I initiated an effort to improve the checkout experience and increase   conversion, retention, and new customer acquisition.
+        p My first step was to understand where and why customers were abandoning their purchases. I chose to start with heuristics to get an idea of the holistic experience. Diagramming the high level flow helped identify potential roadblocks and abandonment locations. I then worked with the UX Research team on contextual inquiries and collected behavioral data from our analytics to verify my conclusions. Our results confirmed that we needed to focus on removing barriers and reducing the effort involved in placing an order.
+
+
+
+
 
       aside
-        figure
+        video(src='assets/video/diagram.m4v')
           img(
-            alt='shipping options'
-            src='assets/img/shipping-options.png'
-            srcset='assets/img/shipping-options-2x.png 2x'
+            alt=''
+            src='assets/img/diagram.png'
+            srcset='assets/img/diagram-2x.png 2x'
           )
 
-      section
-        h2 Project Overview
-        div
-          p Zappos’ stakeholders wanted an increase in conversion for both new and returning customers. As the Lead UX Designer for the Checkout team, I spearheaded an initiative to improve the checkout experience in order to increase conversion, retention, and acquisition.
-          p My first step was to understand where and why customers were abandoning their purchases. I chose to start with heuristics to get an idea of the holistic experience. Diagramming the high level flow helped identify potential roadblocks and abandonment locations. I then worked with the UX Research team on contextual inquiries and collected behavioral data from our analytics to verify my conclusions. Our results confirmed that we needed to focus on removing barriers and reducing the effort involved in placing an order.
-        aside
-          figure
-            img(
-              alt='checkout flow diagram'
-              src='assets/img/diagram.png'
-              srcset='assets/img/diagram-2x.png 2x'
-            )
+
+
+
 
       section
-        h2 Cart
         div
-          p The cart page was not performing to stakeholders’ satisfaction. They see the cart as a final upsell opportunity, wanting it to increase the average order size and total while also performing its primary task of initiating checkout. Customers use the cart as a multi-purpose storage solution (save for later, favorites, comparisons, purchasing, etc.) irrespective of their intention to buy. This misalignment caused a hit in metric performance.
-          p The challenge was finding a solution where business and customer goals could coexist. I wireframed various layout ideas, but there were too many elements with conflicting purposes: progress to checkout or continue shopping. The only way to reconcile these cross-purposes was to make the cart a part of the shopping experience.
-        aside
-          figure
+          h2 Cart
+            span Balancing customer needs & stakeholder objectives
+          p Stakeholders were unhappy with the way the cart page was performing. They saw the cart as a final upsell opportunity, wanting it to increase the average order totals while also performing its primary task of initiating checkout. Customers, on the other hand, use the cart as a multi-purpose storage solution (save for later, favorites, comparisons, purchasing, etc.) irrespective of their intention to buy. This misalignment caused a hit in metric performance.
+          p The challenge was finding a solution where business and customer goals could coexist. After a few wireframes, I realized that adjustments to the layout and visual hierarchy were doing nothing to balance the cart’s purposes. The real problem was that the page itself was leading customers in opposite directions: progress to checkout or continue shopping. The only way to reconcile these cross-purposes was to make the cart a part of the shopping experience.
+          p Replacing the dedicated page with a perpetual cart promotes continuous shopping, which increased order totals, and allows customers to initiate checkout as soon as they’re ready to make their purchase. This accomplishes both of the stakeholders’ goals, while also providing a better experience for the customer.
+        figure
+          video(src='assets/video/cart-full.m4v')
             img(
-              alt='Cart page wireframe'
-              src='assets/img/cart.png'
-              srcset='assets/img/cart-2x.png 2x'
-            )
-        div
-          p Focusing on customer behavior, I removed the cart page in favor of a perpetual cart. This allows customers to continue to use the cart as they normally would without taking them out of the shopping experience, and promotes the stakeholders’ goals since larger order totals and order size are the result of continuous shopping.
-        aside
-          figure
-            img(
-              alt='Perpetual cart wireframe'
+              alt=''
               src='assets/img/perp-cart.png'
               srcset='assets/img/perp-cart-2x.png 2x'
             )
+          figcaption Wireframe of the perpetual cart.
 
-      section
-        h2 Login
-        div
-          p Customers are required to have an account to place an order, but a new customer’s trust has yet to be earned so they may be hesitant to make such a commitment. This creates a barrier that must be overcome before the purchase can be made.
-          p Guest checkout seemed like an obvious solution, but after consideration I wanted to challenge the ‘returning customer or guest’ paradigm altogether. Directing the customer to a login page creates several potential purchase abandonment points: interrupting the flow from shopping to purchasing, requiring the customer to make a decision, and adding an additional step to the checkout process.
-        aside
-          figure
+
+
+
+
+      aside
+        video(src='assets/video/login.m4v')
             img(
-              alt='Login flow diagram'
+              alt=''
               src='assets/img/login.png'
               srcset='assets/img/login-2x.png 2x'
             )
-        div
-          p If the login step is removed the customer can proceed straight to checkout as soon as they’re ready to make their purchase and new customers won’t have their shopping interrupted by account creation. It also benefits returning customers, since they would be spared the effort of remembering a password and logging in.
-        aside
-          figure
+
+
+
+
+
+      section
+        figure
+          video(src='assets/video/order-sync.m4v')
             img(
-              alt='Purchase flow diagram without login'
-              src='assets/img/no-login.png'
-              srcset='assets/img/no-login-2x.png 2x'
-            )
-        div
-          p Removing the login requirement presented the question: if customers can now make purchases without being logged in, how are those purchases added to their order history? Using the email address entered at order confirmation, orders are now synced to a customer’s account automatically. Additionally, with such a system in place if a customer without an account later decides to create one, their order history would already be consolidated.
-        aside
-          figure
-            img(
-              alt='Order sync diagram'
+              alt=''
               src='assets/img/order-sync.png'
               srcset='assets/img/order-sync-2x.png 2x'
             )
+          figcaption Diagram of order sync logic
+        div
+          h2 Login
+            span Removing the barrier
+          p Requiring an account to place an order was preventing customers from completing their purchase, regardless of whether they were new or returning. New customers don’t have any reason to trust us yet, so they’re hesitant to store their personal information. Returning customers often forget their password, or that they even have an account at all, setting them on a frustrating loop that frequently ends in password resetting or purchase abandonment.
+          p Guest checkout seemed like an obvious solution; a simple button taking customers straight to checkout without any account verification. This concept made me want to challenge the ’returning customer or guest’ paradigm altogether. Placing an order should be as effortless as possible, and the experience should be the same regardless of whether the customer is new or returning. A login page complicates the process. By removing it the shopping experience is kept seamless and opportunities for the customer to reconsider their order are reduced.
+          p Removing the login requirement raised the question of how purchases were going to be added to a customer’s order history, but by relocating the email address input to the checkout page for receipt purposes it doubles as a way to sync the order to the account associated with it.
+
+
+
+
+
+      aside
+        video(src='assets/video/no-login.m4v')
+          img(
+            alt=''
+            src='assets/img/no-login.png'
+            srcset='assets/img/no-login-2x.png 2x'
+          )
+
+
+
+
 
       section
-        h2 Checkout
         div
-          p Single page checkouts are cluttered with form elements and policies. This adds to the visual weight of the page and causes the form to look longer and more complex than it actually is.
-          p A series of A/B tests was performed on the policies and other non-form elements. By removing these items and monitoring changes that had statistical significance, we determined that removing the extra elements yielded positive results.
-        aside
-          figure
+          h2 Checkout
+            span Streamlining the process
+          p The checkout page was cluttered with form elements and policies, which added to the visual weight and caused the form to look longer and more complex than it actually was.
+          p We removed the policies and other non-form elements in a series of A/B tests. The results confirmed that the perceived length and complexity of the page had a negative effect on conversion.
+          p Once I knew the design could be focused on the form, I started simplifying it to reduce interactions and errors. Addresses, which make up most of the required fields, were consolidated to a single input by utilizing an address lookup API. Credit Card entry was reduced from four fields to one by having the card number input serve as a mask for the expiration date. Ultimately, the form was reduced from 18 required input fields down to 6, and optional fields were placed behind interaction elements in order to maintain the form’s ease of use and streamlined appearance.
+        figure
+          video(src='assets/video/checkout-full.m4v')
             img(
-              alt='Checkout page wireframe'
-              src='assets/img/checkout.png'
-              srcset='assets/img/checkout-2x.png 2x'
-            )
-        div
-          p Once I knew the design could be focused on the form, I started simplifying it. Addresses make up most of the required fields, so utilizing an address lookup API for auto-suggest in a single field reduces interactions and errors. Credit Card entry was reduced from three fields to one by having the card number field act as a mask for the expiration date. The billing address defaults to shipping, but if the addresses differ the same single-field address API simplifies input. Email address, needed for receipt, is the only new field and doubles for the order sync. 
-          p Ultimately, the form was reduced from 18 required input fields down to 6, and optional fields were placed behind interaction elements in order to maintain the form’s ease of use and streamlined appearance.
-        aside
-          figure
-            img(
-              alt='Proposed checkout page wireframe'
+              alt=''
               src='assets/img/new-checkout.png'
               srcset='assets/img/new-checkout-2x.png 2x'
             )
+          figcaption.caption Wireframe of checkout page iterations
+
+
+
+
+
+      aside
+        video(src='assets/video/checkout.m4v')
+          img(
+            alt=''
+            src='assets/img/final-flow.png'
+            srcset='assets/img/final-flow-2x.png 2x'
+          )
+
+
+
+
 
       section
-        h2 Conclusion
-        div
-          p With an updated cart, no login requirement, and smoother checkout process making a purchase would be easier and more intuitive, providing a more pleasing experience for the customer and increasing revenue for the company.
         figure
-          video(
-            controls
-            src='assets/video/demo.m4v'
-          )
-    //- end article
+          video(src='assets/video/mobile.m4v')
+          figcaption iPhone app mock–up
+        div
+          h2 Conclusion
+            span Frictionless checkout experience
+          p As a firm proponent of cross-platform consistency, I used this project as an opportunity to promote a responsive and uniform experience across all devices and platforms. Considerations for mobile users can be seen in details like the larger fields and buttons to accommodate touch input, text size optimized for small screens, and input fields that keep typing and keyboard switching to a minimum.
+          p With an updated cart, no login requirement, and a smoother checkout process making a purchase would be easier and more intuitive, providing a more pleasing experience for the customer and increasing revenue for the company.
+
+
+
+
+
+      aside.last
+        video(
+          controls
+          src='assets/video/demo-alt.m4v'
+        )
 
 
 block scripts
   script.
-    window.addEventListener('DOMContentLoaded', function (){
-      var process_video = document.getElementById('process')
-      ,   current_time = 0
-      ,   end_time = 3;
+    window.addEventListener('DOMContentLoaded', function(){
+      var vids = document.getElementsByTagName('video')
+      ,   i = vids.length;
 
-      //- if incompatible, eject
-      if (!process_video.canPlayType) return;
+      //- incompatible? GTFO!
+      if (!vids[0].canPlayType) return;
 
-      //- once video frame loads, play intro
-      process_video.addEventListener(
-        'loadeddata',
-        function(){
-          this.play();
-          if (!this.paused){
-            document
-              .getElementsByTagName('aside')[0]
-              .classList.add('transparent');
-          }
+      //- play video when scrolled into view
+      this.addEventListener('scroll', function(){
+        throttle(test(vids, i), 250);
+      });
+    }); //- end DOMContentLoaded event
+
+
+    //- throttle callback functions
+    function throttle(callback, limit){
+      var wait = false;
+      return function(){
+        if (!wait){
+          callback.call();
+          wait = true;
+          setTimeout(function(){wait = false;}, limit);
         }
-      );
-      //- end loadeddata event
+      }
+    }
 
-      process_video.addEventListener(
-        'timeupdate',
-        function(){
-          current_time = parseInt(this.currentTime);
-          if (current_time === end_time) this.pause();
-        }
+
+    //- something
+    function test(vids, i){
+      while (i--){
+        if (
+          vids[i].autoplay ||
+          vids[i].controls ||
+          !vids[i].paused ||
+          vids[i].ended
+        ) {continue;}
+        if (isInViewport(vids[i])) {vids[i].play();}
+      }
+    }
+
+
+    //- determine if an element is in the visible viewport
+    function isInViewport(element) {
+      var rect = element.getBoundingClientRect();
+      var html = document.documentElement;
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= window.innerHeight &&
+        rect.right <= window.innerWidth
       );
-      //- end timeupdate event
-    });
-    //- end DOMContentLoaded event
+    }
