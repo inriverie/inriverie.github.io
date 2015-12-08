@@ -1,0 +1,76 @@
+/*------------------------------------*\
+  VARIABLES
+\*------------------------------------*/
+// grey_100 = #E6E6E6
+// grey_200 = #DBDBDB
+// grey_300 = #C2C2C2
+// grey_400 = #9E9E9E
+grey_500 = #616161
+// grey_600 = #3D3D3D
+// grey_700 = #242424
+
+
+
+
+
+/*------------------------------------*\
+  MIXINS
+\*------------------------------------*/
+// @params arguments: px | rem | em
+// font-size()
+//   font-size unit((arguments / 17), 'rem') if unit(arguments) is 'px'
+
+
+// @params arguments: px
+// line-height()
+//   line-height unit((arguments / (17 * @font-size)), '') if unit(arguments) is 'px'
+
+
+
+
+
+/*------------------------------------*\
+  DOCUMENT
+\*------------------------------------*/
+*
+  box-sizing border-box
+
+
+html
+  background-color white
+  color grey_500
+  font 17px / 24px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Fira Sans', sans-serif
+
+  // -ms-text-size-adjust  100%
+  // -webkit-text-size-adjust  100%
+
+
+:lang(en) q
+  quotes  '\2018' '\2019' '\201C' '\201D'
+  &::before
+    content  open-quote
+  &::after
+    content  close-quote
+  q::before
+    content  open-quote
+  q::after
+    content  close-quote
+
+
+body
+  margin  0
+
+
+main
+  display block // [1] IE 11
+
+
+b,
+strong
+  font-weight 700 // [2] Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+
+
+// img,
+// video
+//   height auto // [1] Fluid media.
+//   max-width 100% // [1]

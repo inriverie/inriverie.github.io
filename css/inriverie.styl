@@ -1,0 +1,121 @@
+@import 'document'
+
+
+// BRANDING
+.brand
+  display         block
+  font-size       17px
+  font-weight     600
+  line-height     24px
+  margin          8px 12px
+  text-decoration none
+
+  .index &
+    @media (orientation: landscape)
+      position  absolute
+
+  &--role
+    display     block
+    font-size   15px
+    font-weight 400
+    line-height 16px
+    opacity     .62
+
+
+
+
+
+// NAVIGATION
+[role='navigation']
+  background-color  whitesmoke
+  display flex
+
+  @media (orientation: landscape)
+    .index &
+      height  100vh
+
+  @media (orientation: portrait)
+    flex-direction  column
+    height          calc(100vh - 56px)
+
+  a[href]
+    display           flex
+    flex              1 1
+    flex-direction    column
+    justify-content   flex-end
+    text-decoration   none
+
+
+
+
+
+// HEADINGS
+.project
+  display         flex
+  flex-direction  column
+  margin          8px 12px
+
+  &--name
+    font-size   24px
+    font-weight 400
+    margin      0
+
+  &--company
+    margin  0
+    order   -1
+
+  &--role
+    font-size 15px
+    margin    0
+
+  dd
+    margin  0
+
+
+
+
+
+// CASE STUDY
+figure
+  margin    48px 12px 0
+  max-width 1024px
+
+
+.intro-graphic
+  background-color  whitesmoke
+  margin      24px 12px 36px
+
+
+img
+  display block
+  height  auto
+  width   100%
+
+
+main
+  p
+    margin    24px 12px 0
+    max-width 390px
+
+    // &.last
+    //   margin-bottom 36px
+
+h2
+  font-size   24px
+  font-weight 400
+  line-height 24px
+  margin      48px 12px 0
+//
+// img
+//   height  auto
+//   width   100%
+//
+// .intro-2
+//   display         flex
+//   justify-content space-around
+//   margin          0 auto 36px
+//   max-width       1024px
+//
+//   img
+//     box-shadow  hsla(0%, 0%, 0, 10%) 0 20px 40px
+//     width 41%
