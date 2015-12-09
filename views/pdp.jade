@@ -1,0 +1,74 @@
+extends layout
+append head
+  meta(name='description', content='An UX case study on redesigning the Zappos iPad Product View.')
+  title Product View UX Case Study
+  link(rel='stylesheet', href='css/inriverie.css')
+
+
+block content
+  a(href='index.html').brand Will Smith
+    span.brand--role Interaction Designer
+
+  main
+    figure
+      img(
+        src='img/pdp-landscape.png',
+        srcset='img/pdp-landscape@2x.png 2x'
+      )
+
+    header.project
+      h1.project--name Product Details View
+      p.project--company Zappos Mobile
+      p.project--role UX & Interface Design
+
+    p The Zappos Mobile team launched the iPad app when much of the mobile space was still being discovered. As a result, the product detail view was built around utilitarian practices rather than the unique problems new platforms present.
+    p My goal was to realign the design to customer behavior without interfering with them making an informed purchase decision.
+
+    h2 Ergonomics
+    p I had users interact with a background image to measure distances and observe comfort levels, particularly for two–handed use.
+    figure
+      img(
+        src='img/pdp-ergonomics.png'
+        srcset='img/pdp-ergonomics@2x.png 2x'
+      )
+
+    h2 Concepts & Wireframes
+    p I started by taking inventory of elements then grouped them based on an purchase flow and information seeking flow. Knowing that the layout needed to accommodate thumb input, my concepts focused on keeping interactions at the screen edge.
+    figure
+      img(
+        src='img/pdp-sketches.png'
+        srcset='img/pdp-sketches@2x.png 2x'
+      )
+
+    h2 Final Designs
+    p The vertical space offered in portrait orientation—along with it being the preferred orientation for reading content—lent itself well to the information seeking customer without reducing the image size or impacting the “add to cart” flow.
+    figure.portrait
+      img(
+        src='img/pdp-final-portrait.png'
+        srcset='img/pdp-final-portrait@2x.png 2x'
+      )
+
+    p The consumption of media influenced the decision to make the landscape orientation focus on the imagery while keeping the purchase flow intact. Product information is exposable with a vertical swipe.
+    figure
+      img(
+        src='img/pdp-final-landscape.png'
+        srcset='img/pdp-final-landscape@2x.png 2x'
+      )
+    figure
+      img(
+        src='img/pdp-expand-landscape.png'
+        srcset='img/pdp-expand-landscape@2x.png 2x'
+      )
+
+
+  nav(role='navigation')
+    a(href='xoxo.html')
+      dl.project
+        dt.project--name Product Exchange
+        dd.project--company Zappos Mobile
+        dd.project--role UX & Interface Design
+    a(href='co.html')
+      dl.project
+        dt.project--name Checkout Improvements
+        dd.project--company Zappos Web
+        dd.project--role Concept & Interface Design

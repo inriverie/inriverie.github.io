@@ -4,10 +4,11 @@
 // BRANDING
 .brand
   display         block
+  color           grey_500
   font-size       17px
   font-weight     600
   line-height     24px
-  margin          8px 12px
+  margin          8px 3.2%
   text-decoration none
 
   .index &
@@ -27,7 +28,6 @@
 
 // NAVIGATION
 [role='navigation']
-  background-color  whitesmoke
   display flex
 
   @media (orientation: landscape)
@@ -43,6 +43,7 @@
     flex              1 1
     flex-direction    column
     justify-content   flex-end
+    padding           8px 12px
     text-decoration   none
 
 
@@ -53,7 +54,7 @@
 .project
   display         flex
   flex-direction  column
-  margin          8px 12px
+  margin          0
 
   &--name
     font-size   24px
@@ -77,16 +78,25 @@
 
 // CASE STUDY
 figure
-  margin    48px 12px 0
+  margin    48px auto 0
   max-width 1024px
 
+  &.heuristics
+    max-width 1000px
 
-.intro-graphic
-  background-color  whitesmoke
-  margin      24px 12px 36px
+  &.portrait
+    max-width 768px
+
+    &__small
+      max-width 375px
 
 
-img
+.shadow
+  box-shadow  hsla(0%, 0%, 0, 10%) 0 20px 40px
+
+
+img,
+video
   display block
   height  auto
   width   100%
@@ -94,28 +104,12 @@ img
 
 main
   p
-    margin    24px 12px 0
-    max-width 390px
-
-    // &.last
-    //   margin-bottom 36px
+    margin    24px auto 0
+    max-width 600px
 
 h2
   font-size   24px
   font-weight 400
   line-height 24px
-  margin      48px 12px 0
-//
-// img
-//   height  auto
-//   width   100%
-//
-// .intro-2
-//   display         flex
-//   justify-content space-around
-//   margin          0 auto 36px
-//   max-width       1024px
-//
-//   img
-//     box-shadow  hsla(0%, 0%, 0, 10%) 0 20px 40px
-//     width 41%
+  margin      48px auto 0
+  max-width   600px

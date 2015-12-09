@@ -1,0 +1,85 @@
+extends layout
+append head
+  meta(name='description', content='An UX case study on improving the Zappos.com checkout page.')
+  title Checkout UX Case Study
+  link(rel='stylesheet', href='css/inriverie.css')
+
+
+block content
+  a(href='index.html').brand Will Smith
+    span.brand--role Interaction Designer
+
+  main
+    figure
+      img.shadow(
+        src='img/checkout.png',
+        srcset='img/checkout@2x.png 2x'
+      )
+
+    header.project
+      h1.project--name Checkout Improvements
+      p.project--company Zappos Web
+      p.project--role Concept & Interface Design
+
+    p As Lead UX Designer for the Zappos Checkout team, I initiated an effort to improve the checkout experience across web & apps and increase conversion, retention, and new customer acquisition.
+
+    h2 Planning & Strategy
+    p My first step was to understand where and why customers were abandoning their purchases. I chose to start with heuristics to get an idea of the holistic experience and identify potential roadblocks and abandonment locations.
+    figure.heuristics
+      img(
+        src='img/co-heuristics.png'
+        srcset='img/co-heuristics@2x.png 2x'
+      )
+
+    h2 Putting Focus on the Form
+    p Through a series of A/B tests, we started decluttering the interface by removing non–form elements to keep customers focused on the form. The goal of these tests was to verify whether the perceived length and visual weight of the page had a negative effect on conversion.
+    figure
+      video(
+        autoplay
+        controls
+        loop
+        src='vid/abtest3.m4v'
+      )
+    p The next step was to improve the checkout form and reduce errors.
+
+    h2 Shipping Form
+    p Addresses—which make up most of the required fields—were consolidated to a single input by utilizing an address lookup API.
+    figure(style='max-width:512px')
+      video(
+        autoplay
+        controls
+        loop
+        src='vid/shipping.m4v'
+      )
+
+    h2 Payment Form
+    p Credit Card entry was reduced from four fields to one by having the card number input serve as a mask for the expiration date. This also eliminated dropdown UI which required several interaction steps on mobile.
+    figure(style='max-width:512px')
+      video(
+        autoplay
+        controls
+        loop
+        src='vid/payment.m4v'
+      )
+
+    h2 Conclusion
+    p Ultimately, the form was reduced from 18 required input fields down to 6. Optional fields were placed behind interaction elements in order to maintain the form’s ease of use and streamlined appearance.
+    figure
+      video.shadow(
+        autoplay
+        controls
+        loop
+        src='vid/checkout.m4v'
+      )
+
+  nav(role='navigation')
+    a(href='xoxo.html')
+      dl.project
+        dt.project--name Product Exchange
+        dd.project--company Zappos Mobile
+        dd.project--role UX & Interface Design
+    a(href='pdp.html')
+      dl.project
+        dt.project--name Product Details View
+        dd.project--company Zappos Mobile
+        dd.project--role UX & Interface Design

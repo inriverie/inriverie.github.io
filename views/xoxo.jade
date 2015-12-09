@@ -10,15 +10,15 @@ block content
     span.brand--role Interaction Designer
 
   main
-    figure.intro-graphic
-      img(
-        src='img/xoxo-intro-graphic.png',
-        srcset='img/xoxo-intro-graphic@2x.png 2x'
+    figure.portrait__small
+      img.shadow(
+        src='img/exchange.png',
+        srcset='img/exchange@2x.png 2x'
       )
 
     header.project
       h1.project--name Product Exchange
-      p.project--company Zappos iPhone
+      p.project--company Zappos Mobile
       p.project--role Interaction Design
 
     p Exchange requests accounted for a decent portion of inbound calls to our call center. I was tasked with designing the exchange process on the iPhone app in effort to empower customers and allow our customer service team to be available for high priority issues.
@@ -27,8 +27,8 @@ block content
     p The iPhone app already offered the option for customers to process their own returns. I wanted to keep both returns and exchanges in the same flow—for interaction familiarity and to reduce steps for customers with an exchange and return in the same order. This required some changes to the existing return flow.
     figure
       img(
-        src='img/current-return-flow.png'
-        srcset='img/current-return-flow@2x.png 2x'
+        src='img/existing-return-flow.png'
+        srcset='img/existing-return-flow@2x.png 2x'
       )
     figure
       img(
@@ -41,8 +41,13 @@ block content
         src='img/new-return-flow.png'
         srcset='img/new-return-flow@2x.png 2x'
       )
-    figure
-      video(src='vid/return-flow-animation' controls)
+    figure.portrait__small
+      video.shadow(
+        autoplay
+        controls
+        loop
+        src='vid/returns.m4v'
+      )
   
     h2 Exchanges
     p There were two primary pieces needed for an exchange to be processed: the ability to select a new size and/or color, and a legal agreement due to exchange orders being shipped prior to receiving the return.
@@ -51,8 +56,13 @@ block content
         src='img/new-exchange-flow.png'
         srcset='img/new-exchange-flow@2x.png 2x'
       )
-    figure
-      video(src='vid/exchange-flow-animation' controls)
+    figure.portrait__small
+      video.shadow(
+        autoplay
+        controls
+        loop
+        src='vid/exchange.m4v'
+      )
 
 
   nav(role='navigation')
