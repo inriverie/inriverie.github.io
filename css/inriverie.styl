@@ -5,15 +5,19 @@
 [role='banner']
   background-color  hsla(0,0%,100%,.5)
   box-shadow        small_shadow
+  margin-bottom     24px
   padding           8px
 
 
 // BRANDING
 .brand
+  color           grey_500
+  display         block
   font-size       17px
   font-weight     600
   margin          0
   text-align      center
+  text-decoration none
 
   &--role
     display     block
@@ -32,6 +36,7 @@
   justify-content center
   margin          0 auto
   max-width       1280px
+  // NOTE: width is preventing viewport length nav footer
 
   @media (max-width: 821px)
     flex-wrap wrap
@@ -57,6 +62,7 @@
   display         flex
   color           grey_500
   flex-direction  column
+  font-weight     400
   padding         24px 0 8px
   margin          0
 
@@ -65,8 +71,9 @@
     font-weight 400
 
   &--company
-    color   #7397BA
-    order   -1
+    color     #7397BA
+    font-size 17px
+    order     -1
 
   &--role
     font-size 15px
@@ -74,31 +81,61 @@
   dd
     margin  0
 
+h2
+  font-size   24px
+  font-weight 400
+  line-height 24px
+  margin      0 auto 16px
+  max-width   600px
 
 
 
 
-// CASE STUDY
-// figure
-//   margin    48px auto 0
-//   max-width 1024px
-//
-//   &.heuristics
-//     max-width 1000px
-//
-//   &.portrait
-//     max-width 768px
-//
-//     &__small
-//       max-width 375px
+
+// ARTICLE
+main
+  header
+    margin    0 auto
+    max-width 1024px
+
+  @media (min-width: 1024px)
+    h1
+      bottom      16px
+      left        24px
+      position    fixed
+      text-align  left
+
+  .lead
+    margin    0 auto
+    max-width 600px
+    padding   48px 16px
+
+  p
+    margin    0 auto
+    max-width 632px
+
+  // @media (max-width: 600px)
+  //   padding 0 8px
 
 
-// .shadow
-//   box-shadow  hsla(0%, 0%, 0, 10%) 0 20px 40px
 
 
-// .blend__multiply
-//   mix-blend-mode multiply
+
+// BLOCKS
+.text-block
+  background-color  hsla(0,0%,100%,.5)
+  padding           24px 0
+
+  @media (max-width: 600px)
+    padding 24px 16px
+
+figure
+  margin    0 auto
+  max-width 1024px
+
+  &.iphone
+    max-width 375px
+    padding   50.5px 0
 
 
 img,
@@ -107,15 +144,9 @@ video
   height  auto
   width   100%
 
+.shadow
+  box-shadow  hsla(0,0%,0%,.2) 0 20px 40px
 
-// main
-//   p
-//     margin    24px auto 0
-//     max-width 600px
-
-// h2
-//   font-size   24px
-//   font-weight 400
-//   line-height 24px
-//   margin      48px auto 0
-//   max-width   600px
+  &__top
+    background-color  hsla(0,0%,100%,.5)
+    box-shadow        hsla(0,0%,0%,.1) 0 -2px 4px

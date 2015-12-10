@@ -107,28 +107,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/exchange.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 101957,
-		"inputAbbreviatedPath": "\/img\/exchange.png",
-		"outputAbbreviatedPath": "\/img\/exchange.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/exchange@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 312072,
-		"inputAbbreviatedPath": "\/img\/exchange@2x.png",
-		"outputAbbreviatedPath": "\/img\/exchange@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/existing-return-flow.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -415,24 +393,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/return.png": {
+	"\/img\/xoxo-intro.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 88864,
-		"inputAbbreviatedPath": "\/img\/return.png",
-		"outputAbbreviatedPath": "\/img\/return.png",
+		"initialSize": 191927,
+		"inputAbbreviatedPath": "\/img\/xoxo-intro.png",
+		"outputAbbreviatedPath": "\/img\/xoxo-intro.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/return@2x.png": {
+	"\/img\/xoxo-intro@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 271243,
-		"inputAbbreviatedPath": "\/img\/return@2x.png",
-		"outputAbbreviatedPath": "\/img\/return@2x.png",
+		"initialSize": 541178,
+		"inputAbbreviatedPath": "\/img\/xoxo-intro@2x.png",
+		"outputAbbreviatedPath": "\/img\/xoxo-intro@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
