@@ -151,6 +151,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/index-co.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20317,
+		"inputAbbreviatedPath": "\/img\/index-co.png",
+		"outputAbbreviatedPath": "\/img\/index-co.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/index-co@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51614,
+		"inputAbbreviatedPath": "\/img\/index-co@2x.png",
+		"outputAbbreviatedPath": "\/img\/index-co@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/index-pdp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46802,
+		"inputAbbreviatedPath": "\/img\/index-pdp.png",
+		"outputAbbreviatedPath": "\/img\/index-pdp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/index-pdp@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136435,
+		"inputAbbreviatedPath": "\/img\/index-pdp@2x.png",
+		"outputAbbreviatedPath": "\/img\/index-pdp@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/index-xoxo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51172,
+		"inputAbbreviatedPath": "\/img\/index-xoxo.png",
+		"outputAbbreviatedPath": "\/img\/index-xoxo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/index-xoxo@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153804,
+		"inputAbbreviatedPath": "\/img\/index-xoxo@2x.png",
+		"outputAbbreviatedPath": "\/img\/index-xoxo@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/new-exchange-flow.png": {
 		"fileType": 32768,
 		"ignore": 0,

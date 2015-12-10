@@ -33,33 +33,23 @@ block content
 
     h2 Putting Focus on the Form
     p Through a series of A/B tests, we started decluttering the interface by removing non–form elements to keep customers focused on the form. The goal of these tests was to verify whether the perceived length and visual weight of the page had a negative effect on conversion.
+    figure.portrait__small
+      video(
+        autoplay
+        controls
+        loop
+        src='vid/abtest.m4v'
+      )
+
+    h2 Simplifying the Form
+    p The next step was to improve the checkout form and reduce errors. Addresses—which make up most of the required fields—were consolidated to a single input by utilizing an address lookup API.
+    p Credit Card entry was reduced from four fields to one by having the card number input serve as a mask for the expiration date. This also eliminated dropdown UI which required several interaction steps on mobile.
     figure
       video(
         autoplay
         controls
         loop
-        src='vid/abtest3.m4v'
-      )
-    p The next step was to improve the checkout form and reduce errors.
-
-    h2 Shipping Form
-    p Addresses—which make up most of the required fields—were consolidated to a single input by utilizing an address lookup API.
-    figure(style='max-width:512px')
-      video(
-        autoplay
-        controls
-        loop
-        src='vid/shipping.m4v'
-      )
-
-    h2 Payment Form
-    p Credit Card entry was reduced from four fields to one by having the card number input serve as a mask for the expiration date. This also eliminated dropdown UI which required several interaction steps on mobile.
-    figure(style='max-width:512px')
-      video(
-        autoplay
-        controls
-        loop
-        src='vid/payment.m4v'
+        src='vid/forms.m4v'
       )
 
     h2 Conclusion

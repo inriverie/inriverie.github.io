@@ -1,19 +1,19 @@
 @import 'document'
 
 
+// GLOBAL HEADER
+[role='banner']
+  background-color  hsla(0,0%,100%,.5)
+  box-shadow        small_shadow
+  padding           8px
+
+
 // BRANDING
 .brand
-  display         block
-  color           grey_500
   font-size       17px
   font-weight     600
-  line-height     24px
-  margin          8px 3.2%
-  text-decoration none
-
-  .index &
-    @media (orientation: landscape)
-      position  absolute
+  margin          0
+  text-align      center
 
   &--role
     display     block
@@ -28,23 +28,25 @@
 
 // NAVIGATION
 [role='navigation']
-  display flex
+  display         flex
+  justify-content center
+  margin          0 auto
+  max-width       1280px
 
-  @media (orientation: landscape)
-    .index &
-      height  100vh
+  @media (max-width: 821px)
+    flex-wrap wrap
 
-  @media (orientation: portrait)
-    flex-direction  column
-    height          calc(100vh - 56px)
+  @media (min-width: 821px)
+    margin-top  22vh
 
   a[href]
-    display           flex
-    flex              1 1
-    flex-direction    column
-    justify-content   flex-end
-    padding           8px 12px
-    text-decoration   none
+    display         block
+    max-width       411px
+    padding         16px 8px
+    text-decoration none
+
+  img
+    box-shadow  small_shadow
 
 
 
@@ -53,21 +55,21 @@
 // HEADINGS
 .project
   display         flex
+  color           grey_500
   flex-direction  column
+  padding         24px 0 8px
   margin          0
 
   &--name
     font-size   24px
     font-weight 400
-    margin      0
 
   &--company
-    margin  0
+    color   #7397BA
     order   -1
 
   &--role
     font-size 15px
-    margin    0
 
   dd
     margin  0
@@ -77,22 +79,26 @@
 
 
 // CASE STUDY
-figure
-  margin    48px auto 0
-  max-width 1024px
+// figure
+//   margin    48px auto 0
+//   max-width 1024px
+//
+//   &.heuristics
+//     max-width 1000px
+//
+//   &.portrait
+//     max-width 768px
+//
+//     &__small
+//       max-width 375px
 
-  &.heuristics
-    max-width 1000px
 
-  &.portrait
-    max-width 768px
-
-    &__small
-      max-width 375px
+// .shadow
+//   box-shadow  hsla(0%, 0%, 0, 10%) 0 20px 40px
 
 
-.shadow
-  box-shadow  hsla(0%, 0%, 0, 10%) 0 20px 40px
+// .blend__multiply
+//   mix-blend-mode multiply
 
 
 img,
@@ -102,14 +108,14 @@ video
   width   100%
 
 
-main
-  p
-    margin    24px auto 0
-    max-width 600px
+// main
+//   p
+//     margin    24px auto 0
+//     max-width 600px
 
-h2
-  font-size   24px
-  font-weight 400
-  line-height 24px
-  margin      48px auto 0
-  max-width   600px
+// h2
+//   font-size   24px
+//   font-weight 400
+//   line-height 24px
+//   margin      48px auto 0
+//   max-width   600px

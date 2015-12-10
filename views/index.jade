@@ -1,10 +1,6 @@
 extends layout
 
 
-block vars
-  - var index = true
-
-
 append head
   meta(name='description', content='I’m an Interaction Designer with 5 years of experience designing web and mobile app interfaces.')
   title Interaction Design Portfolio of Will Smith
@@ -12,21 +8,37 @@ append head
 
 
 block content
-  h1.brand Will Smith
-    span.brand--role  Interaction Designer
+  header(role='banner')
+    h1.brand Will Smith 
+      span.brand--role Interaction Designer
 
   nav(role='navigation')
     a(href='xoxo.html')
+      img(
+        alt=''
+        src='img/index-xoxo.png'
+        srcset='img/index-xoxo@2x.png 2x'
+      )
       dl.project
         dt.project--name Product Exchange
         dd.project--company Zappos Mobile
-        dd.project--role UX & Interface Design
+        dd.project--role UX & Interaction Design
     a(href='co.html')
+      img(
+        alt=''
+        src='img/index-co.png'
+        srcset='img/index-co@2x.png 2x'
+      )
       dl.project
         dt.project--name Checkout Improvements
         dd.project--company Zappos Web
-        dd.project--role Concept & Interface Design
+        dd.project--role Concept & Lead UX Design
     a(href='pdp.html')
+      img(
+        alt=''
+        src='img/index-pdp.png'
+        srcset='img/index-pdp@2x.png 2x'
+      )
       dl.project
         dt.project--name Product Details View
         dd.project--company Zappos Mobile
