@@ -61,7 +61,7 @@
 		"outputAbbreviatedPath": "\/img\/bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/checkout.png": {
 		"fileType": 32768,
@@ -72,7 +72,7 @@
 		"outputAbbreviatedPath": "\/img\/checkout.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/checkout@2x.png": {
 		"fileType": 32768,
@@ -83,7 +83,7 @@
 		"outputAbbreviatedPath": "\/img\/checkout@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/co-heuristics.png": {
 		"fileType": 32768,
@@ -94,7 +94,7 @@
 		"outputAbbreviatedPath": "\/img\/co-heuristics.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/co-heuristics@2x.png": {
 		"fileType": 32768,
@@ -105,7 +105,7 @@
 		"outputAbbreviatedPath": "\/img\/co-heuristics@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/existing-return-flow.png": {
 		"fileType": 32768,
@@ -116,7 +116,7 @@
 		"outputAbbreviatedPath": "\/img\/existing-return-flow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/existing-return-flow@2x.png": {
 		"fileType": 32768,
@@ -127,7 +127,7 @@
 		"outputAbbreviatedPath": "\/img\/existing-return-flow@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/index-co.png": {
 		"fileType": 32768,
@@ -138,7 +138,7 @@
 		"outputAbbreviatedPath": "\/img\/index-co.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/index-co@2x.png": {
 		"fileType": 32768,
@@ -149,7 +149,7 @@
 		"outputAbbreviatedPath": "\/img\/index-co@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/index-pdp.png": {
 		"fileType": 32768,
@@ -160,7 +160,7 @@
 		"outputAbbreviatedPath": "\/img\/index-pdp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/index-pdp@2x.png": {
 		"fileType": 32768,
@@ -171,7 +171,7 @@
 		"outputAbbreviatedPath": "\/img\/index-pdp@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/index-xoxo.png": {
 		"fileType": 32768,
@@ -182,7 +182,7 @@
 		"outputAbbreviatedPath": "\/img\/index-xoxo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/index-xoxo@2x.png": {
 		"fileType": 32768,
@@ -193,7 +193,7 @@
 		"outputAbbreviatedPath": "\/img\/index-xoxo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/new-exchange-flow.png": {
 		"fileType": 32768,
@@ -204,7 +204,7 @@
 		"outputAbbreviatedPath": "\/img\/new-exchange-flow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/new-exchange-flow@2x.png": {
 		"fileType": 32768,
@@ -215,7 +215,7 @@
 		"outputAbbreviatedPath": "\/img\/new-exchange-flow@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/new-return-flow.png": {
 		"fileType": 32768,
@@ -226,7 +226,7 @@
 		"outputAbbreviatedPath": "\/img\/new-return-flow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/new-return-flow@2x.png": {
 		"fileType": 32768,
@@ -237,7 +237,7 @@
 		"outputAbbreviatedPath": "\/img\/new-return-flow@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/pdp-ergonomics.png": {
 		"fileType": 32768,
@@ -248,7 +248,7 @@
 		"outputAbbreviatedPath": "\/img\/pdp-ergonomics.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/pdp-ergonomics@2x.png": {
 		"fileType": 32768,
@@ -259,7 +259,7 @@
 		"outputAbbreviatedPath": "\/img\/pdp-ergonomics@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/pdp-expand-landscape.png": {
 		"fileType": 32768,
@@ -270,7 +270,7 @@
 		"outputAbbreviatedPath": "\/img\/pdp-expand-landscape.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/pdp-expand-landscape@2x.png": {
 		"fileType": 32768,
@@ -281,7 +281,7 @@
 		"outputAbbreviatedPath": "\/img\/pdp-expand-landscape@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/pdp-final-landscape.png": {
 		"fileType": 32768,
@@ -292,7 +292,7 @@
 		"outputAbbreviatedPath": "\/img\/pdp-final-landscape.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/pdp-final-landscape@2x.png": {
 		"fileType": 32768,
@@ -303,7 +303,7 @@
 		"outputAbbreviatedPath": "\/img\/pdp-final-landscape@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/pdp-final-portrait.png": {
 		"fileType": 32768,
@@ -314,7 +314,7 @@
 		"outputAbbreviatedPath": "\/img\/pdp-final-portrait.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/pdp-final-portrait@2x.png": {
 		"fileType": 32768,
@@ -325,7 +325,7 @@
 		"outputAbbreviatedPath": "\/img\/pdp-final-portrait@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/pdp-landscape.png": {
 		"fileType": 32768,
@@ -336,7 +336,7 @@
 		"outputAbbreviatedPath": "\/img\/pdp-landscape.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/pdp-landscape@2x.png": {
 		"fileType": 32768,
@@ -347,7 +347,7 @@
 		"outputAbbreviatedPath": "\/img\/pdp-landscape@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/pdp-sketches.png": {
 		"fileType": 32768,
@@ -358,7 +358,7 @@
 		"outputAbbreviatedPath": "\/img\/pdp-sketches.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/pdp-sketches@2x.png": {
 		"fileType": 32768,
@@ -369,7 +369,7 @@
 		"outputAbbreviatedPath": "\/img\/pdp-sketches@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/proposed-return-flow.png": {
 		"fileType": 32768,
@@ -380,7 +380,7 @@
 		"outputAbbreviatedPath": "\/img\/proposed-return-flow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/proposed-return-flow@2x.png": {
 		"fileType": 32768,
@@ -391,7 +391,7 @@
 		"outputAbbreviatedPath": "\/img\/proposed-return-flow@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/xoxo-intro.png": {
 		"fileType": 32768,
@@ -402,7 +402,7 @@
 		"outputAbbreviatedPath": "\/img\/xoxo-intro.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/xoxo-intro@2x.png": {
 		"fileType": 32768,
@@ -413,7 +413,7 @@
 		"outputAbbreviatedPath": "\/img\/xoxo-intro@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,

@@ -1,74 +1,93 @@
 extends layout
+
+
 append head
   meta(name='description', content='An UX case study on improving the Zappos.com checkout page.')
-  title Checkout UX Case Study
+  title UX Case Study on Zappos Checkout Improvements
   link(rel='stylesheet', href='css/inriverie.css')
 
 
 block content
-  a(href='index.html').brand Will Smith
-    span.brand--role Interaction Designer
+  header(role='banner')
+    a.brand(href='index.html') Will Smith 
+      span.brand--role Interaction Designer
 
   main
-    figure
-      img.shadow(
+    header
+      img(
         src='img/checkout.png',
         srcset='img/checkout@2x.png 2x'
       )
+      h1.project
+        span.project--name Checkout Improvements
+        span.project--company Zappos Web
+        span.project--role Concept & Lead UX Design
 
-    header.project
-      h1.project--name Checkout Improvements
-      p.project--company Zappos Web
-      p.project--role Concept & Interface Design
+    p.lead As Lead UX Designer for the Zappos Checkout team, I initiated an effort to improve the checkout experience and increase conversion, retention, and new customer acquisition.
 
-    p As Lead UX Designer for the Zappos Checkout team, I initiated an effort to improve the checkout experience across web & apps and increase conversion, retention, and new customer acquisition.
+    section
+      div.text-block
+        h2 Planning & Strategy
+        p First I needed to understand where and why customers were abandoning their purchases. I chose to start with heuristics to get an idea of the holistic experience and identify potential roadblocks and abandonment locations.
+      figure.heuristics
+        img(
+          src='img/co-heuristics.png'
+          srcset='img/co-heuristics@2x.png 2x'
+        )
 
-    h2 Planning & Strategy
-    p My first step was to understand where and why customers were abandoning their purchases. I chose to start with heuristics to get an idea of the holistic experience and identify potential roadblocks and abandonment locations.
-    figure.heuristics
-      img(
-        src='img/co-heuristics.png'
-        srcset='img/co-heuristics@2x.png 2x'
-      )
+    section
+      div.text-block
+        h2 Putting Focus on the Form
+        p We performed a series of A/B tests on the checkout form by removing non-form elements, and determined that the perceived length and visual weight of the page had a negative effect on conversion.
+      figure.iphone
+        video(
+          autoplay
+          controls
+          loop
+          src='vid/abtest.m4v'
+        )
 
-    h2 Putting Focus on the Form
-    p Through a series of A/B tests, we started decluttering the interface by removing non–form elements to keep customers focused on the form. The goal of these tests was to verify whether the perceived length and visual weight of the page had a negative effect on conversion.
-    figure.portrait__small
-      video(
-        autoplay
-        controls
-        loop
-        src='vid/abtest.m4v'
-      )
+    section
+      div.text-block
+        h2 Simplifying the Form
+        p Building on the results of the AB tests I set out to improve the checkout form and reduce errors. I consolidated the address—which makes up most of the required fields—into a single input by utilizing an address lookup API. I reduced the credit card entry from four fields to one by having the card number input serve as a mask for the expiration date.
+      figure.iphone
+        video(
+          autoplay
+          controls
+          loop
+          src='vid/forms.m4v'
+        )
 
-    h2 Simplifying the Form
-    p The next step was to improve the checkout form and reduce errors. Addresses—which make up most of the required fields—were consolidated to a single input by utilizing an address lookup API.
-    p Credit Card entry was reduced from four fields to one by having the card number input serve as a mask for the expiration date. This also eliminated dropdown UI which required several interaction steps on mobile.
-    figure
-      video(
-        autoplay
-        controls
-        loop
-        src='vid/forms.m4v'
-      )
+    section
+      div.text-block
+        h2 Conclusion
+        p Ultimately, the form was reduced from 18 required input fields to 6. Optional fields were placed behind interaction elements in order to maintain the form’s streamlined appearance and ease of use.
+      figure.final
+        video.shadow(
+          autoplay
+          controls
+          loop
+          src='vid/checkout.m4v'
+        )
 
-    h2 Conclusion
-    p Ultimately, the form was reduced from 18 required input fields down to 6. Optional fields were placed behind interaction elements in order to maintain the form’s ease of use and streamlined appearance.
-    figure
-      video.shadow(
-        autoplay
-        controls
-        loop
-        src='vid/checkout.m4v'
-      )
-
-  nav(role='navigation')
+  nav.shadow__top(role='navigation')
     a(href='xoxo.html')
+      img(
+        alt=''
+        src='img/index-xoxo.png'
+        srcset='img/index-xoxo@2x.png 2x'
+      )
       dl.project
         dt.project--name Product Exchange
         dd.project--company Zappos Mobile
-        dd.project--role UX & Interface Design
+        dd.project--role UX & Interaction Design
     a(href='pdp.html')
+      img(
+        alt=''
+        src='img/index-pdp.png'
+        srcset='img/index-pdp@2x.png 2x'
+      )
       dl.project
         dt.project--name Product Details View
         dd.project--company Zappos Mobile

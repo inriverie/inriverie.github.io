@@ -1,4 +1,6 @@
 extends layout
+
+
 append head
   meta(name='description', content='An UX case study on redesigning the Zappos iPad Product View.')
   title Product View UX Case Study
@@ -6,69 +8,79 @@ append head
 
 
 block content
-  a(href='index.html').brand Will Smith
-    span.brand--role Interaction Designer
+  header(role='banner')
+    a.brand(href='index.html') Will Smith 
+      span.brand--role Interaction Designer
 
   main
-    figure
-      img.shadow(
+    header
+      img(
         src='img/pdp-landscape.png',
         srcset='img/pdp-landscape@2x.png 2x'
       )
+      h1.project
+        span.project--name Product Details View
+        span.project--company Zappos Mobile
+        span.project--role UX & Interface Design
 
-    header.project
-      h1.project--name Product Details View
-      p.project--company Zappos Mobile
-      p.project--role UX & Interface Design
+    p.lead The Zappos iPad app was launched when much of the mobile landscape was still being discovered. As a result, the product detail view was built around basic functionality rather than the unique challenges that new platforms present. My goal was to address these challenges while keeping the product page’s performance intact.
 
-    p The Zappos Mobile team launched the iPad app when much of the mobile space was still being discovered. As a result, the product detail view was built around utilitarian practices rather than the unique problems new platforms present.
-    p My goal was to realign the design to customer behavior without interfering with them making an informed purchase decision.
+    section
+      div.text-block
+        h2 Ergonomics
+        p I had users interact with a background image so I could measure reach and observe their comfort levels, particularly for two–handed use.
+      figure.ipad
+        img(
+          src='img/pdp-ergonomics.png'
+          srcset='img/pdp-ergonomics@2x.png 2x'
+        )
 
-    h2 Ergonomics
-    p I had users interact with a background image to measure distances and observe comfort levels, particularly for two–handed use.
-    figure
-      img(
-        src='img/pdp-ergonomics.png'
-        srcset='img/pdp-ergonomics@2x.png 2x'
-      )
+    section
+      div.text-block
+        h2 Concepts & Wireframes
+        p I started by taking an inventory of elements, grouping them based on whether they were a part of the purchase flow or the information seeking flow. Knowing that the layout needed to accommodate thumb input, my concepts focused on keeping interactions at the screen edge.
+      figure.final.blend--bg
+        img.blend__multiply(
+          src='img/pdp-sketches.png'
+          srcset='img/pdp-sketches@2x.png 2x'
+        )
 
-    h2 Concepts & Wireframes
-    p I started by taking inventory of elements then grouped them based on an purchase flow and information seeking flow. Knowing that the layout needed to accommodate thumb input, my concepts focused on keeping interactions at the screen edge.
-    figure(style='background-color: #D8DEE6;')
-      img.blend__multiply(
-        src='img/pdp-sketches.png'
-        srcset='img/pdp-sketches@2x.png 2x'
-      )
-
-    h2 Final Designs
-    p The vertical space offered in portrait orientation—along with it being the preferred orientation for reading content—lent itself well to the information seeking customer without reducing the image size or impacting the “add to cart” flow.
-    figure.portrait
-      img.shadow(
-        src='img/pdp-final-portrait.png'
-        srcset='img/pdp-final-portrait@2x.png 2x'
-      )
-
-    p The consumption of media influenced the decision to make the landscape orientation focus on the imagery while keeping the purchase flow intact. Product information is exposable with a vertical scroll.
-    figure
-      img.shadow(
-        src='img/pdp-final-landscape.png'
-        srcset='img/pdp-final-landscape@2x.png 2x'
-      )
-    //- figure
-      img.shadow(
-        src='img/pdp-expand-landscape.png'
-        srcset='img/pdp-expand-landscape@2x.png 2x'
-      )
+    section
+      div.text-block
+        h2 Final Designs
+        p The vertical space offered in portrait orientation, along with it being the preferred orientation for reading, lent itself well to the information seeking customer without reducing the image size or impeding the “add to cart” flow.
+      figure.final.portrait
+        img.shadow(
+          src='img/pdp-final-portrait.png'
+          srcset='img/pdp-final-portrait@2x.png 2x'
+        )
+      div.text-block
+        p Based on media viewing preferences I decided to make the landscape orientation focus on the imagery while keeping the purchase flow intact. Product information is exposed with a vertical swipe.
+      figure.final
+        img.shadow(
+          src='img/pdp-final-landscape.png'
+          srcset='img/pdp-final-landscape@2x.png 2x'
+        )
 
 
-  nav(role='navigation')
+  nav.shadow__top(role='navigation')
     a(href='xoxo.html')
+      img(
+        alt=''
+        src='img/index-xoxo.png'
+        srcset='img/index-xoxo@2x.png 2x'
+      )
       dl.project
         dt.project--name Product Exchange
         dd.project--company Zappos Mobile
-        dd.project--role UX & Interface Design
+        dd.project--role UX & Interaction Design
     a(href='co.html')
+      img(
+        alt=''
+        src='img/index-co.png'
+        srcset='img/index-co@2x.png 2x'
+      )
       dl.project
         dt.project--name Checkout Improvements
         dd.project--company Zappos Web
-        dd.project--role Concept & Interface Design
+        dd.project--role Concept & Lead UX Design

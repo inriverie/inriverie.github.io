@@ -137,6 +137,19 @@ figure
     max-width 375px
     padding   50.5px 0
 
+  &.ipad
+    padding 43.5px 0
+
+  &.heuristics
+    max-width 1000px
+    padding   49px 0
+
+  &.final
+    padding 48px 0
+
+  &.portrait
+    max-width 768px
+
 
 img,
 video
@@ -144,9 +157,20 @@ video
   height  auto
   width   100%
 
+
 .shadow
   box-shadow  hsla(0,0%,0%,.2) 0 20px 40px
 
   &__top
     background-color  hsla(0,0%,100%,.5)
     box-shadow        hsla(0,0%,0%,.1) 0 -2px 4px
+
+.blend
+  &--bg
+    background  url(../img/bg.png) no-repeat center center
+
+  &__multiply
+    // background-blend-mode multiply
+    // background-color      #D8DEE6
+    // background-image      url(../img/bg.png)
+    mix-blend-mode        multiply
