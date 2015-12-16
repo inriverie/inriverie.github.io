@@ -27,6 +27,28 @@
     opacity     .62
 
 
+[role='contentinfo']
+  font-size   15px
+  padding     16px 8px
+
+  ul
+    display         flex
+    justify-content center
+    list-style      none
+    margin          0
+    padding         0
+
+  a
+    color           grey_500
+    text-decoration none
+    transition      .3s ease-in-out
+    opacity         .62
+    padding         4px 16px
+
+    &:hover
+      opacity 1
+
+
 
 
 
@@ -36,6 +58,7 @@
   justify-content center
   margin          0 auto
   max-width       1280px
+  position        relative
   // NOTE: width is preventing viewport length nav footer
 
   @media (max-width: 821px)
@@ -163,7 +186,6 @@ video
 
   &__top
     background-color  hsla(0,0%,100%,.5)
-    box-shadow        hsla(0,0%,0%,.1) 0 -2px 4px
 
 .blend
   &--bg
