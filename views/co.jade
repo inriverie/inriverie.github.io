@@ -3,7 +3,7 @@ extends layout
 
 append head
   meta(name='description', content='An UX case study on improving the Zappos.com checkout page.')
-  title UX Case Study on Zappos Checkout Improvements
+  title Checkout Improvements UX Case Study
   link(rel='stylesheet', href='css/inriverie.css')
 
 
@@ -50,7 +50,7 @@ block content
     section
       div.text-block
         h2 Simplifying the Form
-        p Building on the results of the AB tests I set out to improve the checkout form and reduce errors. I consolidated the address—which makes up most of the required fields—into a single input by utilizing an address lookup API. I reduced the credit card entry from four fields to one by having the card number input serve as a mask for the expiration date.
+        p Building on the results of the AB tests I set out to improve the checkout form and reduce errors. I consolidated the address—which makes up most of the required fields—into a single input by utilizing an address lookup API and reduced the credit card entry from four fields to one by having the card number input serve as a mask for the expiration date.
       figure.iphone
         video(
           autoplay
@@ -71,24 +71,25 @@ block content
           src='vid/checkout.m4v'
         )
 
+
   nav.shadow__top(role='navigation')
     a(href='xoxo.html')
-      img(
-        alt=''
-        src='img/index-xoxo.png'
-        srcset='img/index-xoxo@2x.png 2x'
-      )
-      dl.project
-        dt.project--name Product Exchange
-        dd.project--company Zappos Mobile
-        dd.project--role UX & Interaction Design
+        img(
+          alt=''
+          src='img/index-xoxo.png'
+          srcset='img/index-xoxo@2x.png 2x'
+        )
+        dl.project
+          dt.project--name Product Exchange
+          dd.project--company Zappos Mobile
+          dd.project--role UX & Interaction Design
     a(href='pdp.html')
-      img(
-        alt=''
-        src='img/index-pdp.png'
-        srcset='img/index-pdp@2x.png 2x'
-      )
-      dl.project
-        dt.project--name Product Details View
-        dd.project--company Zappos Mobile
-        dd.project--role UX & Interface Design
+        img(
+          alt=''
+          src='img/index-pdp.png'
+          srcset='img/index-pdp@2x.png 2x'
+        )
+        dl.project
+          dt.project--name Product Details View
+          dd.project--company Zappos Mobile
+          dd.project--role UX & Interface Design
