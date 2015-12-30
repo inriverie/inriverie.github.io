@@ -52,17 +52,6 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
-	"\/img\/bg.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 358989,
-		"inputAbbreviatedPath": "\/img\/bg.png",
-		"outputAbbreviatedPath": "\/img\/bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/img\/checkout.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -424,6 +413,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/pdp.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pdp.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -499,6 +497,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1
+		},
+	"\/xoxo.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/xoxo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

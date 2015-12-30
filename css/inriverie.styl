@@ -3,10 +3,13 @@
 
 // GLOBAL HEADER
 [role='banner']
-  background-color  hsla(0,0%,100%,.5)
+  background-color  text_bg_color
   box-shadow        small_shadow
   margin-bottom     24px
   padding           8px
+
+
+
 
 
 // BRANDING
@@ -27,21 +30,22 @@
     opacity     .62
 
 
-[role='contentinfo']
-  font-size   15px
-  padding     16px 8px
 
-  ul
-    display         flex
-    justify-content center
-    list-style      none
-    margin          0
-    padding         0
+
+
+// FOOTER
+[role='contentinfo']
+  background-color  #CED7E2
+  display           flex
+  justify-content   center
+  font-size         15px
+  padding           8px
+  position          relative
 
   a
     color           grey_500
     text-decoration none
-    transition      .3s ease-in-out
+    transition      opacity .2s
     opacity         .62
     padding         4px 16px
 
@@ -57,9 +61,7 @@
   display         flex
   justify-content center
   margin          0 auto
-  max-width       1280px
   position        relative
-  // NOTE: width is preventing viewport length nav footer
 
   @media (max-width: 821px)
     flex-wrap wrap
@@ -146,7 +148,7 @@ main
 
 // BLOCKS
 .text-block
-  background-color  hsla(0,0%,100%,.5)
+  background-color  text_bg_color
   padding           24px 0
 
   @media (max-width: 600px)
@@ -185,14 +187,12 @@ video
   box-shadow  hsla(0,0%,0%,.2) 0 20px 40px
 
   &__top
-    background-color  hsla(0,0%,100%,.5)
+    background-color  text_bg_color
+
 
 .blend
   &--bg
-    background  url(../img/bg.png) no-repeat center center
+    background-color  #CED7E2
 
   &__multiply
-    // background-blend-mode multiply
-    // background-color      #D8DEE6
-    // background-image      url(../img/bg.png)
     mix-blend-mode        multiply

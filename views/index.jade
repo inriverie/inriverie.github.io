@@ -2,23 +2,15 @@ extends layout
 
 
 append head
-  meta(name='description', content='I’m an Interaction Designer with 5 years of experience designing web and mobile app interfaces.')
-  title Interaction Design Portfolio of Will Smith
+  meta(name='description', content='I’m an UX Designer with 5 years of experience designing web and mobile app interfaces.')
+  title UX Design Portfolio of Will Smith
   link(rel='stylesheet', href='css/inriverie.css')
 
 
 block content
   header(role='banner')
-    h1.brand Will Smith 
-      span.brand--role Interaction Designer
-
-
-  footer(role='contentinfo')
-    ul
-      li
-        a(href='mailto:inriverie@gmail.com') Contact Me
-      li
-        a(href='will-smith-resume.pdf') Résumé
+    h1.brand Will Smith
+      span.brand--role User Experience Designer
 
 
   nav(role='navigation')
@@ -52,3 +44,8 @@ block content
         dt.project--name Product Details View
         dd.project--company Zappos Mobile
         dd.project--role UX & Interface Design
+
+
+  footer(role='contentinfo')
+    a(href='mailto:inriverie@gmail.com') Contact
+    a(href='resume.pdf' target='_blank') Résumé
