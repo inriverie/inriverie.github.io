@@ -1,0 +1,74 @@
+extends layout
+
+
+append head
+  style
+    include:stylus ../css/couture.styl
+
+
+block content
+  header(role='banner')
+    img(
+      src='img/couture/ios-icon.png'
+      srcset='img/couture/ios-icon@2x.png'
+      height='76px'
+      width='76px;'
+    )
+    h1 Zappos Couture 
+      span Luxury Fashion e–Boutique 
+    p iOS App Design
+
+
+  figure
+    img(
+      src='img/couture/ui-branding.png'
+      srcset='img/couture/ui-branding@2x.png 2x'
+    )
+
+
+  section
+    h2 Search
+    figure
+      img(
+        src='img/couture/search-iphone.png'
+        srcset='img/couture/search-iphone@2x.png 2x'
+      )
+    figure
+      img(
+        src='img/couture/search-ipad.png'
+        srcset='img/couture/search-ipad@2x.png 2x'
+      )
+
+
+  section
+    h2 Product
+    figure
+      img(
+        src='img/couture/pdp-iphone.png'
+        srcset='img/couture/pdp-iphone@2x.png 2x'
+      )
+    figure
+      img(
+        src='img/couture/pdp-ipad.png'
+        srcset='img/couture/pdp-ipad@2x.png 2x'
+      )
+
+
+  section
+    h2 Checkout
+    figure
+      img(
+        src='img/couture/checkout-iphone.png'
+        srcset='img/couture/checkout-iphone@2x.png 2x'
+      )
+    figure
+      img(
+        src='img/couture/cart-ipad.png'
+        srcset='img/couture/cart-ipad@2x.png 2x'
+      )
+
+
+  img(
+    src='img/couture/cards@0.5x.jpg'
+    srcset='img/couture/cards.jpg 1280w, img/couture/cards@2x.jpg 2560w'
+  )

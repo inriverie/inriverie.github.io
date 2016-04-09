@@ -1,0 +1,90 @@
+@import 'document.styl'
+
+
+html
+  background-color #F7F7F7
+
+
+[role='banner']
+  background-color #4A4A4A
+  padding 48px
+  text-align center
+
+  p
+    color #BAAD73
+    font-size 13px
+    line-height 24px
+    margin 0
+
+
+h1
+  color #F7F7F7
+  font-size 17px
+  font-weight 300
+  line-height 24px
+  margin 24px 0
+
+  span
+    color #BABABA
+    display block
+    font-size 15px
+    font-weight 100
+
+
+h2
+  color #8F8F8F
+  font-size 27px
+  font-weight 200
+  line-height 32px
+  margin 48px 0 32px
+  text-align center
+
+  &:nth-of-type(2n)
+    color #F7F7F7
+
+
+section
+  &, & figure:nth-of-type(2n)
+    background-image linear-gradient(-180deg, alpha(#E6E6E6, .13) 0%, alpha(#FCFCFC, .13) 88px)
+    border-top 1px solid #E6E6E6
+
+  &:nth-of-type(2n)
+    background-color #4A4A4A
+
+    h2
+      color #f7f7f7
+
+    figure:nth-of-type(2n)
+      background-image linear-gradient(-180deg, alpha(#000000, .13) 0%, alpha(#4A4A4A, .13) 88px)
+      border none
+
+  figure:nth-of-type(2n)
+    padding-top 12.8vw
+
+    @media screen and (min-width:750px)
+      padding-top 96px
+
+
+body > figure
+  background-color #FCFCFC
+  padding-bottom 0
+
+  img
+    max-width 640px
+
+
+figure
+  margin 0
+  padding 0 6.4vw 12.8vw
+  text-align center
+
+  @media screen and (min-width:750px)
+    padding-bottom 96px
+
+  img
+    max-width 1024px
+    width 100%
+
+
+body > img
+  width 100vw

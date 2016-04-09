@@ -1,51 +1,17 @@
 extends layout
 
 
-append head
-  meta(name='description', content='I’m an UX Designer with 5 years of experience designing web and mobile app interfaces.')
-  title UX Design Portfolio of Will Smith
-  link(rel='stylesheet', href='css/inriverie.css')
-
-
 block content
   header(role='banner')
-    h1.brand Will Smith
-      span.brand--role User Experience Designer
-
+    h1 Will Smith 
+      span User Interface Designer
 
   nav(role='navigation')
-    a(href='xoxo.html')
-      img(
-        alt=''
-        src='img/index-xoxo.png'
-        srcset='img/index-xoxo@2x.png 2x'
-      )
-      dl.project
-        dt.project--name Product Exchange
-        dd.project--company Zappos Mobile
-        dd.project--role UX & Interaction Design
-    a(href='co.html')
-      img(
-        alt=''
-        src='img/index-co.png'
-        srcset='img/index-co@2x.png 2x'
-      )
-      dl.project
-        dt.project--name Checkout Improvements
-        dd.project--company Zappos Web
-        dd.project--role Concept & Lead UX Design
-    a(href='pdp.html')
-      img(
-        alt=''
-        src='img/index-pdp.png'
-        srcset='img/index-pdp@2x.png 2x'
-      )
-      dl.project
-        dt.project--name Product Details View
-        dd.project--company Zappos Mobile
-        dd.project--role UX & Interface Design
+    ul
+      li: a(href='couture.html') Zappos Couture
+      li: a(href='') Checkout
+      li: a(href='xoxo.html') Product Exchange
+      li: a(href='') Discord
 
-
-  footer(role='contentinfo')
-    a(href='mailto:inriverie@gmail.com') Contact
-    a(href='resume.pdf' target='_blank') Résumé
+  footer
+    a(href='mailto:inriverie@gmail.com') Contact Me
