@@ -1,0 +1,94 @@
+@import 'document.styl'
+
+
+html
+  background-color: #FCFCFC
+  color #8F8F8F
+  text-align center
+
+
+header
+  background-color #f7f7f7
+  padding 48px 24px 24px
+
+  @media screen and (min-width: 500px)
+    padding 96px 0 24px
+
+
+h1
+  font-size 21px
+  font-weight 400
+  line-height 24px
+  margin 0 0 24px
+
+  span
+    color #7397BA
+    display block
+    font-size 15px
+    margin-top 8px
+
+
+dl
+  font-size 13px
+  line-height 16px
+  margin 0
+
+dt
+  font-weight 500
+
+dd
+  margin 0
+
+
+div
+  background-color #F7F7F7
+  border-bottom 1ps solid #e6e6e6
+  padding 0 3.2vw 24px
+
+
+p
+  font-size 15px
+  line-height 24px
+  margin 0
+  padding 0 3.2vw
+  max-width 487px
+
+  @media screen and (min-width:500px)
+    margin 0 auto
+    padding 0 24px
+
+  &:first-of-type
+    border-top 1px solid #e6e6e6
+    margin-bottom 24px
+    padding-top 24px
+
+
+figure
+  margin 0
+  padding 12.8vw 6.4vw
+  text-align center
+
+  &:nth-of-type(2n)
+    background-color white
+    border 1px solid #e6e6e6
+    border-left none
+    border-right none
+
+  &:last-of-type
+    background-color #f7f7f7
+    border 1px solid #e6e6e6
+    border-left none
+    border-right none
+
+  @media screen and (min-width:750px)
+    padding 96px
+
+img
+  max-width 1024px
+  width 100%
+
+
+video
+  box-shadow 0px 2px 4px 0px rgba(0,0,0,0.24);
+  max-width 375px
+  width 100%

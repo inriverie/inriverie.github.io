@@ -1,0 +1,46 @@
+extends layout
+
+
+append head
+  style
+    include:stylus ../css/xoxo.styl
+
+
+block content
+  header(role='banner')
+    h1 Product Exchange
+      span Zappos iPhone App
+    dl
+      dt Role:
+      dd UX & Interaction Design
+
+  div
+    p I was tasked with designing an exchange process for the iPhone app in an effort to empower customers.
+    p The app already allowed customers to process their own returns, so my goal was to refine the return process and allow exchanges to occur in the same flow.
+
+
+  figure
+    video(
+      autoplay
+      controls
+      loop
+      src='vid/xoxo.m4v'
+    )
+
+  figure
+    img(
+      src='img/xoxo/proposed-flow.png'
+      srcset='img/xoxo/proposed-flow@2x.png'
+    )
+
+  figure
+    img(
+      src='img/xoxo/wireframe.png'
+      srcset='img/xoxo/wireframe@2x.png'
+    )
+
+  figure
+    img(
+      src='img/xoxo/screens.png'
+      srcset='img/xoxo/screens@2x.png'
+    )
