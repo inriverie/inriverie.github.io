@@ -11,11 +11,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/couture.html": {
-		"fileType": 8192,
+	"\/css\/couture.css": {
+		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/couture.html",
+		"inputAbbreviatedPath": "\/css\/couture.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -24,7 +24,7 @@
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"fileType": 8,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"importCSS": 0,
 		"inputAbbreviatedPath": "\/css\/couture.styl",
@@ -52,15 +52,31 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
-	"\/css\/template.styl": {
+	"\/css\/groups.styl": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"fileType": 8,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
 		"importCSS": 0,
-		"inputAbbreviatedPath": "\/css\/template.styl",
-		"outputAbbreviatedPath": "\/css\/template.css",
+		"inputAbbreviatedPath": "\/css\/groups.styl",
+		"outputAbbreviatedPath": "\/css\/groups.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"\/css\/header.styl": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/css\/header.styl",
+		"outputAbbreviatedPath": "\/css\/header.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -83,6 +99,15 @@
 		"resolveRelativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
+		},
+	"\/discord.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/discord.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/img\/checkout.png": {
 		"fileType": 32768,
@@ -836,17 +861,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/views\/layout.jade",
 		"outputAbbreviatedPath": "\/views\/layout.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/views\/project-header.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/views\/project-header.jade",
-		"outputAbbreviatedPath": "\/project-header.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1

@@ -9,10 +9,12 @@ append vars
 
 
 append head
-  style
-    include:stylus ../css/document.styl
-    include:stylus ../css/template.styl
+  link()
 
 
 block content
-  include project-header
+  header(role='banner')
+    h1 Checkout Redesign
+      span Zappos Web
+    p.role Concept & Lead UX Designer
+    p.lead As Lead UX Designer for the Zappos Checkout team, I initiated an effort to improve the checkout experience and increase conversion, retention, and new customer acquisition.

@@ -1,23 +1,23 @@
 extends layout
 
 
-append vars
-  -
-    var intro_graphic = true
-        project_name = 'Zappos Couture iOS App'
-        project_subtitle = 'Luxury Fasion e–Boutique'
-        project_role = 'Interface Designer'
-
-
 append head
-  style
-    //- include:stylus ../css/couture.styl
-    include:stylus ../css/document.styl
-    include:stylus ../css/template.styl
+  link(rel='stylesheet', href='../css/couture.css')
+  //- style
+  //-   include ../css/couture.css
 
 
 block content
-  include project-header
+  header(role='banner')
+    img(
+      src='img/couture/ios-icon.png'
+      srcset='img/couture/ios-icon@2x.png'
+      height='76px'
+      width='76px;'
+    )
+    h1 Zappos Couture
+      span Luxury Fasion e–Boutique
+    p.role UI Designer
 
 
   figure
@@ -27,45 +27,51 @@ block content
     )
 
 
-  section
+  section.light_gradient
     h2 Search
     figure
       img(
         src='img/couture/search-iphone.png'
         srcset='img/couture/search-iphone@2x.png 2x'
+        width='1024px'
       )
-    figure
+    figure.light_gradient
       img(
         src='img/couture/search-ipad.png'
         srcset='img/couture/search-ipad@2x.png 2x'
+        width='1024px'
       )
 
 
-  section
+  section.dark_gradient
     h2 Product
     figure
       img(
         src='img/couture/pdp-iphone.png'
         srcset='img/couture/pdp-iphone@2x.png 2x'
+        width='1024px'
       )
-    figure
+    figure.dark_gradient
       img(
         src='img/couture/pdp-ipad.png'
         srcset='img/couture/pdp-ipad@2x.png 2x'
+        width='1024px'
       )
 
 
-  section
+  section.light_gradient
     h2 Checkout
     figure
       img(
         src='img/couture/checkout-iphone.png'
         srcset='img/couture/checkout-iphone@2x.png 2x'
+        width='1024px'
       )
-    figure
+    figure.light_gradient
       img(
         src='img/couture/cart-ipad.png'
         srcset='img/couture/cart-ipad@2x.png 2x'
+        width='1024px'
       )
 
 
