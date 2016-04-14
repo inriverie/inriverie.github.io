@@ -1,22 +1,23 @@
 extends layout
 
 
+append vars
+  -
+    var intro_graphic = true
+        project_name = 'Zappos Couture iOS App'
+        project_subtitle = 'Luxury Fasion e–Boutique'
+        project_role = 'Interface Designer'
+
+
 append head
   style
-    include:stylus ../css/couture.styl
+    //- include:stylus ../css/couture.styl
+    include:stylus ../css/document.styl
+    include:stylus ../css/template.styl
 
 
 block content
-  header(role='banner')
-    img(
-      src='img/couture/ios-icon.png'
-      srcset='img/couture/ios-icon@2x.png'
-      height='76px'
-      width='76px;'
-    )
-    h1 Zappos Couture 
-      span Luxury Fashion e–Boutique 
-    p iOS App Design
+  include project-header
 
 
   figure

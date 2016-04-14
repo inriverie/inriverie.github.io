@@ -1,19 +1,24 @@
 extends layout
 
 
+append vars
+  -
+    var project_name = 'Product Exchange'
+        project_subtitle = 'Zappos iPhone App'
+        project_role = 'UX & Interaction Designer'
+
+
 append head
   style
-    include:stylus ../css/xoxo.styl
+    //- include:stylus ../css/xoxo.styl
+    include:stylus ../css/document.styl
+    include:stylus ../css/template.styl
 
 
 block content
-  header(role='banner')
-    h1 Product Exchange
-      span Zappos iPhone App
-    dl
-      dt Role:
-      dd UX & Interaction Design
-    p I was tasked with designing an exchange process for the iPhone app. The app already allowed customers to process their own returns, so my goal was to refine the return process and allow exchanges to occur in the same flow.
+  include project-header
+
+  p I was tasked with designing an exchange process for the iPhone app. The app already allowed customers to process their own returns, so my goal was to refine the return process and allow exchanges to occur in the same flow.
 
 
   figure

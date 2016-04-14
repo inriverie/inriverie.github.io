@@ -1,0 +1,18 @@
+extends layout
+
+
+append vars
+  -
+    var project_name = 'Checkout Redesign'
+        project_subtitle = 'Zappos Web'
+        project_role = 'Lead UX Designer'
+
+
+append head
+  style
+    include:stylus ../css/document.styl
+    include:stylus ../css/template.styl
+
+
+block content
+  include project-header
