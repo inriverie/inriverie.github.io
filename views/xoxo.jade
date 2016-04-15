@@ -1,48 +1,46 @@
 extends layout
 
 
-append vars
-  -
-    var project_name = 'Product Exchange'
-        project_subtitle = 'Zappos iPhone App'
-        project_role = 'UX & Interaction Designer'
-
-
 append head
-  style
-    //- include:stylus ../css/xoxo.styl
-    include:stylus ../css/document.styl
-    include:stylus ../css/template.styl
+  //- style
+  //-   include ../css/zappos.css
+  link(rel='stylesheet', href='../css/zappos.css')
 
 
 block content
-  include project-header
+  header(role='banner')
+    h1 Product Exchange
+      span Zappos iPhone App
+    p.role UX Designer
+    p.lead I was tasked with designing the exchange process for the Zappos iPhone app. The existing return flow spanned several steps and needed to be refined in order to achieve an intuitive exchange process.
 
-  p I was tasked with designing an exchange process for the iPhone app. The app already allowed customers to process their own returns, so my goal was to refine the return process and allow exchanges to occur in the same flow.
 
-
-  figure
-    video(
+  figure.light-gradient
+    video.border-light(
       autoplay
       controls
       loop
       src='vid/xoxo.m4v'
+      width='375px'
     )
 
-  figure
+  figure.light-gradient
     img(
       src='img/xoxo/proposed-flow.png'
       srcset='img/xoxo/proposed-flow@2x.png'
+      width='1024px'
     )
 
-  figure
+  figure.light-gradient
     img(
       src='img/xoxo/wireframe.png'
       srcset='img/xoxo/wireframe@2x.png'
+      width='1024px'
     )
 
-  figure
+  figure.light-gradient
     img(
       src='img/xoxo/screens.png'
       srcset='img/xoxo/screens@2x.png'
+      width='1024px'
     )
