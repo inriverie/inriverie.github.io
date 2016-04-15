@@ -2,9 +2,8 @@ extends layout
 
 
 append head
-  link(rel='stylesheet', href='../css/couture.css')
-  //- style
-  //-   include ../css/couture.css
+  style
+    include ../css/couture.css
 
 
 block content
@@ -27,7 +26,7 @@ block content
     )
 
 
-  section.light_gradient
+  section.light-gradient
     h2 Search
     figure
       img(
@@ -35,7 +34,7 @@ block content
         srcset='img/couture/search-iphone@2x.png 2x'
         width='1024px'
       )
-    figure.light_gradient
+    figure.light-gradient
       img(
         src='img/couture/search-ipad.png'
         srcset='img/couture/search-ipad@2x.png 2x'
@@ -43,7 +42,7 @@ block content
       )
 
 
-  section.dark_gradient
+  section.dark-gradient
     h2 Product
     figure
       img(
@@ -51,7 +50,7 @@ block content
         srcset='img/couture/pdp-iphone@2x.png 2x'
         width='1024px'
       )
-    figure.dark_gradient
+    figure.dark-gradient
       img(
         src='img/couture/pdp-ipad.png'
         srcset='img/couture/pdp-ipad@2x.png 2x'
@@ -59,7 +58,7 @@ block content
       )
 
 
-  section.light_gradient
+  section.light-gradient
     h2 Checkout
     figure
       img(
@@ -67,8 +66,8 @@ block content
         srcset='img/couture/checkout-iphone@2x.png 2x'
         width='1024px'
       )
-    figure.light_gradient
-      img(
+    figure.light-gradient
+      img.border-light(
         src='img/couture/cart-ipad.png'
         srcset='img/couture/cart-ipad@2x.png 2x'
         width='1024px'

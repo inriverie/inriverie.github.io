@@ -1,15 +1,10 @@
 extends layout
 
 
-append vars
-  -
-    var project_name = 'Checkout Redesign'
-        project_subtitle = 'Zappos Web'
-        project_role = 'Lead UX Designer'
-
-
 append head
-  link()
+  //- style
+  //-   include ../css/zappos.css
+  link(rel='stylesheet', href='../css/zappos.css')
 
 
 block content
@@ -18,3 +13,66 @@ block content
       span Zappos Web
     p.role Concept & Lead UX Designer
     p.lead As Lead UX Designer for the Zappos Checkout team, I initiated an effort to improve the checkout experience and increase conversion, retention, and new customer acquisition.
+
+
+  figure.light-gradient
+    video.border-light(
+      autoplay
+      controls
+      loop
+      src='vid/checkout.m4v'
+      width='1024px'
+    )
+
+
+  section
+    h2 Strategy
+    p I took a holistic view of the checkout flow to identify and remove the friction customers faced when making a purchase.
+    figure
+      video(
+        autoplay
+        controls
+        loop
+        src='vid/diagram.m4v'
+        width='1024px'
+      )
+
+
+  section.light-gradient
+    h2 Perpetual Cart
+    p Replacing the dedicated cart page with a perpetual cart allows customers to add and edit cart items without being removed from the shopping experience.
+    figure
+      img.border-light(
+        src='img/checkout/cart.png'
+        srcset='img/checkout/cart@2x.png 2x'
+        width='1024px'
+      )
+
+
+  section
+    h2 Universal Guest Checkout
+    p Removing the login requirement for all customers creates a seamless transition into checkout. The email input was relocated to the checkout form as a means for customers to receive their order confirmation and sync the order to the account associated with that email address.
+    figure
+      img(
+        src='img/checkout/order-sync.png'
+        srcset='img/checkout/order-sync@2x.png 2x'
+        width='1024px'
+      )
+
+
+  section.light-gradient
+    h2 Checkout
+    p Ultimately, the form was reduced from 18 required input fields to 5. The remaining optional fields are hidden behind triggers in order to maintain the form’s simplicity.
+    figure
+      video(
+        autoplay
+        controls
+        loop
+        src='vid/forms.m4v'
+        width='1024px'
+      )
+    figure.light-gradient
+      img.border-light(
+        src='img/checkout/checkout.png'
+        srcset='img/checkout/checkout@2x.png 2x'
+      )
