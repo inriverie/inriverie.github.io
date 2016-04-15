@@ -1,18 +1,53 @@
 extends layout
 
 
-append vars
-  -
-    var project_name = 'Members List'
-        project_subtitle = 'Discord OSX & Windows App'
-        project_role = 'Concept Designer'
-
-
 append head
-  style
-    include:stylus ../css/document.styl
-    include:stylus ../css/template.styl
+  //- style
+  //-   include ../css/discord.css
+  link(rel='stylesheet', href='../css/discord.css')
 
 
 block content
-  include project-header
+  header(role='banner')
+    h1 Discord Members List
+      span OSX & Windows App
+    p.role UI Designer
+    p.lead The team at Hammer & Chisel were looking to redesign the members list tab of their native OSX & Windows VoIP app where admins could easily manage individuals on their server.
+
+
+  figure.light-gradient
+    video(
+      autoplay
+      controls
+      loop
+      src='vid/discord.m4v'
+      width='900px'
+    )
+
+
+  section.dark-gradient
+    h2 Single Member Management
+    figure
+      img(
+        src='img/discord/discord-single.png'
+        srcset='img/discord/discord-single@2x.png 2x'
+        width='1280px'
+      )
+
+
+  section.dark-gradient
+    h2 Multiple Member Management
+    figure
+      img(
+        src='img/discord/discord-multi.png'
+        srcset='img/discord/discord-multi@2x.png 2x'
+        width='1280px'
+      )
+
+
+  figure.light-gradient
+    img(
+      src='img/discord/discord-ui.png'
+      srcset='img/discord/discord-ui@2x.png 2x'
+      width='1280px'
+    )

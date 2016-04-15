@@ -45,6 +45,31 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
+	"\/css\/discord.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/discord.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/discord.styl": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/css\/discord.styl",
+		"outputAbbreviatedPath": "\/css\/discord.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
 	"\/css\/document.styl": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -93,22 +118,6 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
-	"\/css\/xoxo.styl": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"fileType": 8,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"importCSS": 0,
-		"inputAbbreviatedPath": "\/css\/xoxo.styl",
-		"outputAbbreviatedPath": "\/css\/xoxo.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0
-		},
 	"\/css\/zappos.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -142,17 +151,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/img\/checkout.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 78812,
-		"inputAbbreviatedPath": "\/img\/checkout.png",
-		"outputAbbreviatedPath": "\/img\/checkout.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
 		},
 	"\/img\/checkout\/cart.jpg": {
 		"fileType": 16384,
@@ -219,39 +217,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/img\/checkout@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 197798,
-		"inputAbbreviatedPath": "\/img\/checkout@2x.png",
-		"outputAbbreviatedPath": "\/img\/checkout@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/co-heuristics.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 131436,
-		"inputAbbreviatedPath": "\/img\/co-heuristics.png",
-		"outputAbbreviatedPath": "\/img\/co-heuristics.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/co-heuristics@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 333476,
-		"inputAbbreviatedPath": "\/img\/co-heuristics@2x.png",
-		"outputAbbreviatedPath": "\/img\/co-heuristics@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
 		},
 	"\/img\/couture\/cards.jpg": {
 		"fileType": 16384,
@@ -462,313 +427,71 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/existing-return-flow.png": {
+	"\/img\/discord\/discord-multi.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 80874,
-		"inputAbbreviatedPath": "\/img\/existing-return-flow.png",
-		"outputAbbreviatedPath": "\/img\/existing-return-flow.png",
+		"initialSize": 2.78703e+06,
+		"inputAbbreviatedPath": "\/img\/discord\/discord-multi.png",
+		"outputAbbreviatedPath": "\/img\/discord\/discord-multi.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/img\/existing-return-flow@2x.png": {
+	"\/img\/discord\/discord-multi@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 216485,
-		"inputAbbreviatedPath": "\/img\/existing-return-flow@2x.png",
-		"outputAbbreviatedPath": "\/img\/existing-return-flow@2x.png",
+		"initialSize": 7.40406e+06,
+		"inputAbbreviatedPath": "\/img\/discord\/discord-multi@2x.png",
+		"outputAbbreviatedPath": "\/img\/discord\/discord-multi@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/img\/index-co.png": {
+	"\/img\/discord\/discord-single.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 20317,
-		"inputAbbreviatedPath": "\/img\/index-co.png",
-		"outputAbbreviatedPath": "\/img\/index-co.png",
+		"initialSize": 2.28859e+06,
+		"inputAbbreviatedPath": "\/img\/discord\/discord-single.png",
+		"outputAbbreviatedPath": "\/img\/discord\/discord-single.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/img\/index-co@2x.png": {
+	"\/img\/discord\/discord-single@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 51614,
-		"inputAbbreviatedPath": "\/img\/index-co@2x.png",
-		"outputAbbreviatedPath": "\/img\/index-co@2x.png",
+		"initialSize": 4.74866e+06,
+		"inputAbbreviatedPath": "\/img\/discord\/discord-single@2x.png",
+		"outputAbbreviatedPath": "\/img\/discord\/discord-single@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/img\/index-pdp.png": {
+	"\/img\/discord\/discord-ui.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 46802,
-		"inputAbbreviatedPath": "\/img\/index-pdp.png",
-		"outputAbbreviatedPath": "\/img\/index-pdp.png",
+		"initialSize": 1.93066e+06,
+		"inputAbbreviatedPath": "\/img\/discord\/discord-ui.png",
+		"outputAbbreviatedPath": "\/img\/discord\/discord-ui.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/img\/index-pdp@2x.png": {
+	"\/img\/discord\/discord-ui@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 136435,
-		"inputAbbreviatedPath": "\/img\/index-pdp@2x.png",
-		"outputAbbreviatedPath": "\/img\/index-pdp@2x.png",
+		"initialSize": 6.68887e+06,
+		"inputAbbreviatedPath": "\/img\/discord\/discord-ui@2x.png",
+		"outputAbbreviatedPath": "\/img\/discord\/discord-ui@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/index-xoxo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 51172,
-		"inputAbbreviatedPath": "\/img\/index-xoxo.png",
-		"outputAbbreviatedPath": "\/img\/index-xoxo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/index-xoxo@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 153804,
-		"inputAbbreviatedPath": "\/img\/index-xoxo@2x.png",
-		"outputAbbreviatedPath": "\/img\/index-xoxo@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/new-exchange-flow.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 89709,
-		"inputAbbreviatedPath": "\/img\/new-exchange-flow.png",
-		"outputAbbreviatedPath": "\/img\/new-exchange-flow.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/new-exchange-flow@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 230448,
-		"inputAbbreviatedPath": "\/img\/new-exchange-flow@2x.png",
-		"outputAbbreviatedPath": "\/img\/new-exchange-flow@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/new-return-flow.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 89645,
-		"inputAbbreviatedPath": "\/img\/new-return-flow.png",
-		"outputAbbreviatedPath": "\/img\/new-return-flow.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/new-return-flow@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 249428,
-		"inputAbbreviatedPath": "\/img\/new-return-flow@2x.png",
-		"outputAbbreviatedPath": "\/img\/new-return-flow@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/pdp-ergonomics.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 81220,
-		"inputAbbreviatedPath": "\/img\/pdp-ergonomics.png",
-		"outputAbbreviatedPath": "\/img\/pdp-ergonomics.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/pdp-ergonomics@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 201970,
-		"inputAbbreviatedPath": "\/img\/pdp-ergonomics@2x.png",
-		"outputAbbreviatedPath": "\/img\/pdp-ergonomics@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/pdp-expand-landscape.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 312906,
-		"inputAbbreviatedPath": "\/img\/pdp-expand-landscape.png",
-		"outputAbbreviatedPath": "\/img\/pdp-expand-landscape.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/pdp-expand-landscape@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.10068e+06,
-		"inputAbbreviatedPath": "\/img\/pdp-expand-landscape@2x.png",
-		"outputAbbreviatedPath": "\/img\/pdp-expand-landscape@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/pdp-final-landscape.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 552085,
-		"inputAbbreviatedPath": "\/img\/pdp-final-landscape.png",
-		"outputAbbreviatedPath": "\/img\/pdp-final-landscape.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/pdp-final-landscape@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.99938e+06,
-		"inputAbbreviatedPath": "\/img\/pdp-final-landscape@2x.png",
-		"outputAbbreviatedPath": "\/img\/pdp-final-landscape@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/pdp-final-portrait.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 539052,
-		"inputAbbreviatedPath": "\/img\/pdp-final-portrait.png",
-		"outputAbbreviatedPath": "\/img\/pdp-final-portrait.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/pdp-final-portrait@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.85921e+06,
-		"inputAbbreviatedPath": "\/img\/pdp-final-portrait@2x.png",
-		"outputAbbreviatedPath": "\/img\/pdp-final-portrait@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/pdp-landscape.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 552085,
-		"inputAbbreviatedPath": "\/img\/pdp-landscape.png",
-		"outputAbbreviatedPath": "\/img\/pdp-landscape.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/pdp-landscape@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.99938e+06,
-		"inputAbbreviatedPath": "\/img\/pdp-landscape@2x.png",
-		"outputAbbreviatedPath": "\/img\/pdp-landscape@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/pdp-sketches.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 242224,
-		"inputAbbreviatedPath": "\/img\/pdp-sketches.png",
-		"outputAbbreviatedPath": "\/img\/pdp-sketches.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/pdp-sketches@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 644222,
-		"inputAbbreviatedPath": "\/img\/pdp-sketches@2x.png",
-		"outputAbbreviatedPath": "\/img\/pdp-sketches@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/proposed-return-flow.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 42517,
-		"inputAbbreviatedPath": "\/img\/proposed-return-flow.png",
-		"outputAbbreviatedPath": "\/img\/proposed-return-flow.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/proposed-return-flow@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 113600,
-		"inputAbbreviatedPath": "\/img\/proposed-return-flow@2x.png",
-		"outputAbbreviatedPath": "\/img\/proposed-return-flow@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/xoxo-intro.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 191927,
-		"inputAbbreviatedPath": "\/img\/xoxo-intro.png",
-		"outputAbbreviatedPath": "\/img\/xoxo-intro.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/xoxo-intro@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 541178,
-		"inputAbbreviatedPath": "\/img\/xoxo-intro@2x.png",
-		"outputAbbreviatedPath": "\/img\/xoxo-intro@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/xoxo\/proposed-flow.png": {
 		"fileType": 32768,
