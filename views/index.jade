@@ -1,17 +1,16 @@
 extends layout
 
 
+append head
+  link(rel='stylesheet', href='../css/index.css')
+
+
 block content
   header(role='banner')
     h1 Will Smith 
       span User Interface Designer
 
-  nav(role='navigation')
-    ul
-      li: a(href='couture.html') Zappos Couture
-      li: a(href='checkout.html') Checkout
-      li: a(href='xoxo.html') Product Exchange
-      li: a(href='discord.html') Discord
+  include nav.jade
 
   footer
     a(href='mailto:inriverie@gmail.com') Contact Me

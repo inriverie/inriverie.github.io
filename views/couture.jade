@@ -4,20 +4,26 @@ extends layout
 append head
   style
     include ../css/couture.css
+  //- link(rel='stylesheet', href='../css/couture.css')
 
 
 block content
   header(role='banner')
     img(
-      src='img/couture/ios-icon.png'
-      srcset='img/couture/ios-icon@2x.png'
+      src='img/couture/couture-logo.png'
+      srcset='img/couture/couture-logo@2x.png'
       height='76px'
-      width='76px;'
+      width='76px'
     )
     h1 Zappos Couture
-      span Luxury Fasion e–Boutique
+      span iOS Apps
     p.role UI Designer
 
+
+  img(
+    src='img/couture/cards@0.5x.jpg'
+    srcset='img/couture/cards.jpg 1280w, img/couture/cards@2x.jpg 2560w'
+  )
 
   figure
     img(
@@ -74,7 +80,4 @@ block content
       )
 
 
-  img(
-    src='img/couture/cards@0.5x.jpg'
-    srcset='img/couture/cards.jpg 1280w, img/couture/cards@2x.jpg 2560w'
-  )
+  include nav.jade

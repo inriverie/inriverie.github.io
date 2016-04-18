@@ -4,6 +4,7 @@ extends layout
 append head
   style
     include ../css/zappos.css
+  //- link(rel='stylesheet', href='../css/zappos.css')
 
 
 block content
@@ -75,3 +76,6 @@ block content
         src='img/checkout/checkout.png'
         srcset='img/checkout/checkout@2x.png 2x'
       )
+
+
+  include nav.jade

@@ -2,9 +2,8 @@ extends layout
 
 
 append head
-  //- style
-  //-   include ../css/discord.css
-  link(rel='stylesheet', href='../css/discord.css')
+  style
+    include ../css/discord.css
 
 
 block content
@@ -51,3 +50,6 @@ block content
       srcset='img/discord/discord-ui@2x.png 2x'
       width='1280px'
     )
+
+
+  include nav.jade
