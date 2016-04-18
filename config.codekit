@@ -2,6 +2,24 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19115",
 "files": {
+	"\/checkout.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/checkout.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/couture.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/couture.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/couture.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -166,6 +184,15 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
+	"\/discord.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/discord.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/img\/checkout\/cart.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -175,7 +202,7 @@
 		"outputAbbreviatedPath": "\/img\/checkout\/cart.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/checkout\/cart@2x.png": {
 		"fileType": 32768,
@@ -186,7 +213,7 @@
 		"outputAbbreviatedPath": "\/img\/checkout\/cart@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/checkout\/checkout-promo.png": {
 		"fileType": 32768,
@@ -197,7 +224,7 @@
 		"outputAbbreviatedPath": "\/img\/checkout\/checkout-promo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/checkout\/checkout-promo@2x.png": {
 		"fileType": 32768,
@@ -208,7 +235,7 @@
 		"outputAbbreviatedPath": "\/img\/checkout\/checkout-promo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/checkout\/checkout-promo@3x.png": {
 		"fileType": 32768,
@@ -219,7 +246,7 @@
 		"outputAbbreviatedPath": "\/img\/checkout\/checkout-promo@3x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/checkout\/checkout.png": {
 		"fileType": 32768,
@@ -230,7 +257,7 @@
 		"outputAbbreviatedPath": "\/img\/checkout\/checkout.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/checkout\/checkout@2x.png": {
 		"fileType": 32768,
@@ -241,7 +268,7 @@
 		"outputAbbreviatedPath": "\/img\/checkout\/checkout@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/checkout\/order-sync.png": {
 		"fileType": 32768,
@@ -252,7 +279,7 @@
 		"outputAbbreviatedPath": "\/img\/checkout\/order-sync.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/checkout\/order-sync@2x.png": {
 		"fileType": 32768,
@@ -263,7 +290,7 @@
 		"outputAbbreviatedPath": "\/img\/checkout\/order-sync@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/cards.jpg": {
 		"fileType": 16384,
@@ -274,7 +301,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/cards.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/cards@0.5x.jpg": {
 		"fileType": 16384,
@@ -285,7 +312,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/cards@0.5x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/cards@2x.jpg": {
 		"fileType": 16384,
@@ -296,7 +323,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/cards@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/cart-ipad.png": {
 		"fileType": 32768,
@@ -307,7 +334,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/cart-ipad.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/cart-ipad@2x.png": {
 		"fileType": 32768,
@@ -318,7 +345,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/cart-ipad@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/checkout-iphone.png": {
 		"fileType": 32768,
@@ -329,7 +356,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/checkout-iphone.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/checkout-iphone@2x.png": {
 		"fileType": 32768,
@@ -340,7 +367,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/checkout-iphone@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/couture-logo.png": {
 		"fileType": 32768,
@@ -351,7 +378,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/couture-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/couture-logo@2x.png": {
 		"fileType": 32768,
@@ -362,7 +389,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/couture-logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/couture-promo.png": {
 		"fileType": 32768,
@@ -373,7 +400,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/couture-promo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/couture-promo@2x.png": {
 		"fileType": 32768,
@@ -384,7 +411,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/couture-promo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/couture-promo@3x.png": {
 		"fileType": 32768,
@@ -395,7 +422,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/couture-promo@3x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/ios-icon.png": {
 		"fileType": 32768,
@@ -406,7 +433,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/ios-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/ios-icon@2x.png": {
 		"fileType": 32768,
@@ -417,7 +444,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/ios-icon@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/pdp-ipad.png": {
 		"fileType": 32768,
@@ -428,7 +455,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/pdp-ipad.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/pdp-ipad@2x.png": {
 		"fileType": 32768,
@@ -439,7 +466,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/pdp-ipad@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/pdp-iphone.png": {
 		"fileType": 32768,
@@ -450,7 +477,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/pdp-iphone.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/pdp-iphone@2x.png": {
 		"fileType": 32768,
@@ -461,7 +488,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/pdp-iphone@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/search-ipad.png": {
 		"fileType": 32768,
@@ -472,7 +499,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/search-ipad.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/search-ipad@2x.png": {
 		"fileType": 32768,
@@ -483,7 +510,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/search-ipad@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/search-iphone.png": {
 		"fileType": 32768,
@@ -494,7 +521,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/search-iphone.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/search-iphone@2x.png": {
 		"fileType": 32768,
@@ -505,7 +532,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/search-iphone@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/ui-branding.png": {
 		"fileType": 32768,
@@ -516,7 +543,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/ui-branding.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/couture\/ui-branding@2x.png": {
 		"fileType": 32768,
@@ -527,7 +554,7 @@
 		"outputAbbreviatedPath": "\/img\/couture\/ui-branding@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/discord\/discord-multi.png": {
 		"fileType": 32768,
@@ -538,7 +565,7 @@
 		"outputAbbreviatedPath": "\/img\/discord\/discord-multi.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/discord\/discord-multi@2x.png": {
 		"fileType": 32768,
@@ -549,7 +576,7 @@
 		"outputAbbreviatedPath": "\/img\/discord\/discord-multi@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/discord\/discord-promo.png": {
 		"fileType": 32768,
@@ -560,7 +587,7 @@
 		"outputAbbreviatedPath": "\/img\/discord\/discord-promo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/discord\/discord-promo@2x.png": {
 		"fileType": 32768,
@@ -571,7 +598,7 @@
 		"outputAbbreviatedPath": "\/img\/discord\/discord-promo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/discord\/discord-promo@3x.png": {
 		"fileType": 32768,
@@ -582,7 +609,7 @@
 		"outputAbbreviatedPath": "\/img\/discord\/discord-promo@3x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/discord\/discord-single.png": {
 		"fileType": 32768,
@@ -593,7 +620,7 @@
 		"outputAbbreviatedPath": "\/img\/discord\/discord-single.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/discord\/discord-single@2x.png": {
 		"fileType": 32768,
@@ -604,7 +631,7 @@
 		"outputAbbreviatedPath": "\/img\/discord\/discord-single@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/discord\/discord-ui.png": {
 		"fileType": 32768,
@@ -615,7 +642,7 @@
 		"outputAbbreviatedPath": "\/img\/discord\/discord-ui.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/discord\/discord-ui@2x.png": {
 		"fileType": 32768,
@@ -626,7 +653,7 @@
 		"outputAbbreviatedPath": "\/img\/discord\/discord-ui@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/xoxo\/proposed-flow.png": {
 		"fileType": 32768,
@@ -637,7 +664,7 @@
 		"outputAbbreviatedPath": "\/img\/xoxo\/proposed-flow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/xoxo\/proposed-flow@2x.png": {
 		"fileType": 32768,
@@ -648,7 +675,7 @@
 		"outputAbbreviatedPath": "\/img\/xoxo\/proposed-flow@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/xoxo\/screens.png": {
 		"fileType": 32768,
@@ -659,7 +686,7 @@
 		"outputAbbreviatedPath": "\/img\/xoxo\/screens.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/xoxo\/screens@2x.png": {
 		"fileType": 32768,
@@ -670,7 +697,7 @@
 		"outputAbbreviatedPath": "\/img\/xoxo\/screens@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/xoxo\/wireframe.png": {
 		"fileType": 32768,
@@ -681,7 +708,7 @@
 		"outputAbbreviatedPath": "\/img\/xoxo\/wireframe.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/xoxo\/wireframe@2x.png": {
 		"fileType": 32768,
@@ -692,7 +719,7 @@
 		"outputAbbreviatedPath": "\/img\/xoxo\/wireframe@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/xoxo\/xoxo-promo.png": {
 		"fileType": 32768,
@@ -703,7 +730,7 @@
 		"outputAbbreviatedPath": "\/img\/xoxo\/xoxo-promo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/xoxo\/xoxo-promo@2x.png": {
 		"fileType": 32768,
@@ -714,7 +741,7 @@
 		"outputAbbreviatedPath": "\/img\/xoxo\/xoxo-promo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/xoxo\/xoxo-promo@3x.png": {
 		"fileType": 32768,
@@ -725,7 +752,16 @@
 		"outputAbbreviatedPath": "\/img\/xoxo\/xoxo-promo@3x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/README.md": {
 		"criticStyle": 0,
@@ -824,6 +860,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
+		},
+	"\/xoxo.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/xoxo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
