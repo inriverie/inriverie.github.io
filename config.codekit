@@ -193,13 +193,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/checkout\/cart.jpg": {
-		"fileType": 16384,
+	"\/img\/checkout\/cart.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 88863,
-		"inputAbbreviatedPath": "\/img\/checkout\/cart.jpg",
-		"outputAbbreviatedPath": "\/img\/checkout\/cart.jpg",
+		"initialSize": 290863,
+		"inputAbbreviatedPath": "\/img\/checkout\/cart.png",
+		"outputAbbreviatedPath": "\/img\/checkout\/cart.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
