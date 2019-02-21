@@ -1,0 +1,40 @@
+@import 'document.styl'
+
+
+header_bg_color = light_grey
+h1_text_color = mid_grey
+h1_text_size = 17px
+role_text_color = couture_gold
+
+
+@import 'header.styl'
+
+
+h2_text_size = 27px
+
+
+@import 'groups.styl'
+
+
+section
+  &:nth-of-type(2n)
+    background-color dark_grey
+
+    h2
+      color light_grey
+
+
+body > figure
+  background-color #FCFCFC
+  padding 0
+
+  img
+    width 100vw
+    max-width 640px
+
+
+body > img
+  width 100vw
+
+
+@import 'nav.styl'
